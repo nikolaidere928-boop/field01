@@ -1,0 +1,377 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75\baselineskip}
+\sloppy
+
+\title{A Formalization Program for Field 01\\\large Phase Nodes, Normal Retention, Memory, and Boundary Recording}
+\author{}
+\date{}
+
+\newcommand{\field}{\mathcal{F}_{01}}
+\newcommand{\phase}{\varphi}
+\newcommand{\normal}{\mathcal{N}}
+\newcommand{\memory}{\mathcal{M}}
+\newcommand{\boundary}{\partial}
+\newcommand{\bulk}{\mathrm{bulk}}
+\newcommand{\wind}{\mathrm{wind}}
+\newcommand{\cov}{\mathrm{cov}}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\textit{Working version v0.2 --- English formalization draft with standard-reference alignment}
+\end{center}
+
+\begin{abstract}
+This paper outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, normal retention, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. The proposal is not presented as a completed physical theory, nor as a replacement for the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics. Instead, it gives a structured toy-level framework in which the book-level language of Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The central result is not a new fundamental equation, but a controlled formal vocabulary: closed phase nodes can be represented by winding, normal retention by a scalar profile, screening by a connection-like field, and memory by equivalence classes of preserved phase-normal-gauge data. The horizon interpretation is expressed as a bulk-to-boundary memory map and as reduced external access to boundary data. All claims remain provisional and require further comparison with established physics.
+\end{abstract}
+
+\textbf{Keywords:} Field 01; formalization program; phase circulation; closed node; normal retention; memory; gauge-like compensation; vortex models; boundary recording; reduced density matrix.
+
+\section{How to Read This Paper}
+
+This paper is a formalization roadmap, not a completed theory. It should be read as the third working paper in the current Field 01 sequence. The first paper introduced the elementary particle as a closed phase configuration. The second paper interpreted a black-hole horizon as a phase recording surface. The present paper asks a narrower question: what mathematical skeleton is needed for these claims to become discussable and testable?
+
+Three levels must be kept separate:
+\begin{enumerate}
+\item \textbf{Established mathematics and physics}: phase fields, winding numbers, covariant derivatives, currents, reduced density matrices, vortex-like structures, and black-hole thermodynamic formulas.
+\item \textbf{Field 01 interpretation}: phase as rhythm, normal retention as local depth, memory as preserved phase structure, and horizon recording as a boundary representation of local phase data.
+\item \textbf{Open hypotheses}: the identification of normal retention with particle-like mass, the use of boundary memory for horizons, and any relation to charge, spin, or black-hole information.
+\end{enumerate}
+
+The aim is not to claim novelty where standard mathematics already exists. In fact, one important conclusion is that the first toy formalization of Field 01 naturally approaches known Abelian-Higgs or vortex-like structures. The possible value of Field 01 lies in its interpretation and in the proposed link between normal retention, memory, and boundary recording.
+
+\section{Standard-First Vocabulary Rule}
+
+This draft follows a standard-first rule. Each technical object should be introduced first with the nearest standard vocabulary, then with the Field 01 reading, and finally with an explicit statement of what remains hypothetical. The working reference map for this rule is maintained separately in \texttt{FIELD01\_REFERENCE\_MAP.md}.
+
+\begin{itemize}
+\item \textbf{phase rhythm}: first write phase variable, angular variable, or phase of a complex scalar; the rhythm language is Field 01-specific.
+\item \textbf{closed phase node}: first write vortex-like winding, topological defect, or winding number; the particle interpretation remains open.
+\item \textbf{normal retention}: first write scalar amplitude, radial profile, or order-parameter modulus; normal retention is interpretive language.
+\item \textbf{gauge-like compensation}: first write connection-like field, covariant derivative, or screening; this is not a derivation of electromagnetism.
+\item \textbf{memory}: first write preserved invariant data or equivalence class; the memory interpretation remains hypothetical.
+\item \textbf{boundary recording}: first write boundary data, reduced state, or holographic-style boundary language; no solution of black-hole information is claimed.
+\end{itemize}
+
+\section{Formalization Chain}
+
+The current formalization can be summarized as
+\begin{align}
+&\text{phase}
+\rightarrow \text{closed node}
+\rightarrow \text{normal retention}
+\rightarrow \text{gauge-like compensation}
+\nonumber\\
+&\rightarrow \text{current}
+\rightarrow \text{memory class}
+\rightarrow \text{boundary map}
+\rightarrow \text{reduced state}.
+\end{align}
+
+This chain is not a derivation of known physics. It is a working route from the conceptual language of the model to mathematical objects that can be analyzed.
+
+The main variables are
+\begin{equation}
+\field, \qquad \phase, \qquad N \;\text{or}\; \normal, \qquad A_\mu, \qquad \memory.
+\end{equation}
+
+Here $\phase$ denotes a phase variable, $N$ is the scalar toy version of normal retention, $A_\mu$ is a compensating connection-like field, and $\memory$ denotes preserved phase-structural data. At this stage $\field$ is not yet defined by a final Lagrangian.
+
+\section{Phase And Closed Circulation}
+
+Let
+\begin{equation}
+\phase:X\to S^1
+\end{equation}
+be a phase variable on an effective domain $X$. For a contour $\mathcal{C}$, define the phase circulation
+\begin{equation}
+\Gamma[\mathcal{C}]=\oint_{\mathcal{C}}d\phase.
+\end{equation}
+
+A closed phase node is represented by the condition
+\begin{equation}
+\oint_{\mathcal{C}}d\phase=2\pi n, \qquad n\in\mathbb{Z}.
+\end{equation}
+
+Equivalently,
+\begin{equation}
+Q_{\wind}=\frac{1}{2\pi}\oint_{\mathcal{C}}d\phase=n.
+\end{equation}
+
+In the toy model one uses the ansatz
+\begin{equation}
+\phase_n(r,\theta)=n\theta.
+\end{equation}
+
+This gives the desired winding, but a bare winding has long-range energy cost. On an annulus $a\le r\le R$,
+\begin{equation}
+\int_0^{2\pi}\int_a^R \frac{n^2}{r^2}r\,dr\,d\theta
+=2\pi n^2\log\frac{R}{a}.
+\end{equation}
+
+Thus a bare phase winding is not yet a localized finite-energy particle-like object.
+
+\section{Scalar Profile, Normal Retention, And Mass Proxy}
+
+In vortex-like and Abelian-Higgs-type models, a winding configuration is usually accompanied by a scalar amplitude or radial profile. Field 01 uses the same kind of scalar profile as a toy proxy for what the book-level language calls normal retention:
+\begin{equation}
+N=N(r).
+\end{equation}
+
+A minimal unscreened radial energy is
+\begin{equation}
+E_n[N]
+=2\pi\int_0^R
+\left[
+\frac{A}{2}(N')^2
++\frac{B}{2}\frac{n^2N^2}{r^2}
++\frac{\lambda}{4}(N^2-N_0^2)^2
+\right]r\,dr.
+\end{equation}
+
+The corresponding radial equation is
+\begin{equation}
+A\left(N''+\frac{1}{r}N'\right)
+-B\frac{n^2}{r^2}N
+-\lambda N(N^2-N_0^2)=0.
+\end{equation}
+
+In Field 01 language, the mass proxy is the energy of retaining a closed phase-normal configuration:
+\begin{equation}
+mc^2 \sim E_{\mathrm{closed}}[\phase,N].
+\end{equation}
+
+This is not yet a derivation of physical mass. It is only a formal expression of the idea that mass is associated with the energy cost of maintaining a closed local structure.
+
+A numerical toy check with $A=B=\lambda=N_0=1$, $n=1$, and $r\in[10^{-3},12]$ produced a particle-like profile with finite-disk energy approximately
+\begin{equation}
+E_{\mathrm{unscreened}}\approx 9.0093.
+\end{equation}
+
+A horizon-like boundary condition $N(R_H)=0$ also admits a profile while preserving winding $Q_{\wind}=1$.
+
+\section{Connection-Like Compensation}
+
+In standard gauge notation, a connection field can screen or compensate a long-range phase gradient through a covariant derivative. The Field 01 toy model uses the same structure to represent compensation of retained phase mismatch. Introduce a connection-like field $A_\mu$ and the covariant phase derivative
+\begin{equation}
+D_\mu\phase=\partial_\mu\phase-A_\mu.
+\end{equation}
+
+Under the gauge-like transformation
+\begin{equation}
+\phase\mapsto\phase+\chi,
+\qquad
+A_\mu\mapsto A_\mu+\partial_\mu\chi,
+\end{equation}
+we have
+\begin{equation}
+D_\mu\phase\mapsto D_\mu\phase.
+\end{equation}
+
+The field strength
+\begin{equation}
+F_{\mu\nu}=\partial_\mu A_\nu-\partial_\nu A_\mu
+\end{equation}
+is also invariant.
+
+For the radial ansatz, the replacement is
+\begin{equation}
+\frac{n}{r}\longrightarrow\frac{n-a(r)}{r}.
+\end{equation}
+
+A screened toy energy is
+\begin{equation}
+E_n[N,a]
+=2\pi\int_0^R
+\left[
+\frac{A}{2}(N')^2
++\frac{B}{2}\frac{(n-a)^2N^2}{r^2}
++\frac{C}{2}\frac{(a')^2}{r^2}
++\frac{\lambda}{4}(N^2-N_0^2)^2
+\right]r\,dr.
+\end{equation}
+
+The radial equations are
+\begin{equation}
+A\left(N''+\frac{1}{r}N'\right)
+-B\frac{(n-a)^2}{r^2}N
+-\lambda N(N^2-N_0^2)=0,
+\end{equation}
+
+\begin{equation}
+a''-\frac{1}{r}a'
++\frac{B}{C}(n-a)N^2=0.
+\end{equation}
+
+For the same finite disk, the screened particle-like numerical profile gave
+\begin{equation}
+E_{\mathrm{screened}}\approx 3.6340,
+\end{equation}
+which is lower than the unscreened toy energy. This supports the mathematical role of compensation, but it does not yet derive electromagnetism.
+
+\section{Current-Like Object}
+
+A covariant-looking toy density may be written as
+\begin{equation}
+\mathcal{L}_{\mathrm{toy}}
+=\frac{A_N}{2}(\partial_\mu N)(\partial^\mu N)
++\frac{B}{2}N^2(D_\mu\phase)(D^\mu\phase)
+-V(N)
+-\frac{C}{4}F_{\mu\nu}F^{\mu\nu}.
+\end{equation}
+
+The global phase-shift symmetry
+\begin{equation}
+\phase\mapsto\phase+\epsilon, \qquad \epsilon=\mathrm{const}
+\end{equation}
+gives the current-like object
+\begin{equation}
+J^\mu=\frac{\partial\mathcal{L}_{\mathrm{toy}}}{\partial(\partial_\mu\phase)}
+=BN^2D^\mu\phase.
+\end{equation}
+
+The phase equation gives
+\begin{equation}
+\partial_\mu J^\mu=0.
+\end{equation}
+
+This is a conserved phase-compensation current inside the toy model. It is not yet electric current. It only shows that retained covariant phase flow has a conserved current-like expression.
+
+\section{Relation To Abelian-Higgs And Vortex Models}
+
+The screened toy model is close to known Abelian-Higgs or vortex-like structures. This must be stated explicitly. If one writes
+\begin{equation}
+\Psi=Ne^{i\phase},
+\end{equation}
+then
+\begin{equation}
+|D_\mu\Psi|^2
+=(\partial_\mu N)(\partial^\mu N)
++N^2(\partial_\mu\phase-A_\mu)(\partial^\mu\phase-A^\mu).
+\end{equation}
+
+Thus the pair $(N,\phase)$ is mathematically close to polar variables of a complex scalar field. Field 01 should not claim this structure as a new invention.
+
+The possible contribution of Field 01 is interpretive:
+\begin{itemize}
+\item $\phase$ is read as phase rhythm or mode-$1$ circulation;
+\item $N$ is read as normal retention or local depth;
+\item winding is read as phase memory;
+\item $A_\mu$ is read as compensating field response;
+\item $N\to0$ is read as the disappearance of local normal depth at a boundary.
+\end{itemize}
+
+Whether this interpretation leads to new mathematics or physics remains an open question.
+
+\section{Memory As Equivalence Class}
+
+Equivalence classes and invariant data are standard mathematical tools for separating physical or structural information from choices of representation. The book-level concept of memory is therefore formalized here as an equivalence class of preserved phase-normal-gauge data:
+\begin{equation}
+\memory_{\bulk}
+=[\phase,N,A_\mu]_{\sim_{\bulk}}.
+\end{equation}
+
+A first invariant set is
+\begin{equation}
+\mathcal{I}_{\bulk}
+=(Q_{\wind},\Phi_F,\mathcal{J},E_{\mathrm{class}},\mathcal{B}),
+\end{equation}
+where $Q_{\wind}$ is winding, $\Phi_F$ denotes flux or connection data, $\mathcal{J}$ denotes current flux, $E_{\mathrm{class}}$ is an energy class, and $\mathcal{B}$ denotes boundary-accessible phase data.
+
+The equivalence relation identifies configurations that preserve these invariants while quotienting out gauge choice, coordinate representation, and small smooth deformations that do not change the record.
+
+Boundary memory is written as
+\begin{equation}
+\memory_{\boundary}
+=[\phase_{\boundary},A_{\boundary},F_{\boundary},Q_{\boundary}]_{\sim_{\boundary}}.
+\end{equation}
+
+The bulk-to-boundary memory map is
+\begin{equation}
+\Pi_{\boundary}:\memory_{\bulk}\to\memory_{\boundary}.
+\end{equation}
+
+This is the formal version of the Field 01 statement that local memory becomes boundary phase record.
+
+\section{Boundary Reduction And Thermality}
+
+A standard reduced density matrix is obtained by tracing inaccessible degrees of freedom:
+\begin{equation}
+\rho_{\mathrm{external}}
+=\mathrm{Tr}_{\mathrm{hidden}}\rho_{\mathrm{full}}.
+\end{equation}
+
+In Field 01 language, boundary memory may be split as
+\begin{equation}
+\memory_{\boundary}
+=(\memory_{\mathrm{acc}},\memory_{\mathrm{hid}},\mathcal{C}_{\mathrm{corr}}),
+\end{equation}
+where $\memory_{\mathrm{acc}}$ is accessible boundary data, $\memory_{\mathrm{hid}}$ is inaccessible data, and $\mathcal{C}_{\mathrm{corr}}$ denotes correlations.
+
+Then one may write schematically
+\begin{equation}
+\rho_{\mathrm{external}}
+=\mathrm{Tr}_{\memory_{\mathrm{hid}}}\rho(\memory_{\boundary}).
+\end{equation}
+
+A reduced state may appear thermal,
+\begin{equation}
+\rho_{\mathrm{external}}\approx\frac{e^{-\beta H_{\mathrm{eff}}}}{Z}.
+\end{equation}
+
+The Field 01 interpretation is that thermality may reflect reduced access to the full boundary record, not necessarily destruction of the record. This does not derive Hawking radiation or solve the black-hole information problem. It is only a formal expression of the model's interpretive stance.
+
+\section{Immediate Reference Anchors}
+
+Before this draft is presented as a technical paper, the following standard literature should be used as comparison anchors. These references do not support the Field 01 interpretation by themselves; they identify nearby established structures that the draft must not claim as new.
+
+\begin{itemize}
+\item Nielsen and Olesen, ``Vortex-line models for dual strings,'' \textit{Nuclear Physics B} 61, 45--61 (1973), for the classic scalar-field, winding, and gauge-vortex comparison.
+\item Abrikosov, ``On the magnetic properties of superconductors of the second group,'' \textit{Soviet Physics JETP} 5, 1174--1182 (1957), for the type-II superconductivity vortex analogy.
+\item Manton and Sutcliffe, \textit{Topological Solitons}, Cambridge University Press, 2004, for standard soliton, vortex, topological-charge, and moduli-space vocabulary.
+\item Vilenkin and Shellard, \textit{Cosmic Strings and Other Topological Defects}, Cambridge University Press, 1994, for topological-defect language and cosmological context.
+\item Bekenstein, Hawking, Page, and modern black-hole-information reviews, for any claim involving horizon entropy, thermality, reduced external states, or boundary information.
+\end{itemize}
+
+\section{What Is Claimed And What Remains Open}
+
+This paper claims only the following:
+\begin{itemize}
+\item Field 01 can be organized into a coherent toy formalization chain;
+\item closed phase nodes can be represented by winding;
+\item normal retention can be modeled by a scalar profile;
+\item gauge-like compensation reduces long-range phase mismatch;
+\item a conserved current-like object follows from phase-shift symmetry;
+\item memory can be formalized as an equivalence class;
+\item boundary recording can be represented by a bulk-to-boundary map;
+\item reduced external descriptions can be interpreted as limited access to boundary memory.
+\end{itemize}
+
+The following remain open:
+\begin{itemize}
+\item a precise fundamental action;
+\item relation to the Standard Model;
+\item derivation of spin, charge, and particle spectrum;
+\item relation to the Higgs mechanism;
+\item comparison with Abelian-Higgs and vortex literature;
+\item construction of a boundary Hilbert space;
+\item derivation of Hawking radiation or black-hole entropy;
+\item testable physical predictions.
+\end{itemize}
+
+\section{Conclusion}
+
+The current mathematical development of Field 01 does not yet produce a completed physical theory. It does, however, produce a structured formalization path. Starting from phase circulation, one can define closed nodes, introduce normal retention, add gauge-like compensation, obtain a current-like object, define memory as an equivalence class, map bulk memory to boundary memory, and interpret reduced external states as limited access to that boundary record.
+
+The most important lesson is caution. Much of the mathematics resembles known vortex or Abelian-Higgs-like structures. Field 01 must therefore be judged not by the mere presence of winding or gauge-like notation, but by whether its interpretation of normal retention, memory, and boundary recording leads to a useful and eventually testable framework.
+
+\end{document}
