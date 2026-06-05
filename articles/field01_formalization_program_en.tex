@@ -27,7 +27,7 @@
 \maketitle
 
 \begin{center}
-\textit{Working version v0.1 --- English formalization draft}
+\textit{Working version v0.2 --- English formalization draft with standard-reference alignment}
 \end{center}
 
 \begin{abstract}
@@ -48,6 +48,19 @@ Three levels must be kept separate:
 \end{enumerate}
 
 The aim is not to claim novelty where standard mathematics already exists. In fact, one important conclusion is that the first toy formalization of Field 01 naturally approaches known Abelian-Higgs or vortex-like structures. The possible value of Field 01 lies in its interpretation and in the proposed link between normal retention, memory, and boundary recording.
+
+\section{Standard-First Vocabulary Rule}
+
+This draft follows a standard-first rule. Each technical object should be introduced first with the nearest standard vocabulary, then with the Field 01 reading, and finally with an explicit statement of what remains hypothetical. The working reference map for this rule is maintained separately in \texttt{FIELD01\_REFERENCE\_MAP.md}.
+
+\begin{itemize}
+\item \textbf{phase rhythm}: first write phase variable, angular variable, or phase of a complex scalar; the rhythm language is Field 01-specific.
+\item \textbf{closed phase node}: first write vortex-like winding, topological defect, or winding number; the particle interpretation remains open.
+\item \textbf{normal retention}: first write scalar amplitude, radial profile, or order-parameter modulus; normal retention is interpretive language.
+\item \textbf{gauge-like compensation}: first write connection-like field, covariant derivative, or screening; this is not a derivation of electromagnetism.
+\item \textbf{memory}: first write preserved invariant data or equivalence class; the memory interpretation remains hypothetical.
+\item \textbf{boundary recording}: first write boundary data, reduced state, or holographic-style boundary language; no solution of black-hole information is claimed.
+\end{itemize}
 
 \section{Formalization Chain}
 
@@ -107,9 +120,9 @@ This gives the desired winding, but a bare winding has long-range energy cost. O
 
 Thus a bare phase winding is not yet a localized finite-energy particle-like object.
 
-\section{Normal Retention And Mass Proxy}
+\section{Scalar Profile, Normal Retention, And Mass Proxy}
 
-Field 01 interprets a massive local node as more than a phase winding. It also requires normal retention, represented in the first toy model by a scalar radial profile
+In vortex-like and Abelian-Higgs-type models, a winding configuration is usually accompanied by a scalar amplitude or radial profile. Field 01 uses the same kind of scalar profile as a toy proxy for what the book-level language calls normal retention:
 \begin{equation}
 N=N(r).
 \end{equation}
@@ -146,9 +159,9 @@ E_{\mathrm{unscreened}}\approx 9.0093.
 
 A horizon-like boundary condition $N(R_H)=0$ also admits a profile while preserving winding $Q_{\wind}=1$.
 
-\section{Gauge-Like Compensation}
+\section{Connection-Like Compensation}
 
-The unscreened winding retains long-range phase mismatch. To compensate it, introduce a connection-like field $A_\mu$ and the covariant phase derivative
+In standard gauge notation, a connection field can screen or compensate a long-range phase gradient through a covariant derivative. The Field 01 toy model uses the same structure to represent compensation of retained phase mismatch. Introduce a connection-like field $A_\mu$ and the covariant phase derivative
 \begin{equation}
 D_\mu\phase=\partial_\mu\phase-A_\mu.
 \end{equation}
@@ -233,9 +246,9 @@ The phase equation gives
 
 This is a conserved phase-compensation current inside the toy model. It is not yet electric current. It only shows that retained covariant phase flow has a conserved current-like expression.
 
-\section{Relation To Abelian Higgs And Vortex Models}
+\section{Relation To Abelian-Higgs And Vortex Models}
 
-The screened toy model is close to known Abelian Higgs or vortex-like structures. This must be stated explicitly. If one writes
+The screened toy model is close to known Abelian-Higgs or vortex-like structures. This must be stated explicitly. If one writes
 \begin{equation}
 \Psi=Ne^{i\phase},
 \end{equation}
@@ -261,7 +274,7 @@ Whether this interpretation leads to new mathematics or physics remains an open 
 
 \section{Memory As Equivalence Class}
 
-The book-level concept of memory is formalized as an equivalence class of preserved phase-normal-gauge data:
+Equivalence classes and invariant data are standard mathematical tools for separating physical or structural information from choices of representation. The book-level concept of memory is therefore formalized here as an equivalence class of preserved phase-normal-gauge data:
 \begin{equation}
 \memory_{\bulk}
 =[\phase,N,A_\mu]_{\sim_{\bulk}}.
@@ -317,6 +330,18 @@ A reduced state may appear thermal,
 
 The Field 01 interpretation is that thermality may reflect reduced access to the full boundary record, not necessarily destruction of the record. This does not derive Hawking radiation or solve the black-hole information problem. It is only a formal expression of the model's interpretive stance.
 
+\section{Immediate Reference Anchors}
+
+Before this draft is presented as a technical paper, the following standard literature should be used as comparison anchors. These references do not support the Field 01 interpretation by themselves; they identify nearby established structures that the draft must not claim as new.
+
+\begin{itemize}
+\item Nielsen and Olesen, ``Vortex-line models for dual strings,'' \textit{Nuclear Physics B} 61, 45--61 (1973), for the classic scalar-field, winding, and gauge-vortex comparison.
+\item Abrikosov, ``On the magnetic properties of superconductors of the second group,'' \textit{Soviet Physics JETP} 5, 1174--1182 (1957), for the type-II superconductivity vortex analogy.
+\item Manton and Sutcliffe, \textit{Topological Solitons}, Cambridge University Press, 2004, for standard soliton, vortex, topological-charge, and moduli-space vocabulary.
+\item Vilenkin and Shellard, \textit{Cosmic Strings and Other Topological Defects}, Cambridge University Press, 1994, for topological-defect language and cosmological context.
+\item Bekenstein, Hawking, Page, and modern black-hole-information reviews, for any claim involving horizon entropy, thermality, reduced external states, or boundary information.
+\end{itemize}
+
 \section{What Is Claimed And What Remains Open}
 
 This paper claims only the following:
@@ -337,7 +362,7 @@ The following remain open:
 \item relation to the Standard Model;
 \item derivation of spin, charge, and particle spectrum;
 \item relation to the Higgs mechanism;
-\item comparison with Abelian Higgs and vortex literature;
+\item comparison with Abelian-Higgs and vortex literature;
 \item construction of a boundary Hilbert space;
 \item derivation of Hawking radiation or black-hole entropy;
 \item testable physical predictions.
