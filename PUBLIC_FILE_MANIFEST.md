@@ -13,6 +13,7 @@ Use this file before uploading to GitHub/GitLab.
 - `CONTRIBUTING.md`
 - `LICENSE_NOTE.md`
 - `PUBLIC_READY_STATUS.md`
+- `FIELD01_REFERENCE_MAP.md`
 - `RELEASE_CHECKLIST.md`
 - `FIRST_PUBLIC_POSTS.md`
 - `BEGINNER_PUBLICATION_GUIDE_RU.md`
@@ -112,6 +113,7 @@ git status --short --ignored
 Before uploading, open and skim these files:
 
 - [ ] `README.md`
+- [ ] `FIELD01_REFERENCE_MAP.md`
 - [ ] `FIELD01_OVERVIEW_EN.md`
 - [ ] `PUBLIC_READY_STATUS.md`
 - [ ] `LICENSE_NOTE.md`

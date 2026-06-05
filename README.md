@@ -39,6 +39,7 @@ The most developed mathematical direction currently resembles known Abelian-Higg
 - `LICENSE_NOTE.md` — temporary usage note before choosing a formal license.
 - `BEGINNER_PUBLICATION_GUIDE_RU.md` — practical Russian guide for publishing the project as a beginner.
 - `FEEDBACK_LOG.md` — template for recording criticism, references, and revision decisions.
+- `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard references and vocabulary.
 - `PUBLIC_READY_STATUS.md` — current readiness summary for first public release.
 - `PUBLIC_FILE_MANIFEST.md` — file-by-file manifest for GitHub/GitLab upload.
 - `NEXT_ACTIONS_RU.md` — immediate step-by-step actions for GitHub release and first Reddit post.
