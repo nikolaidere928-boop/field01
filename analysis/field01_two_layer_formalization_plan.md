@@ -2,7 +2,7 @@
 
 Purpose: separate the standard vortex mathematics checked against external feedback and Schaposnik's notes from the Field 01 interpretive layer that still requires independent definitions, hypotheses, and tests.
 
-Status: internal planning note. Not a book insert, not a paper draft, and not a public claim of novelty.
+Status: working planning note. Not a book insert, not a paper draft, and not a public claim of novelty.
 
 Date: 2026-06-14.
 
@@ -48,7 +48,7 @@ Avoid using these terms as primary technical vocabulary:
 - charge-like meaning;
 - new physical model.
 
-Internal shorthand such as `screened angular gradient` is allowed only after defining it through the covariant derivative.
+Local shorthand such as `screened angular gradient` is allowed only after defining it through the covariant derivative.
 
 ### 2.2 Core Ansatz
 
@@ -266,7 +266,7 @@ This project currently isolates a standard mathematical core: a two-dimensional 
 4. Update public-facing summaries only after every sentence is tagged as standard math, interpretation, hypothesis, or open problem.
 5. Do not push a public GitHub update until the standard layer and interpretation layer are visibly separated in the repository.
 
-## 8. Next Internal Deliverable
+## 8. Next Working Deliverable
 
 Recommended next file:
 

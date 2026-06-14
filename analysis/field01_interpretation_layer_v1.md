@@ -354,7 +354,7 @@ This interpretation layer does not claim:
 - a replacement for Abelian-Higgs vortex theory;
 - that memory is physically real without a defined state space and observables.
 
-## 16. Next Internal Deliverable
+## 16. Next Working Deliverable
 
 Recommended next file:
 

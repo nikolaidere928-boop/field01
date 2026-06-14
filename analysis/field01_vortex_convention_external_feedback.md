@@ -61,17 +61,17 @@ E=2\pi\int dr\left[
 E_{\mathrm{BPS}}=2\pi N_0^2 |n|,
 ```
 
-whereas the current internal notes state:
+whereas the current notes state:
 
 ```math
 E_{\mathrm{BPS}}=\pi N_0^2 |n|.
 ```
 
-## 3. Internal Assessment
+## 3. Assessment
 
 The `pi` versus `2 pi` issue is likely a normalization difference rather than an immediate error in the radial functional.
 
-The current internal normalization uses:
+The current normalization uses:
 
 ```math
 E=\int d^2x\left[
@@ -119,7 +119,7 @@ With my explicit 1/2 |D_i Psi|^2 normalization, the Bogomolny completion gives E
 ```text
 Thank you, this is exactly the kind of convention issue I was trying to catch.
 
-I used an explicit 1/2 in front of |D_i Psi|^2, so my internal Bogomolny completion gives E_BPS = (N0^2/2) Phi_B = pi N0^2 n when Phi_B = 2 pi n. I understand that many Abelian-Higgs references use the complex scalar kinetic term without that extra 1/2, in which case the bound is written as 2 pi v^2 n.
+I used an explicit 1/2 in front of |D_i Psi|^2, so my current Bogomolny completion gives E_BPS = (N0^2/2) Phi_B = pi N0^2 n when Phi_B = 2 pi n. I understand that many Abelian-Higgs references use the complex scalar kinetic term without that extra 1/2, in which case the bound is written as 2 pi v^2 n.
 
 So the safest wording is probably: the ansatz and radial energy are standard up to normalization, but the BPS energy must be compared only after mapping the scalar kinetic normalization and vacuum parameter.
 

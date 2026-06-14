@@ -188,7 +188,7 @@ Schaposnik's BPS bound:
 E_S\ge\pi\phi_0^2|N|
 ```
 
-maps to the current internal target:
+maps to the current normalization target:
 
 ```math
 E_{ours,\mathrm{BPS}}=\pi N_0^2|n|.

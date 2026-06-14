@@ -2,7 +2,7 @@
 
 This note compares the current Field 01 toy models with the known mathematical pattern of Abelian Higgs / vortex-type models. The purpose is caution: to identify what is standard mathematical structure and what is only Field 01 interpretation.
 
-This is not a literature review and not a claim of equivalence. It is an internal conceptual comparison.
+This is not a literature review and not a claim of equivalence. It is a working conceptual comparison.
 
 ## 1. Why This Comparison Is Necessary
 

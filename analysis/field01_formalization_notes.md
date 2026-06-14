@@ -11,7 +11,7 @@ Status labels:
 
 ## 1. Source Anchors From The Book And Papers
 
-The current formalization rests on the following internal anchors:
+The current formalization rests on the following working anchors:
 
 - The elementary particle is described as a closed wave, not as a small object or point.
 - The photon is described as open phase transport without retained normal degree of freedom.
@@ -21,7 +21,7 @@ The current formalization rests on the following internal anchors:
 - The horizon is described as a recording regime where volume and normal degree of freedom disappear while phase structure is retained as surface record.
 - The Bekenstein--Hawking area law motivates the surface-recording interpretation, but is not derived by Field 01 yet.
 
-These are internal model anchors, not external proofs.
+These are model anchors, not external proofs.
 
 ## 2. Minimal Variables
 

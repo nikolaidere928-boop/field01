@@ -179,7 +179,7 @@ The minimal screened phase-winding toy model appears to be in the same mathemati
 
 ## 8. If Keeping Field 01 Interpretation Separate
 
-The private Field 01 interpretation may use `N` as a proxy for local depth or normal retention, and may read winding as preserved phase-structural data. But this must be explicitly separated from the standard mathematics.
+The separate Field 01 interpretation may use `N` as a proxy for local depth or normal retention, and may read winding as preserved phase-structural data. But this must be explicitly separated from the standard mathematics.
 
 Safe wording:
 

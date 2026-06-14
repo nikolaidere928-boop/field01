@@ -75,15 +75,19 @@ For a broader but less formal overview, read:
 The compact tracked numerical records are:
 
 ```text
+analysis/numerics/phase_normal_profile_results.json
 analysis/numerics/radial_vortex_results.json
 analysis/numerics/radial_vortex_coupling_sweep.json
 analysis/numerics/radial_vortex_profile_distances.json
+analysis/numerics/screened_phase_normal_results.json
 ```
 
 The tracked helper scripts are:
 
 ```text
+analysis/numerics/solve_phase_normal_profile.py
 analysis/numerics/solve_radial_vortex_profile.py
+analysis/numerics/solve_screened_phase_normal_profile.py
 analysis/numerics/sweep_radial_vortex_coupling.py
 ```
 
@@ -111,14 +115,14 @@ The public repository should contain only project-facing files: overview documen
 Do not upload personal workflow material or local helper artifacts:
 
 ```text
-AGENTS.md
-uploads/
-prism-uploads/
+local agent-instruction files
+local upload folders
+local Prism/GitHub helper folders
 local upload-helper folders
 local transfer archives
 LaTeX temporary files
 Python cache files
-private publication checklists or personal step-by-step notes
+local publication checklists or personal step-by-step notes
 ```
 
 ## 8. Current Status

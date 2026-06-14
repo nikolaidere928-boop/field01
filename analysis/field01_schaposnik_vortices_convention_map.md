@@ -1,6 +1,6 @@
 # Schaposnik Vortices Convention Map
 
-Purpose: map the current Field 01 radial vortex notation against F.A. Schaposnik, *Vortices*, arXiv:hep-th/0611028, using the uploaded PDF `0611028v1.pdf`.
+Purpose: map the current Field 01 radial vortex notation against F.A. Schaposnik, *Vortices*, arXiv:hep-th/0611028, using the public arXiv version as a standard-math comparison source.
 
 Status: PDF-based convention map. This is a standard-math comparison aid, not a proof, endorsement, or final literature review. No Field 01 interpretation is used here.
 
@@ -14,17 +14,17 @@ Reference:
 F.A. Schaposnik, Vortices, arXiv:hep-th/0611028v1.
 ```
 
-Local source used:
+Source used:
 
 ```text
-uploaded PDF: 0611028v1.pdf
+F.A. Schaposnik, Vortices, arXiv:hep-th/0611028v1
 ```
 
 Extraction notes:
 
 - The PDF has 60 pages.
-- Text was extracted with `pypdf` into `/tmp` for analysis only; no PDF copy was added to the repository.
-- Equation numbers and page-level locations below come from the uploaded PDF.
+- Text extraction was used for analysis only; no PDF copy is required in the repository.
+- Equation numbers and page-level locations below come from the public arXiv PDF.
 - Some formula signs and small factors in equation (11) should still be visually checked before a final citation-grade manuscript, because PDF text extraction can lose small glyphs. The normalization conclusions below are based on the clearly extracted action, energy, and Bogomolny equations.
 
 ## 2. Reference Landmarks
@@ -154,7 +154,7 @@ maps exactly to the current convention:
 \lambda_{ours}=4\lambda_S=\frac{e^2}{2}=\frac{g^2}{2}.
 ```
 
-Thus the current internal critical-coupling statement:
+Thus the current critical-coupling statement:
 
 ```math
 \lambda_{ours,\mathrm{BPS}}=\frac{g^2}{2},
@@ -186,7 +186,7 @@ Under the map:
 N\leftrightarrow n,
 ```
 
-this is exactly the current internal BPS target:
+this is exactly the current BPS target:
 
 ```math
 E_{ours,\mathrm{BPS}}=\pi N_0^2|n|.
@@ -212,7 +212,7 @@ Avoid as the main public phrase:
 angularly screened phase winding
 ```
 
-Allowed internal shorthand:
+Allowed local shorthand:
 
 ```text
 screened angular gradient
@@ -229,7 +229,7 @@ D_\theta\varphi\to0
 
 ## 8. Physics Threshold
 
-Schaposnik's presentation supports doctor_lobo's caution: the ansatz is embedded in physics only after specifying the action, equations of motion, energy functional, and boundary conditions.
+Schaposnik's presentation supports the external-feedback caution: the ansatz is embedded in physics only after specifying the action, equations of motion, energy functional, and boundary conditions.
 
 For Field 01, the safe rule is:
 

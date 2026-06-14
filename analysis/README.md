@@ -1,6 +1,6 @@
 # Analysis Notes
 
-This directory contains internal analysis and mathematical formalization notes for Field 01. These files are working documents, not book inserts and not final papers.
+This directory contains working analysis and mathematical formalization notes for Field 01. These files are working documents, not book inserts and not final papers.
 
 Current files:
 
@@ -21,7 +21,6 @@ Current files:
 - `field01_radial_vortex_bps_sweep_results.md` — coupling sweep confirming numerically that `lambda = g^2/2` gives energy close to `pi` for `n=1`, `N0=1`.
 - `field01_vortex_convention_dictionary.md` — maps current radial vortex notation to common Abelian-Higgs/Nielsen-Olesen symbols, including gauge-profile conventions, coupling placement, flux, and BPS normalization warnings.
 - `field01_vortex_convention_external_feedback.md` — records external feedback confirming the vortex notation while flagging the convention-sensitive `pi` versus `2 pi` BPS energy normalization.
-- `field01_doctor_lobo_feedback.md` — records external guidance on Nielsen-Olesen/Abrikosov framing, covariant-derivative terminology, and the need for an explicit energy functional before physics claims.
 - `field01_schaposnik_vortices_convention_map.md` — PDF-based convention map against F.A. Schaposnik, *Vortices*, including equation-number checks for the ansatz, critical coupling, and BPS energy normalization.
 - `field01_memory_equivalence_notes.md` — formalizes memory as an equivalence class of phase-normal-gauge data and defines the first bulk-to-boundary memory map.
 - `field01_reduced_density_memory_notes.md` — connects boundary memory to reduced density matrices and thermality as limited access, without claiming a black-hole information solution.

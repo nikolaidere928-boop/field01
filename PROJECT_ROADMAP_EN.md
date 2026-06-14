@@ -27,7 +27,7 @@ Development path:
 
 ```text
 book-level idea
--> Russian working papers
+-> Russian-language working drafts
 -> English working papers
 -> glossary and outreach package
 -> mathematical formalization
@@ -162,7 +162,7 @@ Hawking was wrong
 complete theory of everything
 ```
 
-## 6. Next Internal Research Steps
+## 6. Next Research Steps
 
 1. Build a minimal mathematical model for phase circulation and closed waves.
 2. Define the normal degree of freedom and its suppression near a boundary.

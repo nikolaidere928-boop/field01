@@ -34,7 +34,7 @@ The most developed mathematical direction currently resembles known Abelian-Higg
 - `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard references and vocabulary.
 - `PROJECT_ROADMAP_EN.md` — compact English roadmap.
 - `ABSTRACTS_EN.md` — short abstracts for the current papers.
-- `FIELD01_GLOSSARY.md` — current terminology and preferred cautious language.
+- `FIELD01_GLOSSARY.md` — Russian glossary with recommended English equivalents; a stricter English glossary is planned after the terminology stabilizes.
 - `CONTRIBUTING.md` — how to give useful criticism or help with the project.
 - `LICENSE_NOTE.md` — temporary usage note before choosing a formal license.
 - `LITERATURE_BRIDGE.md` — working map from book recommended literature to academic references.
@@ -81,10 +81,11 @@ I am seeking criticism, orientation, and help with formalization — not endorse
 
 For a first look:
 
-1. `FIELD01_OVERVIEW_EN.md`
-2. `ABSTRACTS_EN.md`
-3. `PROJECT_ROADMAP_EN.md`
-4. `articles/field01_formalization_program_en.tex`
+1. `FIELD01_GITHUB_START_HERE.md`
+2. `FIELD01_OVERVIEW_EN.md`
+3. `ABSTRACTS_EN.md`
+4. `PROJECT_ROADMAP_EN.md`
+5. `articles/field01_formalization_program_en.tex`
 
 For conceptual background:
 

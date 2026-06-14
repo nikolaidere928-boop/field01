@@ -2,7 +2,7 @@
 
 Purpose: define the first precise version of the Field 01 memory equivalence relations and the bulk-to-boundary memory map, while avoiding thermality, black-hole, or cosmological claims.
 
-Status: internal definition draft. This is an interpretive formalization layer built on `field01_standard_core_v1.md`; it is not a standard physics result and not a public claim.
+Status: working definition draft. This is an interpretive formalization layer built on `field01_standard_core_v1.md`; it is not a standard physics result and not a public claim.
 
 Date: 2026-06-14.
 

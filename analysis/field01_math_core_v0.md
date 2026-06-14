@@ -25,7 +25,7 @@ Where:
 - `phi` is a compact phase;
 - `n` is an integer winding number;
 - `A_i` is a U(1)-like Abelian gauge field;
-- `D_i phi = partial_i phi - A_i` is the gauge-covariant phase gradient; `screened phase gradient` is only an internal shorthand after this definition.
+- `D_i phi = partial_i phi - A_i` is the gauge-covariant phase gradient; `screened phase gradient` is only a local shorthand after this definition.
 
 Package `N` and `phi` as a complex scalar:
 

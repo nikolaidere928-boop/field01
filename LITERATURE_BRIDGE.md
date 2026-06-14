@@ -6,21 +6,21 @@ Its purpose is to transform the book's recommended reading lists and chapter-lev
 
 ## Why This File Exists
 
-A useful Reddit comment suggested that the project should study the closest relevant papers and write in a similar style and vocabulary, while citing them even where the Field 01 interpretation differs.
+Early external feedback suggested that the project should study the closest relevant papers and write in a similar style and vocabulary, while citing them even where the Field 01 interpretation differs.
 
 This is the right next step. Field 01 should not rely only on original terminology. It should first identify the nearest standard literature, adopt standard vocabulary where possible, and then clearly mark what is interpretation or hypothesis.
 
-## Source Material To Extract
+## Source Material Already Checked / Still To Refine
 
-The book apparently already contains:
+The book and earlier preprint/source materials contain:
 
 - a general recommended literature list;
 - chapter-level scientific basis sections;
 - chapter-level lists for independent analysis.
 
-These should be extracted from the book source or uploaded manuscript and reorganized here.
+The first extraction pass has already been done. This file keeps the public-facing reference map and marks which references still need exact bibliographic cleanup before citation-grade use.
 
-## Extraction Template
+## Extraction Template For Future Additions
 
 For each source from the book, use this format:
 
@@ -176,9 +176,9 @@ Example:
 In standard vortex models, phase winding is represented by an integer winding number. Field 01 uses this standard structure as a toy representation of a closed phase node. The additional interpretation of winding as phase memory is model-specific and remains hypothetical.
 ```
 
-## Next Extraction Task
+## Next Reference-Cleanup Task
 
-Find the book's recommended literature and chapter-level “scientific basis / list for independent analysis” sections, then fill the tables above.
+Convert the remaining broad book-level literature pointers into exact citation-grade references, then fill the tables above.
 
 Priority extraction order:
 
@@ -189,13 +189,9 @@ Priority extraction order:
 5. holography and boundary information.
 ## Extracted Book and Preprint References — 2026-06-05
 
-The uploaded book/DOCX and preprint PDFs have now been checked directly.
+The book/source materials and preprint PDFs have been checked directly in a working extraction pass.
 
-Raw extraction files:
-
-- `analysis/extracted_sources/book_literature_blocks_raw.md`
-- `analysis/extracted_sources/book_literature_items_clean.md`
-- `analysis/extracted_sources/preprint_references_extracted.md`
+The raw extraction notes are working files and are not included in the public repository package.
 
 ### What Was Found
 
@@ -209,7 +205,7 @@ The preprint PDFs contain more precise references and should be used first for f
 
 ### High-Priority Exact References Already Present
 
-These are the strongest immediately usable references already present in the uploaded materials:
+These are the strongest immediately usable references already present in the source materials:
 
 | Topic | Reference | Use In Field 01 |
 |---|---|---|
@@ -229,7 +225,7 @@ These are the strongest immediately usable references already present in the upl
 
 ### High-Priority Missing References To Add
 
-The current Field 01 formalization is closest to vortex and Abelian-Higgs structures, but the uploaded book lists these only indirectly through journal-level support. These should be added explicitly before the next technical public post:
+The current Field 01 formalization is closest to vortex and Abelian-Higgs structures, but the source materials list these only indirectly through journal-level support. These should be added explicitly before the next technical public post:
 
 | Topic | Needed Reference | Why Needed |
 |---|---|---|

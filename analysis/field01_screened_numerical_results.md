@@ -7,9 +7,7 @@ Related files:
 - `analysis/field01_screened_phase_normal_model.md` — screened model and equations.
 - `analysis/numerics/solve_screened_phase_normal_profile.py` — numerical solver.
 - `analysis/numerics/screened_phase_normal_results.json` — numerical summary.
-- `analysis/numerics/screened_particle_boundary_screened_profile.csv` — screened particle-like profile.
-- `analysis/numerics/screened_horizon_boundary_screened_profile.csv` — screened horizon-like profile.
-- `analysis/numerics/screened_phase_normal_profiles.png` — plot of `N(r)` and `a(r)`.
+- CSV profile tables and PNG plots can be regenerated locally from the solver if needed; they are not part of the compact public package.
 
 ## 1. Equation Solved
 

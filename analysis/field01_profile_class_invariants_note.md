@@ -2,7 +2,7 @@
 
 Purpose: decide how radial profile data should enter the Field 01 memory-map framework, after the v1 split between minimal topological/boundary memory and refined energy/coupling memory.
 
-Status: internal definition note. This is not a new simulation, not a physical memory-preservation claim, and not a public result.
+Status: working definition note. This is not a new simulation, not a physical memory-preservation claim, and not a standalone result.
 
 Date: 2026-06-14.
 
@@ -24,7 +24,7 @@ This file uses:
 - **Definition:** a proposed computation or classification rule.
 - **Requirement:** a condition a profile invariant must satisfy.
 - **Observation:** a fact about existing numerical data or existing definitions.
-- **Conclusion:** a limited internal decision for v1/v1.1 terminology.
+- **Conclusion:** a limited working decision for v1/v1.1 terminology.
 - **Open problem:** something not yet decided or not computable from current data.
 - **Non-claim:** a statement explicitly not being made.
 

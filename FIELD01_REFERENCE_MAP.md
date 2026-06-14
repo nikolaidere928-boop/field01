@@ -1,6 +1,6 @@
 # Field 01 Reference Map
 
-This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a working guide for revising the public papers after the first Reddit feedback.
+This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a working guide for revising the public papers after early external feedback.
 
 The rule is:
 
@@ -40,9 +40,9 @@ In standard Abelian-Higgs/Nielsen-Olesen vortex models, a complex scalar field h
 | `reduced external state` | reduced density matrix; partial trace; inaccessible degrees of freedom | Nielsen-Chuang; Preskill; Almheiri et al.; Page | Reduced states and thermality from tracing are standard. | External thermality is interpreted as limited access to boundary record. | Say `may be interpreted`; do not say Hawking radiation is false. |
 | `horizon as phase recording surface` | black-hole horizon; entropy area law; holographic screen; boundary degrees of freedom | Bekenstein 1973; Hawking 1975; 't Hooft 1993; Susskind 1995; Maldacena 1997 | Horizon thermodynamics and holography are established frameworks. | Horizon is read as a limiting phase-recording boundary. | Present as interpretation requiring comparison, not derivation. |
 
-## 3. Exact References Already Present in Uploaded Materials
+## 3. Exact References Already Present in Source Materials
 
-These references were extracted from the uploaded book/preprint materials and can be used immediately as anchors.
+These references were extracted from the book/preprint source materials and can be used immediately as anchors.
 
 ### General Physics and Quantum Information
 
@@ -155,12 +155,12 @@ Completed in `articles/field01_formalization_program_en.tex` v0.2:
 Still open before a technical post:
 
 1. Replace inline reference anchors with a formal bibliography or BibTeX file.
-2. Ask Reddit/AskPhysics for the best textbook review on Abelian-Higgs vortices before posting the technical paper.
+2. Ask a domain expert or a focused physics forum for the best textbook review on Abelian-Higgs vortices before posting the technical paper.
 3. Add exact page/section pointers for the standard references after checking the sources directly.
 
-## 8. Short Answer to the Reddit Comment
+## 8. Short Answer to Early External Feedback
 
-A good response to the Reddit advice is:
+A good response to this advice is:
 
 ```text
 Thank you, this is exactly the direction I need. I have now started building a reference map that links my terms to standard vocabulary: phase winding, scalar amplitude/profile, Abelian-Higgs/Nielsen-Olesen vortices, topological defects, Noether currents, reduced density matrices, and holographic boundary language. The next revision will introduce standard terms and citations first, and only then explain the Field 01 interpretation.

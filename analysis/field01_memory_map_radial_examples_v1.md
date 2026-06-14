@@ -2,7 +2,7 @@
 
 Purpose: test `field01_memory_map_definitions_v1.md` on existing radial vortex numerical outputs, without introducing new physics claims.
 
-Status: internal consistency check. This note uses already-generated numerical data in `analysis/numerics/`; it is not a new simulation and not a public result.
+Status: working consistency check. This note uses already-generated numerical data in `analysis/numerics/`; it is not a new simulation and not a public result.
 
 Date: 2026-06-14.
 
@@ -22,7 +22,7 @@ This file uses:
 - **Definition:** a computation or classification rule used in the examples.
 - **Observation:** a numerical fact read from existing output files.
 - **Interpretation:** Field 01 reading of the example.
-- **Conclusion:** a limited internal conclusion for the memory-map definitions.
+- **Conclusion:** a limited working conclusion for the memory-map definitions.
 - **Open problem:** something not yet decided.
 - **Non-claim:** a statement explicitly not being made.
 

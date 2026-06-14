@@ -7,9 +7,7 @@ Related files:
 - `analysis/field01_toy_phase_normal_model.md` — model definition and radial equation.
 - `analysis/numerics/solve_phase_normal_profile.py` — numerical solver.
 - `analysis/numerics/phase_normal_profile_results.json` — numerical summary.
-- `analysis/numerics/particle_boundary_N0_profile.csv` — particle-like profile data.
-- `analysis/numerics/horizon_boundary_zero_profile.csv` — horizon-like profile data.
-- `analysis/numerics/phase_normal_profiles.png` — plot of both profiles.
+- CSV profile tables and PNG plots can be regenerated locally from the solver if needed; they are not part of the compact public package.
 
 ## 1. Equation Solved
 
