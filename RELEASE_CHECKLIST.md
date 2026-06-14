@@ -19,9 +19,11 @@ If the answer is no, delay public posting and improve the entry documents.
 Before release, the repository should contain:
 
 - `README.md`
+- `FIELD01_GITHUB_START_HERE.md`
 - `FIELD01_OVERVIEW_EN.md`
 - `CONTRIBUTING.md`
 - `PROJECT_ROADMAP_EN.md`
+- `PUBLIC_READY_STATUS.md`
 - `OUTREACH_PACKAGE_EN.md`
 - `FIRST_PUBLIC_POSTS.md`
 - `FOUR_WEEK_LAUNCH_PLAN.md`
@@ -43,11 +45,20 @@ Check `README.md`:
 
 - [ ] It says Field 01 is not a completed theory.
 - [ ] It says Field 01 does not replace QFT, GR, the Standard Model, or black-hole thermodynamics.
+- [ ] It points new reviewers to `FIELD01_GITHUB_START_HERE.md` first.
 - [ ] It links to `FIELD01_OVERVIEW_EN.md`.
 - [ ] It links to `CONTRIBUTING.md`.
 - [ ] It lists the main papers.
 - [ ] It asks for criticism, not endorsement.
 - [ ] It does not sound promotional.
+
+Check `FIELD01_GITHUB_START_HERE.md`:
+
+- [ ] It gives the safest first reading path.
+- [ ] It separates standard vortex mathematics from Field 01 interpretation.
+- [ ] It states explicit non-claims before any speculative terminology.
+- [ ] It points to the GitHub and Reddit gates.
+- [ ] It does not read like a release announcement or proof claim.
 
 Check `FIELD01_OVERVIEW_EN.md`:
 
@@ -140,8 +151,10 @@ Recommended public structure:
 
 ```text
 README.md
+FIELD01_GITHUB_START_HERE.md
 FIELD01_OVERVIEW_EN.md
 CONTRIBUTING.md
+PUBLIC_READY_STATUS.md
 RELEASE_CHECKLIST.md
 FOUR_WEEK_LAUNCH_PLAN.md
 FIRST_PUBLIC_POSTS.md
@@ -253,6 +266,7 @@ Recommended sequence:
 Before making the first public post:
 
 - [ ] `README.md` is clear.
+- [ ] `FIELD01_GITHUB_START_HERE.md` is the first linked entrypoint.
 - [ ] `FIELD01_OVERVIEW_EN.md` is clear.
 - [ ] `CONTRIBUTING.md` tells people how to help.
 - [ ] `FIRST_PUBLIC_POSTS.md` has the selected post text.

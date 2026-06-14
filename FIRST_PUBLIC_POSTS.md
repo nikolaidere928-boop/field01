@@ -5,9 +5,11 @@ This file contains cautious first-public-post templates for Field 01. The goal i
 Use these posts only after the repository contains at least:
 
 - `README.md`
+- `FIELD01_GITHUB_START_HERE.md`
 - `FIELD01_OVERVIEW_EN.md`
 - `CONTRIBUTING.md`
 - `PROJECT_ROADMAP_EN.md`
+- `PUBLIC_READY_STATUS.md`
 - `articles/field01_formalization_program_en.tex`
 
 ## General Rule
@@ -68,7 +70,7 @@ I am looking for criticism and references, not endorsement.
 If links are allowed, add only one link at the end:
 
 ```text
-For context, here is the short overview: [repository link]/FIELD01_OVERVIEW_EN.md
+For context, here is the cautious start-here guide: [repository link]/FIELD01_GITHUB_START_HERE.md
 ```
 
 Do not include the full book or multiple PDFs in this first post.
@@ -172,11 +174,11 @@ Field 01: cautious public working archive for criticism
 ### Body
 
 ```text
-I have opened a public working archive for Field 01, an independent formalization project around phase circulation, closed phase nodes, scalar normal-retention profiles, gauge-like compensation, memory classes, and boundary recording.
+I have opened a public working archive for Field 01, an independent formalization project that is trying to separate standard radial vortex mathematics from a speculative interpretation involving phase circulation, scalar profiles, memory classes, and boundary-record-like language.
 
 Important status note: Field 01 is not presented as a completed physical theory. It does not claim to replace the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics.
 
-The immediate goal is more limited: to make the project inspectable, compare it with known structures such as Abelian-Higgs and vortex models, identify incorrect or misleading language, and find out whether any part of the interpretation can be made mathematically useful.
+The immediate goal is more limited: to make the project inspectable, compare the technical layer with known Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex conventions, identify incorrect or misleading language, and find out whether the interpretive layer can be stated in a mathematically useful way.
 
 The most useful contributions right now are:
 
@@ -189,10 +191,11 @@ The most useful contributions right now are:
 
 Start here:
 
+- FIELD01_GITHUB_START_HERE.md
 - README.md
 - FIELD01_OVERVIEW_EN.md
+- analysis/field01_github_ready_manifest_v1.md
 - CONTRIBUTING.md
-- articles/field01_formalization_program_en.tex
 
 I am looking for criticism and orientation, not endorsement.
 ```

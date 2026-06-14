@@ -8,6 +8,7 @@ Use this file before uploading to GitHub/GitLab.
 
 ### Core Public Documents
 
+- `FIELD01_GITHUB_START_HERE.md`
 - `README.md`
 - `FIELD01_OVERVIEW_EN.md`
 - `CONTRIBUTING.md`
@@ -33,20 +34,33 @@ Use this file before uploading to GitHub/GitLab.
 ### Main Articles
 
 - `articles/field01_formalization_program_en.tex`
-- `articles/field01_formalization_program_en.pdf`
 - `articles/particle_as_closed_wave_en.tex`
 - `articles/horizon_as_phase_recording_surface_en.tex`
 
 Optional for public context:
 
+- `articles/field01_formalization_program_en.pdf` — only if generated intentionally before release
 - `articles/particle_as_closed_wave.tex`
 - `articles/horizon_as_phase_recording_surface.tex`
 
 ### Analysis Notes
 
-Useful, but review before wide public attention:
+Useful, but review before wide public attention. Start with the current formalization checkpoint:
 
 - `analysis/README.md`
+- `analysis/field01_github_ready_manifest_v1.md`
+- `analysis/field01_internal_consistency_pass_v1.md`
+- `analysis/field01_two_layer_formalization_plan.md`
+- `analysis/field01_standard_core_v1.md`
+- `analysis/field01_vortex_convention_dictionary.md`
+- `analysis/field01_schaposnik_vortices_convention_map.md`
+- `analysis/field01_memory_map_definitions_v1.md`
+- `analysis/field01_memory_map_radial_examples_v1.md`
+- `analysis/field01_profile_class_invariants_note.md`
+- `analysis/field01_interpretation_layer_v1.md`
+
+Older/background analysis notes, useful after review:
+
 - `analysis/field01_abelian_higgs_comparison.md`
 - `analysis/field01_covariant_gauge_bridge.md`
 - `analysis/field01_formalization_notes.md`
@@ -61,17 +75,22 @@ Useful, but review before wide public attention:
 
 ### Numerical Reproducibility
 
+Current radial-vortex formalization diagnostics:
+
+- `analysis/numerics/solve_radial_vortex_profile.py`
+- `analysis/numerics/sweep_radial_vortex_coupling.py`
+- `analysis/numerics/radial_vortex_results.json`
+- `analysis/numerics/radial_vortex_coupling_sweep.json`
+- `analysis/numerics/radial_vortex_profile_distances.json`
+
+Earlier phase-normal toy diagnostics, optional after review:
+
 - `analysis/numerics/solve_phase_normal_profile.py`
 - `analysis/numerics/solve_screened_phase_normal_profile.py`
 - `analysis/numerics/phase_normal_profile_results.json`
 - `analysis/numerics/screened_phase_normal_results.json`
-- `analysis/numerics/horizon_boundary_zero_profile.csv`
-- `analysis/numerics/particle_boundary_N0_profile.csv`
-- `analysis/numerics/screened_horizon_boundary_screened_profile.csv`
-- `analysis/numerics/screened_particle_boundary_screened_profile.csv`
-- `analysis/numerics/phase_normal_profiles.png`
-- `analysis/numerics/screened_phase_normal_profiles.png`
-- `analysis/numerics/screened_phase_normal_profiles_2.png`
+
+Generated CSV/PNG profile artifacts should remain ignored unless intentionally included as release assets.
 
 ## Keep Private / Do Not Upload
 
@@ -112,14 +131,18 @@ git status --short --ignored
 
 Before uploading, open and skim these files:
 
+- [ ] `FIELD01_GITHUB_START_HERE.md`
 - [ ] `README.md`
 - [ ] `FIELD01_REFERENCE_MAP.md`
 - [ ] `FIELD01_OVERVIEW_EN.md`
 - [ ] `PUBLIC_READY_STATUS.md`
 - [ ] `LICENSE_NOTE.md`
 - [ ] `articles/field01_formalization_program_en.tex`
-- [ ] `analysis/numerics/solve_phase_normal_profile.py`
-- [ ] `analysis/numerics/solve_screened_phase_normal_profile.py`
+- [ ] `analysis/field01_github_ready_manifest_v1.md`
+- [ ] `analysis/field01_standard_core_v1.md`
+- [ ] `analysis/field01_memory_map_definitions_v1.md`
+- [ ] `analysis/numerics/solve_radial_vortex_profile.py`
+- [ ] `analysis/numerics/sweep_radial_vortex_coupling.py`
 
 Check for:
 

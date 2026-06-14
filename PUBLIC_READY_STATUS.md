@@ -1,5 +1,7 @@
 # Field 01 Public Ready Status
 
+Current reviewer entrypoint: `FIELD01_GITHUB_START_HERE.md`. Use that file as the first public-safe guide before sending readers into the broader archive.
+
 This file summarizes the current readiness of the Field 01 project for a first cautious public release.
 
 Status meaning:
@@ -11,9 +13,9 @@ Status meaning:
 
 ## Overall Status
 
-Current status: `first public GitHub/GitLab publication exists; next step is post-publication sync and first cautious feedback request`.
+Current status: `GitHub-preparation checkpoint; not a new announcement yet`.
 
-The project now has a basic public launch kit:
+The project now has a basic public launch kit and a safer reviewer entrypoint:
 
 - public-facing overview;
 - contribution guide;
@@ -25,7 +27,7 @@ The project now has a basic public launch kit:
 - cleaned `.gitignore` for public repository preparation;
 - standard-reference map for cautious terminology alignment.
 
-The main remaining task is to sync the already-published repository with the current `public_release/` package, then make one cautious terminology/tone feedback post.
+The main remaining task is to align the current formalization package with a public-safe entrypoint, then decide when and whether to publish or request feedback. Reddit should wait until the GitHub package is readable and self-contained.
 
 ## Ready for Public Release
 
@@ -33,6 +35,7 @@ These files are suitable for the first public repository:
 
 | File | Status | Purpose |
 |---|---|---|
+| `FIELD01_GITHUB_START_HERE.md` | ready | Safest current first-entry guide for reviewers. |
 | `README.md` | ready | Main public landing page. |
 | `FIELD01_OVERVIEW_EN.md` | ready | Short first-entry overview for new readers. |
 | `CONTRIBUTING.md` | ready | Explains how people can help constructively. |
@@ -54,7 +57,7 @@ These files are suitable for the first public repository:
 | File | Status | Notes |
 |---|---|---|
 | `articles/field01_formalization_program_en.tex` | ready | Best first technical paper. |
-| `articles/field01_formalization_program_en.pdf` | ready | Useful reader PDF if intentionally included. |
+| `articles/field01_formalization_program_en.pdf` | later | Generate intentionally before release if a reader PDF is needed. |
 | `articles/particle_as_closed_wave_en.tex` | review | Good conceptual background; review for overclaims before wide sharing. |
 | `articles/horizon_as_phase_recording_surface_en.tex` | review | Sensitive because of black-hole/Hawking topics; share carefully. |
 | `articles/particle_as_closed_wave.tex` | later | Russian source/background; not needed for first English launch. |
@@ -69,20 +72,24 @@ articles/field01_formalization_program_en.tex
 Recommended first PDF to share:
 
 ```text
-articles/field01_formalization_program_en.pdf
+Build `articles/field01_formalization_program_en.pdf` intentionally before release if a PDF is needed.
 ```
 
 ## Numerical Materials
 
 | Path | Status | Notes |
 |---|---|---|
-| `analysis/numerics/solve_phase_normal_profile.py` | review | Useful for reproducibility; check comments and paths. |
-| `analysis/numerics/solve_screened_phase_normal_profile.py` | review | Useful for reproducibility; check comments and paths. |
-| `analysis/numerics/*.csv` | review | Keep if scripts and notes explain them. |
-| `analysis/numerics/*.json` | review | Keep if they summarize reproducible toy results. |
-| `analysis/numerics/*.png` | review | Keep selected figures only if useful for readers. |
+| `analysis/numerics/solve_radial_vortex_profile.py` | review | Current radial-vortex profile export script; toy reproducibility helper. |
+| `analysis/numerics/sweep_radial_vortex_coupling.py` | review | Current coupling-sweep and profile-distance script; toy reproducibility helper. |
+| `analysis/numerics/radial_vortex_results.json` | review | Compact tracked radial-vortex summary. |
+| `analysis/numerics/radial_vortex_coupling_sweep.json` | review | Compact tracked coupling-sweep summary. |
+| `analysis/numerics/radial_vortex_profile_distances.json` | review | Compact tracked profile-distance diagnostics. |
+| `analysis/numerics/solve_phase_normal_profile.py` | later | Earlier toy reproducibility script; optional after review. |
+| `analysis/numerics/solve_screened_phase_normal_profile.py` | later | Earlier screened toy reproducibility script; optional after review. |
+| `analysis/numerics/*.csv` | later | Generated artifacts; include only if intentionally selected as release assets. |
+| `analysis/numerics/*.png` | later | Generated plots; include only if intentionally selected as release assets. |
 
-Numerical materials should be described as toy checks, not physical evidence.
+Numerical materials should be described as toy diagnostics, not physical evidence.
 
 ## Private or Local Files
 
@@ -117,7 +124,7 @@ Do this final check manually before posting the link anywhere:
 
 - [ ] Compare the existing GitHub/GitLab repository with the current `public_release/` folder.
 - [ ] Upload or commit the current `FIELD01_REFERENCE_MAP.md` if it is missing online.
-- [ ] Upload or commit the current `articles/field01_formalization_program_en.tex` and `articles/field01_formalization_program_en.pdf`.
+- [ ] Upload or commit the current `articles/field01_formalization_program_en.tex`; generate and include the PDF only if intentional.
 - [ ] Confirm that no LaTeX temporary files are present online: `.aux`, `.log`, `.out`, `.fls`, `.fdb_latexmk`, `.synctex`.
 - [ ] Open `README.md` online and confirm it reads well as the main page.
 - [ ] Open `FIELD01_OVERVIEW_EN.md` online and confirm it is not too long for first readers.
@@ -131,6 +138,7 @@ Do this final check manually before posting the link anywhere:
 Minimal first release:
 
 ```text
+FIELD01_GITHUB_START_HERE.md
 README.md
 FIELD01_OVERVIEW_EN.md
 FIELD01_REFERENCE_MAP.md
@@ -147,7 +155,6 @@ OUTREACH_LETTER_EN.md
 ABSTRACTS_EN.md
 FIELD01_GLOSSARY.md
 articles/field01_formalization_program_en.tex
-articles/field01_formalization_program_en.pdf
 analysis/numerics/solve_phase_normal_profile.py
 analysis/numerics/solve_screened_phase_normal_profile.py
 ```
