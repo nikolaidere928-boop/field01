@@ -232,12 +232,6 @@ For conceptual background:
 1. `articles/particle_as_closed_wave_en.tex`
 2. `articles/horizon_as_phase_recording_surface_en.tex`
 
-For outreach and collaboration:
-
-1. `OUTREACH_PACKAGE_EN.md`
-2. `OUTREACH_LETTER_EN.md`
-3. `FOUR_WEEK_LAUNCH_PLAN.md`
-
 ## 13. Short Public Description
 
 Field 01 is an independent formalization project exploring whether particles, mass-like retention, memory, and horizon-like boundary recording can be described through phase circulation, closed nodes, scalar normal profiles, gauge-like compensation, and equivalence classes of preserved data. It is not a completed theory; it is a cautious toy-level framework seeking criticism and comparison with established physics.

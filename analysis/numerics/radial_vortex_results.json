@@ -1,0 +1,68 @@
+{
+  "standard_vortex_boundary": {
+    "case": "standard_vortex_boundary",
+    "success": true,
+    "message": "The algorithm converged to the desired accuracy.",
+    "parameters": {
+      "lambda": 1.0,
+      "g": 1.0,
+      "N0": 1.0,
+      "n": 1,
+      "r_min": 0.001,
+      "R": 12.0
+    },
+    "boundary_conditions": {
+      "N(r_min)": 0.0,
+      "a(r_min)": 0.0,
+      "N(R)": 1.0,
+      "a(R)": 1
+    },
+    "energy_finite_disk": 3.6340494886492563,
+    "winding_Q_phase": 1,
+    "flux_finite_disk": 6.283185307179586,
+    "flux_over_2pi": 1.0,
+    "screened_phase_mismatch_right": 0.0,
+    "max_N": 1.0,
+    "min_N": 5.17226070767754e-24,
+    "N_mid": 0.9997910894715802,
+    "N_left": 5.17226070767754e-24,
+    "N_right": 1.0,
+    "a_left": 4.513898307157584e-36,
+    "a_mid": 0.9885528318107607,
+    "a_right": 1.0,
+    "max_abs_ode_residual_excluding_core": 1.2333991380314435e-07
+  },
+  "forced_outer_zero_boundary": {
+    "case": "forced_outer_zero_boundary",
+    "success": true,
+    "message": "The algorithm converged to the desired accuracy.",
+    "parameters": {
+      "lambda": 1.0,
+      "g": 1.0,
+      "N0": 1.0,
+      "n": 1,
+      "r_min": 0.001,
+      "R": 12.0
+    },
+    "boundary_conditions": {
+      "N(r_min)": 0.0,
+      "a(r_min)": 0.0,
+      "N(R)": 0.0,
+      "a(R)": 1
+    },
+    "energy_finite_disk": 37.263888601274736,
+    "winding_Q_phase": 1,
+    "flux_finite_disk": 6.283185307179586,
+    "flux_over_2pi": 1.0,
+    "screened_phase_mismatch_right": 0.0,
+    "max_N": 0.999254806412802,
+    "min_N": 2.65599129652368e-24,
+    "N_mid": 0.9991663909786757,
+    "N_left": 2.65599129652368e-24,
+    "N_right": 3.8624702394796095e-19,
+    "a_left": -3.76158192263132e-36,
+    "a_mid": 0.9885371618696168,
+    "a_right": 1.0,
+    "max_abs_ode_residual_excluding_core": 1.2333935673486396e-07
+  }
+}

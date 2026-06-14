@@ -20,7 +20,6 @@ Current files:
 - `field01_bps_coupling_convention_note.md` — identifies the BPS/critical coupling in the current radial vortex normalization, including the `lambda = g^2/2` convention and BPS energy target.
 - `field01_radial_vortex_bps_sweep_results.md` — coupling sweep confirming numerically that `lambda = g^2/2` gives energy close to `pi` for `n=1`, `N0=1`.
 - `field01_vortex_convention_dictionary.md` — maps current radial vortex notation to common Abelian-Higgs/Nielsen-Olesen symbols, including gauge-profile conventions, coupling placement, flux, and BPS normalization warnings.
-- `field01_vortex_public_convention_question.md` — narrow public-facing convention-check question for Abelian-Higgs/Nielsen-Olesen vortex notation, with short reply templates.
 - `field01_vortex_convention_external_feedback.md` — records external feedback confirming the vortex notation while flagging the convention-sensitive `pi` versus `2 pi` BPS energy normalization.
 - `field01_doctor_lobo_feedback.md` — records external guidance on Nielsen-Olesen/Abrikosov framing, covariant-derivative terminology, and the need for an explicit energy functional before physics claims.
 - `field01_schaposnik_vortices_convention_map.md` — PDF-based convention map against F.A. Schaposnik, *Vortices*, including equation-number checks for the ansatz, critical coupling, and BPS energy normalization.
@@ -30,8 +29,6 @@ Current files:
 - `field01_memory_map_definitions_v1.md` — first precise definitions of bulk/boundary memory equivalence, minimal invariant maps, and the bulk-to-boundary projection.
 - `field01_memory_map_radial_examples_v1.md` — applies the memory-map definitions to existing radial vortex JSON outputs, separating minimal topological memory from refined energy/coupling classes.
 - `field01_profile_class_invariants_note.md` — defines radial profile classes as an optional profile-refined diagnostic, not part of minimal topological/boundary memory.
-- `field01_internal_consistency_pass_v1.md` — records the first wording/claim-discipline audit over the standard-core, memory-map, radial-example, and profile-class notes.
-- `field01_github_ready_manifest_v1.md` — internal GitHub-preparation manifest: read order, file roles, non-claims, reproducibility notes, and GitHub/Reddit gates.
 - `field01_two_layer_formalization_plan.md` — separates the standard vortex mathematics checked against convention feedback from Field 01 interpretation, listing proof obligations and public-safe wording rules.
 - `field01_formalization_roadmap.md` — compact roadmap for a future formalization paper, organizing the chain from phase to reduced state.
 

@@ -1,6 +1,6 @@
 # Field 01
 
-**Current reviewer entrypoint:** start with `FIELD01_GITHUB_START_HERE.md` before reading the broader archive. It gives the safest current framing, read order, non-claims, and GitHub/Reddit gates for this work-in-progress.
+**Current reviewer entrypoint:** start with `FIELD01_GITHUB_START_HERE.md` before reading the broader archive. It gives the safest current framing, read order, non-claims, and feedback targets for this work-in-progress.
 
 Field 01 is an independent research and writing project exploring a cautious phase-based language for particles, memory, and boundary recording.
 
@@ -12,7 +12,7 @@ Field 01 studies whether particle-like and horizon-like phenomena can be describ
 
 ## Current Status
 
-This repository is a working archive. It contains drafts, notes, toy-model calculations, and outreach material. The project is intentionally cautious and distinguishes between:
+This repository is a working archive. It contains drafts, notes, toy-model calculations, and reference material. The project is intentionally cautious and distinguishes between:
 
 1. established mathematics and physics;
 2. Field 01 interpretation;
@@ -29,24 +29,15 @@ The most developed mathematical direction currently resembles known Abelian-Higg
 
 ## Supporting Material
 
-- `FIELD01_GITHUB_START_HERE.md` — safest current first-entry guide for GitHub reviewers, with read order, non-claims, and feedback gates.
+- `FIELD01_GITHUB_START_HERE.md` — safest current first-entry guide for reviewers, with read order, non-claims, and feedback targets.
 - `FIELD01_OVERVIEW_EN.md` — short first-entry overview for new readers.
+- `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard references and vocabulary.
 - `PROJECT_ROADMAP_EN.md` — compact English roadmap.
-- `OUTREACH_PACKAGE_EN.md` — guide for sharing the project with external readers.
-- `OUTREACH_LETTER_EN.md` — cautious first-contact message template.
 - `ABSTRACTS_EN.md` — short abstracts for the current papers.
 - `FIELD01_GLOSSARY.md` — current terminology and preferred cautious language.
 - `CONTRIBUTING.md` — how to give useful criticism or help with the project.
-- `FIRST_PUBLIC_POSTS.md` — cautious templates for Reddit, repository announcements, and first public messages.
-- `RELEASE_CHECKLIST.md` — checklist for the first public repository release.
 - `LICENSE_NOTE.md` — temporary usage note before choosing a formal license.
-- `BEGINNER_PUBLICATION_GUIDE_RU.md` — practical Russian guide for publishing the project as a beginner.
-- `FEEDBACK_LOG.md` — template for recording criticism, references, and revision decisions.
 - `LITERATURE_BRIDGE.md` — working map from book recommended literature to academic references.
-- `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard references and vocabulary.
-- `PUBLIC_READY_STATUS.md` — current readiness summary for first public release.
-- `PUBLIC_FILE_MANIFEST.md` — file-by-file manifest for GitHub/GitLab upload.
-- `NEXT_ACTIONS_RU.md` — immediate step-by-step actions for GitHub release and first Reddit post.
 - `analysis/` — notes, comparisons, and numerical toy-model results.
 
 ## What This Project Claims
@@ -99,11 +90,6 @@ For conceptual background:
 
 1. `articles/particle_as_closed_wave_en.tex`
 2. `articles/horizon_as_phase_recording_surface_en.tex`
-
-For outreach or collaboration:
-
-1. `OUTREACH_PACKAGE_EN.md`
-2. `OUTREACH_LETTER_EN.md`
 
 ## Build Notes
 

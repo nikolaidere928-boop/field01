@@ -14,7 +14,7 @@ The repository contains:
 - standard vortex-math comparison notes;
 - exploratory Field 01 interpretation notes;
 - toy numerical diagnostics;
-- public-outreach drafts that still require careful review.
+- reference and roadmap documents intended to make the project easier to criticize.
 
 The safest current reading is:
 
@@ -54,15 +54,15 @@ If any file appears to suggest one of these claims, treat it as a draft wording 
 
 For the current formalization checkpoint, start with:
 
-1. `analysis/field01_github_ready_manifest_v1.md`
-2. `analysis/field01_internal_consistency_pass_v1.md`
-3. `analysis/field01_two_layer_formalization_plan.md`
-4. `analysis/field01_standard_core_v1.md`
-5. `analysis/field01_vortex_convention_dictionary.md`
-6. `analysis/field01_schaposnik_vortices_convention_map.md`
-7. `analysis/field01_memory_map_definitions_v1.md`
-8. `analysis/field01_memory_map_radial_examples_v1.md`
-9. `analysis/field01_profile_class_invariants_note.md`
+1. `analysis/field01_standard_core_v1.md`
+2. `analysis/field01_vortex_convention_dictionary.md`
+3. `analysis/field01_schaposnik_vortices_convention_map.md`
+4. `analysis/field01_bps_coupling_convention_note.md`
+5. `analysis/field01_memory_map_definitions_v1.md`
+6. `analysis/field01_memory_map_radial_examples_v1.md`
+7. `analysis/field01_profile_class_invariants_note.md`
+8. `analysis/field01_interpretation_layer_v1.md`
+9. `analysis/field01_two_layer_formalization_plan.md`
 
 For a broader but less formal overview, read:
 
@@ -97,7 +97,6 @@ Useful feedback at this stage:
 - Are the BPS normalization statements clear and convention-safe?
 - Are the memory-map equivalence relations mathematically well-defined enough to criticize?
 - Which Field 01 terms are misleading or too strong?
-- Which files should remain internal before a public release?
 
 Less useful at this stage:
 
@@ -105,41 +104,25 @@ Less useful at this stage:
 - debating black-hole information claims that are explicitly not being made;
 - treating interpretive labels as established physics.
 
-## 7. Current GitHub Gate
+## 7. Repository Hygiene
 
-Before a real GitHub release or announcement, do one more pass over:
+The public repository should contain only project-facing files: overview documents, working papers, analysis notes, numerical summaries, and contribution guidance.
 
-1. `README.md` for public-safe wording;
-2. `PUBLIC_FILE_MANIFEST.md` for the include/exclude list;
-3. `PUBLIC_READY_STATUS.md` for readiness status;
-4. `FIRST_PUBLIC_POSTS.md` for Reddit wording;
-5. `LICENSE_NOTE.md` for sharing terms;
-6. `git status --short` to confirm that private/local files are excluded.
-
-Do not upload:
+Do not upload personal workflow material or local helper artifacts:
 
 ```text
 AGENTS.md
 uploads/
 prism-uploads/
+local upload-helper folders
+local transfer archives
 LaTeX temporary files
 Python cache files
+private publication checklists or personal step-by-step notes
 ```
 
-## 8. Reddit Gate
+## 8. Current Status
 
-Reddit should wait until the GitHub package is readable and self-contained.
+Current status: public working archive checkpoint.
 
-A safe future Reddit question would be narrow:
-
-```text
-Does this convention map and equivalence-class bookkeeping for a radial Abelian-Higgs/Nielsen-Olesen toy model look internally consistent?
-```
-
-Do not start with a broad claim about a new theory.
-
-## 9. Current Status
-
-Current status: close to a GitHub-preparation checkpoint, not ready for announcement yet.
-
-Next safe step: update `README.md`, `PUBLIC_FILE_MANIFEST.md`, and `PUBLIC_READY_STATUS.md` so they point to this file as the first entrypoint.
+The next useful step is technical criticism of the standard-vortex convention map, the memory-equivalence definitions, and the separation between standard mathematics and Field 01 interpretation.
