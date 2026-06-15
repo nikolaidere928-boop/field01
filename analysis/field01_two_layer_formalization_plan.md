@@ -57,9 +57,9 @@ Definition:
 ```math
 \Psi(r,\theta)=N(r)e^{in\theta},
 \qquad
-A_r=0,
+A=a(r)\,d\theta,
 \qquad
-A_\theta=a(r).
+a(r)\ \text{dimensionless}.
 ```
 
 Definition:
@@ -185,6 +185,13 @@ E_{ours,\mathrm{BPS}}=\pi N_0^2|n|.
 
 Therefore, `E=pi` for `N0=1`, `n=1` is convention-consistent in the present explicit `1/2 |D_i Psi|^2` normalization. It must not be compared directly with `2 pi v^2 n` conventions without a scalar-normalization map.
 
+Additional standard-background anchors for this layer:
+
+```text
+R. Rajaraman, Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory, North-Holland, 1982.
+D. Tong, TASI Lectures on Solitons, arXiv:hep-th/0509216.
+```
+
 ## 3. Layer B: Field 01 Interpretive Layer
 
 The following terms are not standard vortex results. They may be used only with labels.
@@ -255,7 +262,7 @@ Open problems:
 ## 6. Public-Safe Abstract
 
 ```text
-This project currently isolates a standard mathematical core: a two-dimensional radial vortex ansatz with phase winding, a scalar modulus, and a U(1) covariant derivative whose angular component vanishes asymptotically. The closest standard comparisons are Abelian-Higgs / Nielsen-Olesen vortices and Abrikosov / Ginzburg-Landau vortices. In the present normalization, Schaposnik's convention maps to lambda=g^2/2 and E_BPS=pi N0^2 |n|. Any Field 01 language about memory, normal retention, or horizon-like behavior is interpretive and must be defined separately. No new physical model is claimed at this stage.
+This project currently isolates a standard mathematical core: a two-dimensional radial vortex ansatz with phase winding, a scalar modulus, and a U(1) covariant derivative whose angular component vanishes asymptotically. The closest standard comparisons are Abelian-Higgs / Nielsen-Olesen vortices and Abrikosov / Ginzburg-Landau vortices. In the present ordinary Abelian-Higgs normalization, with the dimensionless coordinate one-form profile A = a(r) d theta, Schaposnik's convention maps to lambda=g^2/2 and E_BPS=pi N0^2 |n|. Any Field 01 language about memory, normal retention, or horizon-like behavior is interpretive and must be defined separately. No new physical model is claimed at this stage.
 ```
 
 ## 7. Immediate Editing Plan

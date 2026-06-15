@@ -13,7 +13,7 @@ The toy ingredients are:
 \qquad
 N=N(r),
 \qquad
-A_\theta=a(r),
+A=a(r)\,d\theta,
 \qquad
 D_\mu\varphi=\partial_\mu\varphi-A_\mu.
 ```
@@ -104,7 +104,7 @@ a(0)=0,
 a(r\to\infty)\to n,
 ```
 
-up to conventions for how `A_theta` and `a(r)` are normalized.
+where `a(r)` is a dimensionless coordinate one-form profile. Equivalently, with a physical gauge potential and coupling in the covariant derivative, write `\mathcal A=(a(r)/g)\,d\theta`. The normalization must be stated before comparing conventions.
 
 The essential idea is:
 

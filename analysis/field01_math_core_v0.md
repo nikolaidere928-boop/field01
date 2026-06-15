@@ -103,7 +103,7 @@ For a rotational ansatz, choose conventions such that:
 ```math
 \varphi=n\theta,
 \qquad
-A_\theta=a(r),
+A=a(r)\,d\theta,
 \qquad
 A_r=0,
 \qquad
@@ -118,7 +118,7 @@ N^2(D\varphi)^2
 \frac{(n-a(r))^2N(r)^2}{r^2}.
 ```
 
-The exact radial functional depends on the convention used for `A_theta`, metric factors in polar coordinates, and normalization of the gauge coupling. These conventions must be stated explicitly before comparing equations term-by-term.
+The exact radial functional depends on the convention used for the coordinate one-form profile `a(r)`, metric factors in polar coordinates, and normalization of the gauge coupling. These conventions must be stated explicitly before comparing equations term-by-term. In the current convention, `a(r)` is dimensionless and can be written equivalently as `A=a(r)\,d\theta` or `\mathcal A=(a(r)/g)\,d\theta` when the coupling is placed in the covariant derivative.
 
 ## 6. Boundary Conditions
 
@@ -215,7 +215,7 @@ Before this can be presented as more than a toy comparison, define:
 1. the exact action or static energy functional;
 2. units and dimensions of all fields and couplings;
 3. the precise polar-coordinate convention for `A_theta` and `a(r)`;
-4. the boundary conditions at `r=0` and `r=infinity`;
+4. the boundary conditions at `r=0` and `r=infinity`, including near-core regularity `N(r)~r^|n|` and `a(r)~O(r^2)`;
 5. whether the domain is infinite, finite, or bounded;
 6. how the toy equations relate to standard Abelian-Higgs vortex equations;
 7. whether anything remains after subtracting the standard Abelian-Higgs content.

@@ -50,7 +50,7 @@ Equivalently, the dimensionless ratio is:
 \beta_{\mathrm{BPS}}=1.
 ```
 
-This is the safest way to compare conventions, because many references place factors of `2`, `e`, or `1/2` differently.
+This is the safest way to compare conventions, because many references place factors of `2`, `e`, or `1/2` differently. It is also only a statement about the ordinary Abelian-Higgs energy written above; Chern-Simons terms, dielectric functions, or other modified gauge sectors require a separate self-duality analysis.
 
 ## 3. BPS Energy Bound In This Normalization
 
@@ -131,19 +131,26 @@ E_{\mathrm{BPS}}=\pi N_0^2|n|.
 
 This is consistent with using the `pi` target in the present explicit `1/2 |D_i\Psi|^2` scalar-kinetic normalization.
 
+Broader soliton/vortex background references for this standard layer include Rajaraman's textbook and Tong's TASI soliton lectures:
+
+```text
+R. Rajaraman, Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory, North-Holland, 1982.
+D. Tong, TASI Lectures on Solitons, arXiv:hep-th/0509216.
+```
+
 ## 5. Radial BPS Equations
 
-For positive winding with the convention:
+For positive winding with the charge-absorbed coordinate one-form convention:
 
 ```math
 \varphi=n\theta,
 \qquad
-A_\theta=a(r),
+A=a(r)\,d\theta,
 \qquad
 B=\frac{a'}{r},
 ```
 
-one convenient sign choice gives:
+or equivalently `\mathcal A=(a/g)d\theta` and `B_{\mathrm{phys}}=a'/(g r)`, one convenient sign choice gives:
 
 ```math
 N'=\frac{n-a}{r}N,

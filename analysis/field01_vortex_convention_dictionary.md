@@ -8,10 +8,12 @@ External feedback update: use the broader standard label set `Abelian-Higgs / Ni
 
 ## 1. Our Current Convention
 
-The current technical core uses:
+The current technical core uses a charge-absorbed coordinate one-form convention:
 
 ```math
 \Psi=N(r)e^{in\theta},
+\qquad
+A=a(r)\,d\theta,
 \qquad
 A_r=0,
 \qquad
@@ -24,6 +26,16 @@ with:
 D_i\Psi=(\partial_i-iA_i)\Psi,
 \qquad
 B=\frac{a'(r)}{r}.
+```
+
+Here `a(r)` is dimensionless. Equivalently, if the physical gauge potential is written with the coupling in the covariant derivative,
+
+```math
+D_i\Psi=(\partial_i-ig\mathcal A_i)\Psi,
+\qquad
+\mathcal A=\frac{a(r)}{g}\,d\theta,
+\qquad
+B_{\mathrm{phys}}=\frac{a'(r)}{g r}.
 ```
 
 The energy is:
@@ -61,6 +73,15 @@ a(0)=0,
 a(\infty)=n.
 ```
 
+Near-core regularity for winding `n` requires
+
+```math
+N(r)\sim C r^{|n|},
+\qquad
+a(r)\sim O(r^2),
+\qquad r\to0.
+```
+
 Flux in this convention:
 
 ```math
@@ -76,6 +97,8 @@ Critical coupling in this convention:
 \qquad
 \beta_{\mathrm{BPS}}=1.
 ```
+
+This BPS statement applies to the ordinary Abelian-Higgs energy above. Chern-Simons terms, dielectric functions, or other modified gauge-sector terms require a separate self-duality analysis.
 
 ## 1.1 Standard Names And Scope
 
@@ -202,14 +225,28 @@ Different references define the radial gauge profile differently. The same confi
 
 ### 3.1 Coordinate One-Form Convention
 
-This is the current convention:
+This is the current convention. The charge-absorbed connection one-form is
 
 ```math
-A_\theta=a(r),
+A=a(r)\,d\theta,
 \qquad
+A_\theta=a(r),
+```
+
+so that
+
+```math
 D_\theta\varphi=n-a(r),
 \qquad
 B=\frac{a'}{r}.
+```
+
+Equivalently, with a physical gauge potential and `D_i=\partial_i-ig\mathcal A_i`, write
+
+```math
+\mathcal A=\frac{a(r)}{g}\,d\theta,
+\qquad
+B_{\mathrm{phys}}=\frac{a'}{g r}.
 ```
 
 Boundary conditions:
@@ -365,14 +402,24 @@ or equivalently:
 \frac{n}{\rho}\frac{d\alpha}{d\rho}=1-h^2.
 ```
 
-## 6. Energy Normalization Warnings
+## 6. Reference Anchors
+
+Use these as standard background anchors for the vortex/soliton layer:
+
+```text
+F.A. Schaposnik, Vortices, arXiv:hep-th/0611028v1.
+R. Rajaraman, Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory, North-Holland, 1982.
+D. Tong, TASI Lectures on Solitons, arXiv:hep-th/0509216.
+```
+
+## 7. Energy Normalization Warnings
 
 References may differ by factors of `1/2` in the scalar kinetic term, Maxwell term, and potential. Therefore the following quantities are convention-sensitive:
 
 - the numerical value of `lambda_BPS`;
 - whether the BPS energy is written as `pi N0^2 n` or `2 pi v^2 n`;
 - whether the flux is `2 pi n` or `2 pi n/e`;
-- whether `A_theta` denotes a coordinate component or a physical angular component;
+- whether `A_theta` denotes a coordinate one-form component, an orthonormal physical angular component, or a charge-absorbed profile;
 - whether `a(r)` tends to `n`, `1`, or `0` at infinity.
 
 The safest comparison procedure is:
@@ -383,7 +430,7 @@ The safest comparison procedure is:
 4. map the boundary conditions;
 5. only then compare BPS coupling and energy.
 
-## 7. Minimal Dictionary Table
+## 8. Minimal Dictionary Table
 
 | Concept | Our symbol | Common alternatives |
 |---|---|---|
@@ -402,7 +449,7 @@ The safest comparison procedure is:
 | coupling ratio | `beta=2 lambda/g^2` | GL parameter, type-I/type-II parameter |
 | BPS point | `beta=1` | critical coupling |
 
-## 8. Physics Threshold
+## 9. Physics Threshold
 
 A radial ansatz plus boundary conditions is not, by itself, a complete physical theory. Before making physics claims, state at least one of:
 
@@ -418,8 +465,8 @@ Practical wording rule:
 Before the energy/action is explicit, say "toy ansatz" or "standard vortex-like mathematical structure", not "new physical model".
 ```
 
-## 9. Public-Safe Summary
+## 10. Public-Safe Summary
 
 ```text
-My notation uses A_theta=a(r), so the angular covariant-derivative term is (n-a)^2 N^2/r^2. Many references instead write a(r)=n alpha(r) or a(r)=n[1-P(r)]. In those conventions the same term becomes n^2(1-alpha)^2N^2/r^2 or n^2P^2N^2/r^2. The coupling convention also differs: I put the gauge coupling in the Maxwell term, so the BPS point is lambda=g^2/2, equivalently beta=2lambda/g^2=1. BPS energy comparisons are normalization-sensitive: Schaposnik uses a 1/2 scalar-kinetic convention and gives E >= pi phi0^2 |N|, which maps to our pi N0^2 |n| target; many other references write 2 pi v^2 |n| with a different scalar normalization.
+My notation uses the dimensionless coordinate one-form profile A = a(r) d theta, equivalently a physical gauge potential (a(r)/g) d theta when the coupling is placed in the covariant derivative, so the angular covariant-derivative term is (n-a)^2 N^2/r^2. The finite-energy conditions are N(0)=0, a(0)=0, N(infinity)=N0, and a(infinity)=n, with regular near-core behavior N(r)~r^|n| and a(r)~O(r^2). Many references instead write a(r)=n alpha(r) or a(r)=n[1-P(r)]. In those conventions the same term becomes n^2(1-alpha)^2N^2/r^2 or n^2P^2N^2/r^2. The coupling convention also differs: I put the gauge coupling in the Maxwell term, so the ordinary Abelian-Higgs BPS point is lambda=g^2/2, equivalently beta=2lambda/g^2=1. BPS energy comparisons are normalization-sensitive: Schaposnik uses a 1/2 scalar-kinetic convention and gives E >= pi phi0^2 |N|, which maps to our pi N0^2 |n| target; many other references write 2 pi v^2 |n| with a different scalar normalization. This BPS statement is not universal for Chern-Simons, dielectric, or other modified gauge sectors.
 ```

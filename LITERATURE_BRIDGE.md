@@ -233,6 +233,8 @@ The current Field 01 formalization is closest to vortex and Abelian-Higgs struct
 | Abrikosov vortices | Abrikosov's vortex lattice / type-II superconductivity papers or a standard review | Needed because Abelian-Higgs vortices are often called Abrikosov-Nielsen-Olesen vortices. |
 | Topological defects | Vilenkin and Shellard, *Cosmic Strings and Other Topological Defects* | Standard language for defects, winding, and cosmological context. |
 | Solitons | Manton and Sutcliffe, *Topological Solitons* | Standard mathematical vocabulary for solitons and topological charges. |
+| Solitons | Rajaraman, *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory* | Classic textbook anchor for finite-energy soliton and instanton methods. |
+| Soliton lecture notes | Tong, *TASI Lectures on Solitons*, arXiv:hep-th/0509216 | Accessible modern lecture-note anchor with vortices in the standard soliton taxonomy. |
 | Abelian-Higgs model | textbook or review section on Abelian-Higgs vortices | Needed to align notation and avoid claiming novelty for standard equations. |
 | Ginzburg-Landau vortices | standard superconductivity / Ginzburg-Landau reference | Useful bridge between scalar profile, phase, and screening. |
 

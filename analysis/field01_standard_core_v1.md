@@ -45,13 +45,27 @@ with vortex phase:
 n\in\mathbb Z.
 ```
 
-Use an Abelian gauge field in the convention:
+Use an Abelian gauge field in the charge-absorbed convention:
 
 ```math
 D_i=\partial_i-iA_i.
 ```
 
-The coupling is not placed in `D_i`; it is placed in the gauge-field kinetic term.
+The coupling is not placed in `D_i`; it is placed in the gauge-field kinetic term. In polar coordinates `A_i` denotes a coordinate one-form component, not an orthonormal physical angular component. Equivalently, if one writes the physical gauge potential as `\mathcal A` with
+
+```math
+D_i=\partial_i-ig\mathcal A_i,
+```
+
+then the same radial convention is
+
+```math
+\mathcal A=\frac{a(r)}{g}\,d\theta,
+\qquad
+A=a(r)\,d\theta.
+```
+
+Thus `a(r)` is a dimensionless angular profile and can be compared directly with the integer winding `n` in the expression `n-a(r)`.
 
 ## 3. Winding Number
 
@@ -83,10 +97,14 @@ Use the radial ansatz:
 ```math
 \Psi=N(r)e^{in\theta},
 \qquad
+A=a(r)\,d\theta,
+\qquad
 A_r=0,
 \qquad
 A_\theta=a(r).
 ```
+
+Equivalently, in the convention `D_i=\partial_i-ig\mathcal A_i`, this is `\mathcal A=(a(r)/g)d\theta`. In either notation `a(r)` is dimensionless.
 
 In this convention, the angular covariant derivative contributes the factor:
 
@@ -134,6 +152,17 @@ D_\theta\Psi\to0
 \quad(r\to\infty).
 ```
 
+Near the origin, regularity requires the leading behavior
+
+```math
+N(r)\sim C r^{|n|},
+\qquad
+a(r)\sim O(r^2),
+\qquad r\to0,
+```
+
+so that the angular kinetic term remains finite.
+
 These boundary conditions match the normalized reference convention where the gauge profile tends to `1`, after the map:
 
 ```math
@@ -144,13 +173,19 @@ a_{ref}(\infty)=1.
 
 ## 6. Magnetic Field And Flux
 
-In the current polar-coordinate convention:
+In the current charge-absorbed polar-coordinate convention:
 
 ```math
 B=F_{12}=\frac{a'(r)}{r}.
 ```
 
-The total flux is:
+If the physical gauge potential is written as `\mathcal A=(a/g)d\theta`, the corresponding physical magnetic field is
+
+```math
+B_{\mathrm{phys}}=\frac{a'(r)}{g r}.
+```
+
+The total charge-absorbed flux is:
 
 ```math
 \Phi_B
@@ -253,6 +288,8 @@ Equivalently:
 \beta_{\mathrm{BPS}}=1.
 ```
 
+This statement is convention-local: it applies to the ordinary Abelian-Higgs radial energy above. Adding Chern-Simons terms, dielectric functions, or other nonstandard gauge-sector terms would require a new BPS/self-dual analysis and should not be covered by this `lambda=g^2/2` statement.
+
 At the BPS point, the first-order radial equations can be written as:
 
 ```math
@@ -291,6 +328,13 @@ Reference:
 
 ```text
 F.A. Schaposnik, Vortices, arXiv:hep-th/0611028v1.
+```
+
+Additional soliton/vortex background references:
+
+```text
+R. Rajaraman, Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory, North-Holland, 1982.
+D. Tong, TASI Lectures on Solitons, arXiv:hep-th/0509216.
 ```
 
 Schaposnik's Abelian-Higgs energy per unit length is:
@@ -377,7 +421,7 @@ This file only fixes a clean standard mathematical core and its convention map.
 ## 13. Public-Safe Summary
 
 ```text
-The standard core is a two-dimensional radial Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex ansatz: a winding complex scalar, a radial scalar modulus, and a U(1) covariant derivative whose angular component vanishes at infinity. In the current normalization the energy has an explicit 1/2 scalar kinetic term, the BPS point is lambda=g^2/2, and the unit-winding BPS target is E=pi for N0=1. This is standard vortex machinery, not a novelty claim.
+The standard core is a two-dimensional radial Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex ansatz: a winding complex scalar, a radial scalar modulus, and a dimensionless angular gauge profile defined by the coordinate one-form A = a(r) d theta, equivalently a physical gauge potential (a(r)/g) d theta when the coupling is placed in the covariant derivative. The finite-energy conditions are N(0)=0, a(0)=0, N(infinity)=N0, and a(infinity)=n, with near-core behavior N(r)~r^|n| and a(r)~O(r^2). In this ordinary Abelian-Higgs normalization the energy has an explicit 1/2 scalar kinetic term, the BPS point is lambda=g^2/2, and the unit-winding BPS target is E=pi for N0=1. This is standard vortex machinery, not a novelty claim.
 ```
 
 ## 14. Next Use

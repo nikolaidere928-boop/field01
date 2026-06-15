@@ -32,12 +32,20 @@ d^2x=\sqrt{g}\,dr\,d\theta=r\,dr\,d\theta.
 
 ## 2. Convention A: Gauge Coupling In Maxwell Term
 
-Use the convention:
+Use the charge-absorbed convention:
 
 ```math
 D_i\Psi=(\partial_i-iA_i)\Psi,
 \qquad
 \Psi=N e^{i\varphi}.
+```
+
+Here `A_i` is a coordinate one-form component. The equivalent convention with a physical gauge potential is
+
+```math
+D_i\Psi=(\partial_i-ig\mathcal A_i)\Psi,
+\qquad
+A_i=g\mathcal A_i.
 ```
 
 The static energy density is:
@@ -76,10 +84,14 @@ Choose:
 \qquad
 N=N(r),
 \qquad
+A=a(r)\,d\theta,
+\qquad
 A_r=0,
 \qquad
 A_\theta=a(r).
 ```
+
+Equivalently, `\mathcal A=(a(r)/g)d\theta` when the coupling is placed in the covariant derivative. In either notation `a(r)` is dimensionless.
 
 Then:
 
@@ -116,7 +128,7 @@ the gauge-field energy term is:
 =\frac{1}{2g^2}\frac{(a')^2}{r^2}.
 ```
 
-Equivalently, the magnetic field perpendicular to the plane is:
+Equivalently, the charge-absorbed magnetic field perpendicular to the plane is:
 
 ```math
 B=F_{\hat r\hat\theta}=\frac{F_{r\theta}}{r}=\frac{a'}{r},
@@ -127,6 +139,8 @@ and the gauge term is:
 ```math
 \frac{1}{2g^2}B^2.
 ```
+
+If one instead uses `\mathcal A=(a/g)d\theta`, the physical magnetic field is `B_{\mathrm{phys}}=a'/(g r)` and the same gauge contribution is `\frac12 B_{\mathrm{phys}}^2`.
 
 ## 4. Radial Energy Functional
 
@@ -274,13 +288,13 @@ The screening condition is:
 eA_\theta(r\to\infty)\to n.
 ```
 
-If one defines:
+If one defines the dimensionless coordinate one-form profile:
 
 ```math
 a(r)=eA_\theta(r),
 ```
 
-then the radial formula returns to Convention A, with coupling moved into the gauge-field kinetic term.
+then the radial formula returns to Convention A, with coupling moved into the gauge-field kinetic term. If `A_\theta` is instead an orthonormal physical angular component, the coordinate one-form component includes the polar-coordinate factor `r`.
 
 ## 9. Relation To The Existing Toy Model
 
@@ -295,7 +309,7 @@ This derivation shows that this replacement is exactly what follows from the ang
 ```math
 \varphi=n\theta,
 \qquad
-A_\theta=a(r).
+A=a(r)\,d\theta.
 ```
 
 The gauge-field radial cost should not be written generically as just `(a')^2`; the polar-coordinate expression gives:

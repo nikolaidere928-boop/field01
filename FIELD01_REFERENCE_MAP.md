@@ -87,9 +87,11 @@ These are the most important missing references for the formalization paper beca
 | 1 | H. B. Nielsen and P. Olesen, “Vortex-line models for dual strings,” *Nuclear Physics B* 61, 45--61 (1973). | Closest classic source for scalar field + phase winding + gauge field vortex structure. |
 | 2 | A. A. Abrikosov, “On the magnetic properties of superconductors of the second group,” *Soviet Physics JETP* 5, 1174--1182 (1957). | Classic source for vortex lattice / type-II superconductivity analogy. |
 | 3 | N. Manton and P. Sutcliffe, *Topological Solitons*, Cambridge University Press, 2004. | Standard vocabulary for solitons, vortices, topology, charges, moduli. |
-| 4 | A. Vilenkin and E. P. S. Shellard, *Cosmic Strings and Other Topological Defects*, Cambridge University Press, 1994. | Standard reference for topological defects and cosmological context. |
-| 5 | Standard Abelian-Higgs model review or textbook section. | Needed to align notation for `Psi = N exp(i phi)`, covariant derivative, and current. |
-| 6 | Standard Ginzburg-Landau superconductivity reference. | Needed for screening, scalar order parameter, and vortex analogy. |
+| 4 | R. Rajaraman, *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory*, North-Holland, 1982. | Classic textbook anchor for solitons, instantons, finite-energy defects, and Bogomolny-type methods. |
+| 5 | D. Tong, *TASI Lectures on Solitons*, arXiv:hep-th/0509216. | Accessible lecture-note anchor with a dedicated vortex discussion and convention comparisons. |
+| 6 | A. Vilenkin and E. P. S. Shellard, *Cosmic Strings and Other Topological Defects*, Cambridge University Press, 1994. | Standard reference for topological defects and cosmological context. |
+| 7 | Standard Abelian-Higgs model review or textbook section. | Needed to align notation for `Psi = N exp(i phi)`, covariant derivative, and current. |
+| 8 | Standard Ginzburg-Landau superconductivity reference. | Needed for screening, scalar order parameter, and vortex analogy. |
 
 ## 5. How To Rewrite the Formalization Paper
 
