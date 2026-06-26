@@ -8,7 +8,7 @@ At the present stage, Field 01 is **not** presented as a completed physical theo
 
 ## One-Sentence Summary
 
-Field 01 studies whether particle-like and horizon-like phenomena can be described, at toy-model level, using phase circulation, closed nodes, normal retention, memory classes, and boundary recording.
+Field 01 studies whether particle-like and horizon-like phenomena can be described, at toy-model level, using phase circulation, closed nodes, a standard scalar-modulus / VEV-profile layer, labelled normal-retention interpretation, memory classes, and boundary recording.
 
 ## Current Status
 
@@ -19,13 +19,13 @@ This repository is a working archive. It contains drafts, notes, toy-model calcu
 3. speculative hypotheses;
 4. open problems requiring criticism and formalization.
 
-The most developed mathematical direction currently resembles known Abelian-Higgs or vortex-like structures. Field 01 should therefore not claim novelty merely from phase winding, gauge-like notation, or scalar radial profiles. The possible value, if any, lies in the proposed interpretation of normal retention, memory, and boundary recording.
+The most developed mathematical direction currently resembles known Abelian-Higgs or vortex-like structures. Field 01 should therefore not claim novelty merely from phase winding, gauge-like notation, scalar radial profiles, VEV-profile layers, or order-parameter profiles. The possible value, if any, lies only in separately defined interpretations such as normal retention, memory, and boundary recording.
 
 ## Main Working Papers
 
 - `articles/particle_as_closed_wave_en.tex` — elementary particle as a closed phase configuration.
 - `articles/horizon_as_phase_recording_surface_en.tex` — black-hole horizon as a phase recording surface.
-- `articles/field01_formalization_program_en.tex` — formalization program using phase, winding, normal retention, gauge-like compensation, current-like flow, memory classes, and boundary maps.
+- `articles/field01_formalization_program_en.tex` — formalization program using phase, winding, scalar modulus / VEV-profile vocabulary, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory classes, and boundary maps.
 
 ## Supporting Material
 
@@ -45,7 +45,7 @@ The most developed mathematical direction currently resembles known Abelian-Higg
 The project currently claims only that Field 01 can be organized into a coherent research program with a toy-level formal vocabulary:
 
 - closed phase nodes can be represented by winding;
-- normal retention can be modeled by a scalar profile;
+- the Field 01 term `normal retention` can be attached, at toy level, to a standard scalar modulus / VEV or order-parameter profile;
 - gauge-like compensation can reduce long-range phase mismatch;
 - a current-like object follows from phase-shift symmetry in the toy model;
 - memory can be formalized as an equivalence class of selected/recorded data;

@@ -69,7 +69,7 @@ Book-derived references to add:
 
 | Reference / Topic | Book Location | Public Use | Status |
 |---|---|---|---|
-| pending | pending | Compare with screened phase-normal toy model | open |
+| pending | pending | Compare with screened phase-scalar toy model with normal-retention interpretation | open |
 
 ### 3. Gauge Theory and Noether Currents
 

@@ -20,7 +20,8 @@ The current formalization chain is:
 ```text
 phase
 -> closed node
--> normal retention
+-> scalar modulus / VEV-profile
+-> Field 01 interpretation as normal retention
 -> gauge-like compensation
 -> current-like flow
 -> memory class
@@ -35,7 +36,7 @@ The central question is whether the book-level language of Field 01 can be expre
 The current toy-level variables are:
 
 - `phi` — a phase variable;
-- `N` — a scalar proxy for normal retention or local depth;
+- `N` — in the standard vortex layer, a scalar modulus / VEV or order-parameter profile; in Field 01 language, an interpretive proxy for normal retention or local depth;
 - `A_mu` — a connection-like compensating field;
 - `M` — memory, treated as preserved phase-structural data;
 - `Q_wind` — a winding number or topological record of closed circulation.
@@ -56,28 +57,28 @@ In this language:
 
 - a photon is treated as open phase transport;
 - a massive particle is treated as closed phase circulation;
-- mass is associated, at toy-model level, with the energy cost of retaining a closed phase-normal structure;
+- mass is associated, at toy-model level, with the energy cost of retaining a closed phase-scalar structure with a normal-retention interpretation;
 - memory is associated with preserved phase structure.
 
 The cautious form of the hypothesis is:
 
 ```text
-massive particle ~ retained closed phase-normal configuration
+massive particle ~ retained closed phase-scalar configuration with a normal-retention interpretation
 ```
 
 This is not yet a derivation of physical mass. It is a proposed interpretational route that must be compared with quantum field theory, solitons, topological defects, the Higgs mechanism, spin, charge, and the Standard Model particle spectrum.
 
 ## 4. Normal Retention
 
-Field 01 uses the phrase “normal retention” for the local depth or retained normal component associated with a closed configuration.
+Field 01 uses the phrase “normal retention” for the local-depth reading assigned to the scalar/VEV-profile layer of a closed configuration.
 
-In the first toy formalization, this is represented by a scalar radial profile:
+In the standard Abelian-Higgs / vortex comparison layer, the relevant object is simply the scalar modulus, VEV-profile, or order-parameter magnitude:
 
 ```text
 N = N(r).
 ```
 
-A closed winding without compensation has long-range energy cost. Introducing `N(r)` gives a way to discuss localization and retention, but by itself it is not enough to define a complete physical particle.
+The phrase “normal retention” is a Field 01 interpretation of this scalar profile, not a new independent degree of freedom in the standard vortex layer. A closed winding without compensation has long-range energy cost. Introducing `N(r)` gives a way to discuss localization and retention, but by itself it is not enough to define a complete physical particle.
 
 The current working interpretation is:
 
@@ -85,7 +86,7 @@ The current working interpretation is:
 normal retention = local scalar depth needed to maintain a closed phase node
 ```
 
-This phrase is model-specific and should be treated carefully. It is not yet a standard physical observable.
+This phrase is model-specific and should be treated carefully. It is not standard Abelian-Higgs terminology and is not yet a standard physical observable.
 
 ## 5. Gauge-Like Compensation
 
@@ -107,7 +108,7 @@ This reduces the long-range mismatch of a bare winding in the toy model. The str
 Psi = N exp(i phi).
 ```
 
-This similarity is important. Field 01 should not claim that phase winding, gauge-like compensation, or scalar radial profiles are new. The responsible next step is comparison with existing vortex, soliton, topological-defect, and Abelian-Higgs literature.
+This similarity is important. Field 01 should not claim that phase winding, gauge-like compensation, scalar radial profiles, VEV-profile layers, or order-parameter profiles are new. The responsible next step is comparison with existing vortex, soliton, topological-defect, and Abelian-Higgs literature.
 
 ## 6. Memory as Preserved Structure
 
@@ -178,7 +179,7 @@ What exactly is standard, what exactly is reinterpretation, and what exactly rem
 At the current stage, the project claims only that Field 01 can be organized into a coherent toy-level formalization program:
 
 - closed phase nodes can be represented by winding;
-- normal retention can be modeled by a scalar profile;
+- the Field 01 phrase “normal retention” can be represented, at toy level, by the standard scalar modulus / VEV or order-parameter profile;
 - gauge-like compensation can reduce long-range phase mismatch;
 - retained covariant phase flow has a current-like expression in the toy model;
 - memory can be represented as an equivalence class of preserved data;

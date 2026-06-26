@@ -20,6 +20,7 @@ The safest current reading is:
 
 ```text
 standard radial vortex mathematics
+-> scalar modulus / VEV-profile and gauge-convention layer
 -> convention map and numerical diagnostics
 -> labelled equivalence-class / memory-map definitions
 -> clearly separated Field 01 interpretation and open problems
@@ -29,9 +30,9 @@ standard radial vortex mathematics
 
 This is an attempt to organize a speculative conceptual project into a form that can be criticized.
 
-The strongest current technical substrate is standard radial vortex mathematics related to Abelian-Higgs / Nielsen-Olesen / Abrikosov / Ginzburg-Landau conventions.
+The strongest current technical substrate is standard radial vortex mathematics related to Abelian-Higgs / Nielsen-Olesen / Abrikosov / Ginzburg-Landau conventions. In that standard layer, `N(r)` should be read first as a scalar modulus, VEV-profile, or order-parameter profile.
 
-The Field 01 terms `memory`, `normal retention`, `boundary recording`, `horizon-like`, and `charge-like` are interpretive labels unless explicitly defined in a formal note.
+The Field 01 terms `memory`, `normal retention`, `boundary recording`, `horizon-like`, and `charge-like` are interpretive labels unless explicitly defined in a formal note. In particular, `normal retention` is not a new standard degree of freedom; it is a Field 01 reading of the scalar profile unless additional structure is defined.
 
 ## 3. What This Is Not
 
@@ -75,19 +76,15 @@ For a broader but less formal overview, read:
 The compact tracked numerical records are:
 
 ```text
-analysis/numerics/phase_normal_profile_results.json
 analysis/numerics/radial_vortex_results.json
 analysis/numerics/radial_vortex_coupling_sweep.json
 analysis/numerics/radial_vortex_profile_distances.json
-analysis/numerics/screened_phase_normal_results.json
 ```
 
 The tracked helper scripts are:
 
 ```text
-analysis/numerics/solve_phase_normal_profile.py
 analysis/numerics/solve_radial_vortex_profile.py
-analysis/numerics/solve_screened_phase_normal_profile.py
 analysis/numerics/sweep_radial_vortex_coupling.py
 ```
 
@@ -100,6 +97,7 @@ Useful feedback at this stage:
 - Are the Abelian-Higgs / Nielsen-Olesen / Abrikosov convention mappings stated correctly?
 - Are the BPS normalization statements clear and convention-safe?
 - Are the memory-map equivalence relations mathematically well-defined enough to criticize?
+- Is the standard-first wording around `N(r)` as scalar modulus / VEV or order-parameter profile clear enough?
 - Which Field 01 terms are misleading or too strong?
 
 Less useful at this stage:
@@ -129,4 +127,4 @@ local publication checklists or personal step-by-step notes
 
 Current status: public working archive checkpoint.
 
-The next useful step is technical criticism of the standard-vortex convention map, the memory-equivalence definitions, and the separation between standard mathematics and Field 01 interpretation.
+The next useful step is technical criticism of the standard-vortex convention map, the `N(r)` terminology, the memory-equivalence definitions, and the separation between standard mathematics and Field 01 interpretation.

@@ -9,7 +9,7 @@ Field 01 is an independent research program. It is not presented as a completed 
 The current working formulation is:
 
 ```text
-Field 01 proposes an interpretational and phase-topological language in which particles, mass, memory, and horizons are described as stable regimes of field rhythm, phase circulation, normal retention, and boundary recording.
+Field 01 proposes an interpretational and phase-topological language in which particles, mass, memory, and horizons are described as stable regimes of field rhythm, phase circulation, scalar modulus / VEV-profile layer with a normal-retention interpretation, and boundary recording.
 ```
 
 The project distinguishes four levels:
@@ -54,15 +54,15 @@ Key ideas:
 
 - photon as open phase transport;
 - massive particle as closed phase circulation;
-- normal degree of freedom as local depth;
+- scalar modulus / VEV-profile language interpreted through the Field 01 local-depth / normal-retention label;
 - mass as energy cost of maintaining a closed configuration;
 - memory as retained phase structure;
-- horizon as a limiting case where the normal degree of freedom is suppressed.
+- horizon as a limiting case where the local scalar/normal profile is suppressed.
 
 Open tasks:
 
 - define the phase variable precisely;
-- define the normal degree of freedom geometrically;
+- define whether the scalar/normal profile is only a scalar modulus proxy or requires additional geometric structure;
 - construct an energy functional or action;
 - compare with QFT particles, solitons, topological defects, spin, and the Higgs mechanism.
 
@@ -82,7 +82,7 @@ A black-hole horizon can be interpreted as a boundary recording surface where vo
 
 Key ideas:
 
-- suppression of the radial normal degree of freedom;
+- suppression of the radial scalar/normal profile;
 - transition from volumetric memory to boundary record;
 - relation to the Bekenstein--Hawking area law;
 - thermality as a reduced-access description;
@@ -105,7 +105,7 @@ F_01        field 01
 1           direction, motion, circulation
 phi         phase
 C           phase circulation contour
-N           normal degree of freedom
+N           scalar modulus / VEV-profile; Field 01 normal-retention interpretation
 M           memory / phase record
 ```
 
@@ -165,7 +165,7 @@ complete theory of everything
 ## 6. Next Research Steps
 
 1. Build a minimal mathematical model for phase circulation and closed waves.
-2. Define the normal degree of freedom and its suppression near a boundary.
+2. Define the scalar/normal profile and its suppression near a boundary.
 3. Propose a candidate energy functional for stable closed configurations.
 4. Formalize memory as phase relation or equivalence class.
 5. Define a candidate bulk-to-boundary map.
