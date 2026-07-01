@@ -165,14 +165,14 @@ photon: open circulation, N = 0
 
 **Статус:** стандартная терминология Abelian-Higgs / Nielsen-Olesen / Abrikosov / Ginzburg-Landau vortex language.
 
-**Английский вариант:** `scalar modulus`, `order-parameter profile`, `VEV-profile`, `background scalar profile`.
+**Английский вариант:** `scalar modulus`, `order-parameter profile`, `background scalar profile`, `profile approaching a vacuum value`.
 
 **Где используется:** стандартный вихревой слой; сравнение с известной физикой.
 
 Осторожная формулировка:
 
 ```text
-In the standard vortex layer, N(r) is the scalar modulus / VEV or order-parameter profile.
+In the standard vortex layer, N(r) is the radial scalar modulus / order-parameter profile.
 ```
 
 Важно:

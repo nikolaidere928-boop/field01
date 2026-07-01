@@ -1,6 +1,6 @@
 # Field 01 Reference Map
 
-This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a working guide for revising the public papers after early external feedback.
+This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a working guide for keeping the public papers standard-first.
 
 The rule is:
 
@@ -22,7 +22,7 @@ For every important concept, write in this order:
 Example:
 
 ```text
-In standard Abelian-Higgs/Nielsen-Olesen vortex models, a complex scalar field has a phase winding and a radial scalar modulus / VEV or order-parameter profile, with a gauge field screening the long-range phase gradient. Field 01 uses this same toy-level structure as a controlled language for closed phase nodes and phase memory. The additional phrase normal retention is an interpretation of the scalar profile, not a new standard degree of freedom. The mathematical ingredients are standard; the interpretation is Field 01-specific and remains hypothetical.
+In standard Abelian-Higgs/Nielsen-Olesen vortex models, a complex scalar field has a phase winding and a radial scalar modulus or order-parameter profile approaching a vacuum value, with a gauge field screening the long-range phase gradient. Field 01 uses this same toy-level structure as a controlled language for closed phase nodes and phase memory. The additional phrase normal retention is an interpretation of the scalar profile, not a new standard degree of freedom. The mathematical ingredients are standard; the interpretation is Field 01-specific and remains hypothetical.
 ```
 
 ## 2. Reference Map Table
@@ -31,13 +31,13 @@ In standard Abelian-Higgs/Nielsen-Olesen vortex models, a complex scalar field h
 |---|---|---|---|---|---|
 | `phase`, `rhythm` | phase field; angular variable; phase of a complex scalar/order parameter | Feynman Lectures; Landau-Lifshitz Quantum Mechanics; Nielsen-Olesen vortex; Manton-Sutcliffe Topological Solitons | Phase variables and phase gradients are standard. | Phase is read as rhythm or mode-1 circulation. | Use `phase variable` first; introduce `rhythm` as interpretation only. |
 | `closed phase node` | vortex; topological defect; closed phase winding; topological charge | Nielsen and Olesen, 1973; Manton and Sutcliffe, 2004; Vilenkin and Shellard, 1994 | Integer winding and topological charge are standard. | A closed node is read as a retained phase-memory configuration. | Say “represented by winding” rather than “is proven to be a particle.” |
-| `normal retention` | scalar modulus; radial scalar profile; VEV-profile; order-parameter magnitude; background scalar profile | Nielsen-Olesen vortex; Abelian-Higgs model; Ginzburg-Landau/Abrikosov vortex literature | Scalar modulus / VEV or order-parameter profiles in vortices are standard. | `N(r)` is interpreted as local depth or normal-retention interpretation of the scalar profile. | Use `scalar modulus / VEV or order-parameter profile N(r)` first; define `normal retention` only as Field 01 model language. |
+| `normal retention` | scalar modulus; radial scalar profile; order-parameter magnitude; profile approaching a vacuum value | Nielsen-Olesen vortex; Abelian-Higgs model; Ginzburg-Landau/Abrikosov vortex literature | Scalar modulus and order-parameter profiles in vortices are standard. | `N(r)` is interpreted as local depth or normal-retention interpretation of the scalar profile. | Use `radial scalar modulus / order-parameter profile N(r)` first; define `normal retention` only as Field 01 model language. |
 | `gauge-like compensation` | U(1) gauge field; connection; covariant derivative; screening of phase gradient | Nielsen-Olesen, 1973; Ginzburg-Landau superconductivity; Abelian-Higgs model | Gauge fields and covariant derivatives are standard. | The compensating field is read as field response to retained phase mismatch. | Prefer `connection-like field` or `compensating gauge field`; avoid implying electromagnetism is derived. |
 | `current-like flow` | Noether current; gauge current; conserved phase current | Noether theorem; field theory textbooks; Abelian-Higgs current | Conservation from phase symmetry is standard. | Retained covariant phase flow is interpreted as memory-carrying circulation. | Say `current-like object inside the toy model`; do not call it electric current. |
 | `memory` | preserved field data; equivalence class; gauge-equivalence class; invariant data | Gauge theory; topology; moduli spaces; quantum information references | Quotienting by gauge/coordinate choices is standard. | Memory is read as preserved phase-scalar-gauge structure with a normal-retention interpretation. | Define invariants first; avoid psychological meaning of memory. |
 | `bulk memory` | bulk field configuration modulo equivalence | Gauge theory; topological defects; holography literature | Bulk fields and equivalence classes are standard tools. | Field 01 treats local structure as memory class. | Use schematic notation only until Hilbert/state space is defined. |
-| `boundary recording` | boundary data; holographic boundary; surface degrees of freedom | Bekenstein; Hawking; 't Hooft; Susskind; Maldacena | Boundary/horizon information language is standard. | Boundary record is interpreted as preserved phase memory at a limiting surface. | Do not claim solution to black-hole information problem. |
-| `reduced external state` | reduced density matrix; partial trace; inaccessible degrees of freedom | Nielsen-Chuang; Preskill; Almheiri et al.; Page | Reduced states and thermality from tracing are standard. | External thermality is interpreted as limited access to boundary record. | Say `may be interpreted`; do not say Hawking radiation is false. |
+| `boundary recording` | boundary data; holographic boundary; surface degrees of freedom | Bekenstein; Hawking; 't Hooft; Susskind; Maldacena | Boundary/horizon information language is standard. | Boundary record is interpreted as preserved phase memory at a limiting surface. | Present as a boundary-data interpretation requiring comparison. |
+| `reduced external state` | reduced density matrix; partial trace; inaccessible degrees of freedom | Nielsen-Chuang; Preskill; Almheiri et al.; Page | Reduced states and thermality from tracing are standard. | External thermality is interpreted as limited access to boundary record. | Compare with standard thermality and reduced-state language first. |
 | `horizon as phase recording surface` | black-hole horizon; entropy area law; holographic screen; boundary degrees of freedom | Bekenstein 1973; Hawking 1975; 't Hooft 1993; Susskind 1995; Maldacena 1997 | Horizon thermodynamics and holography are established frameworks. | Horizon is read as a limiting phase-recording boundary. | Present as interpretation requiring comparison, not derivation. |
 
 ## 3. Exact References Already Present in Source Materials
@@ -100,13 +100,13 @@ The current paper should be revised with a “standard-first” style.
 ### Current Style
 
 ```text
-Field 01 interprets a massive local node as more than a phase winding. In the standard comparison layer this uses a scalar modulus / VEV-profile N(r); Field 01 then reads that profile as normal retention.
+Field 01 interprets a massive local node as more than a phase winding. In the standard comparison layer this uses a radial scalar modulus / order-parameter profile N(r); Field 01 then reads that profile as normal retention.
 ```
 
 ### Better Academic Style
 
 ```text
-In vortex and Abelian-Higgs-type models, a complex scalar field can be written in polar form, with a phase variable and a radial scalar modulus / VEV or order-parameter profile. A configuration with nonzero winding requires this profile to regularize the core and, in the gauged case, a connection field to screen the long-range phase gradient. Field 01 uses this standard mathematical structure as a toy representation of a closed phase node. The model-specific interpretation is to read the scalar profile as a proxy for normal retention or local depth.
+In vortex and Abelian-Higgs-type models, a complex scalar field can be written in polar form, with a phase variable and a radial scalar modulus / order-parameter profile. A configuration with nonzero winding requires this profile to regularize the core and, in the gauged case, a connection field to screen the long-range phase gradient. Field 01 uses this standard mathematical structure as a toy representation of a closed phase node. The model-specific interpretation is to read the scalar profile as a proxy for normal retention or local depth.
 ```
 
 ## 6. What Is Same / Different
@@ -115,7 +115,7 @@ In vortex and Abelian-Higgs-type models, a complex scalar field can be written i
 
 - phase variable;
 - winding number;
-- scalar modulus / VEV or order-parameter profile;
+- radial scalar modulus / order-parameter profile;
 - gauge/connection field;
 - covariant derivative;
 - field strength;
@@ -127,7 +127,7 @@ In vortex and Abelian-Higgs-type models, a complex scalar field can be written i
 ### Field 01-Specific Interpretation
 
 - phase as rhythm;
-- `N(r)` first as scalar modulus / VEV or order-parameter profile, then as Field 01 normal-retention / local-depth interpretation;
+- `N(r)` first as radial scalar modulus / order-parameter profile, then as Field 01 normal-retention / local-depth interpretation;
 - winding as phase memory;
 - gauge-like compensation as field response;
 - memory as preserved phase-scalar-gauge data with a normal-retention interpretation;
@@ -150,7 +150,7 @@ Completed in `articles/field01_formalization_program_en.tex` v0.2:
 
 1. Added a `Standard-First Vocabulary Rule` section.
 2. Added immediate reference anchors for Abelian-Higgs/vortex, soliton, topological-defect, and horizon-information comparisons.
-3. Rewrote the normal-retention section to introduce the standard scalar modulus / VEV or order-parameter profile first.
+3. Rewrote the normal-retention section to introduce the standard radial scalar modulus / order-parameter profile first.
 4. Rewrote the gauge-like section as connection-like compensation before the Field 01 interpretation.
 5. Added explicit caution that the Abelian-Higgs/vortex structure is not a new invention.
 
@@ -160,10 +160,6 @@ Still open before a technical post:
 2. Ask a domain expert or a focused physics forum for the best textbook review on Abelian-Higgs vortices before posting the technical paper.
 3. Add exact page/section pointers for the standard references after checking the sources directly.
 
-## 8. Short Answer to Early External Feedback
+## 8. Current Terminology Check
 
-A good response to this advice is:
-
-```text
-Thank you, this is exactly the direction I need. I have now started building a reference map that links my terms to standard vocabulary: phase winding, scalar modulus / VEV or order-parameter profile, Abelian-Higgs/Nielsen-Olesen vortices, topological defects, Noether currents, reduced density matrices, and holographic boundary language. The next revision will introduce standard terms and citations first, and only then explain the Field 01 interpretation.
-```
+The main terminology rule is simple: introduce the standard object first, then the Field 01 interpretation. For the present checkpoint this means starting from phase winding, radial scalar modulus / order-parameter profile, Abelian-Higgs/Nielsen-Olesen vortices, topological defects, Noether currents, reduced density matrices, and holographic boundary language before introducing Field 01 labels.

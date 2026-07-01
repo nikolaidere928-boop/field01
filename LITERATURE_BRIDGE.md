@@ -6,7 +6,7 @@ Its purpose is to transform the book's recommended reading lists and chapter-lev
 
 ## Why This File Exists
 
-Early external feedback suggested that the project should study the closest relevant papers and write in a similar style and vocabulary, while citing them even where the Field 01 interpretation differs.
+The project needs to study the closest relevant papers and write in a similar style and vocabulary, while citing them even where the Field 01 interpretation differs.
 
 This is the right next step. Field 01 should not rely only on original terminology. It should first identify the nearest standard literature, adopt standard vocabulary where possible, and then clearly mark what is interpretation or hypothesis.
 
