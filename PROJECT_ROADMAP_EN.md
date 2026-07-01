@@ -4,12 +4,12 @@ This document summarizes the current development plan for Field 01 in English. I
 
 ## 1. Project Status
 
-Field 01 is an independent research program. It is not presented as a completed theory and does not claim to replace the Standard Model, quantum field theory, or general relativity.
+Field 01 is an independent research program and public working archive. The current aim is to define a standard mathematical baseline, separate it from Field 01 interpretation, and list the open problems clearly.
 
 The current working formulation is:
 
 ```text
-Field 01 proposes an interpretational and phase-topological language in which particles, mass, memory, and horizons are described as stable regimes of field rhythm, phase circulation, scalar modulus / VEV-profile layer with a normal-retention interpretation, and boundary recording.
+Field 01 proposes an interpretational and phase-topological language in which selected particle-like and boundary-like ideas are described using phase circulation, radial scalar profiles, equivalence classes, and boundary maps.
 ```
 
 The project distinguishes four levels:
@@ -27,9 +27,9 @@ Development path:
 
 ```text
 book-level idea
--> Russian-language working drafts
+-> working drafts
+-> standard-first terminology map
 -> English working papers
--> glossary and outreach package
 -> mathematical formalization
 -> comparison with established physics
 ```
@@ -54,7 +54,7 @@ Key ideas:
 
 - photon as open phase transport;
 - massive particle as closed phase circulation;
-- scalar modulus / VEV-profile language interpreted through the Field 01 local-depth / normal-retention label;
+- radial scalar modulus / order-parameter profile language interpreted through the Field 01 local-depth / normal-retention label;
 - mass as energy cost of maintaining a closed configuration;
 - memory as retained phase structure;
 - horizon as a limiting case where the local scalar/normal profile is suppressed.
@@ -105,7 +105,7 @@ F_01        field 01
 1           direction, motion, circulation
 phi         phase
 C           phase circulation contour
-N           scalar modulus / VEV-profile; Field 01 normal-retention interpretation
+N           radial scalar modulus / order-parameter profile; Field 01 normal-retention interpretation
 M           memory / phase record
 ```
 
@@ -120,47 +120,9 @@ Core formalization targets:
 7. relation to known quantum numbers;
 8. possible observable or theoretical differences.
 
-## 5. Scientific Caution
+## 5. Current Limit
 
-Recommended phrases:
-
-```text
-can be interpreted as
-```
-
-```text
-working hypothesis
-```
-
-```text
-interpretational framework
-```
-
-```text
-requires further formalization
-```
-
-```text
-not a replacement for established theory at this stage
-```
-
-Avoid phrases such as:
-
-```text
-proved a new theory
-```
-
-```text
-the Standard Model is wrong
-```
-
-```text
-Hawking was wrong
-```
-
-```text
-complete theory of everything
-```
+The repository should be read as a working archive, not as a finished theory. Its useful content is the separation between standard mathematical structures, Field 01 interpretation, and open proof obligations.
 
 ## 6. Next Research Steps
 
@@ -174,4 +136,4 @@ complete theory of everything
 
 ## 7. Recommended Use
 
-For external contact, use this roadmap only after a reader asks for broader project context. For first contact, send the shorter package note and one working paper.
+Use this roadmap as broad project context after reading `FIELD01_GITHUB_START_HERE.md` and `README.md`.

@@ -1,8 +1,8 @@
 # Field 01 Overview
 
-This is a short entry document for readers encountering Field 01 for the first time. It is intentionally cautious. It does not present Field 01 as a completed physical theory, and it does not claim to replace the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics.
+This is a short entry document for readers encountering Field 01 for the first time.
 
-The purpose of this overview is to make the project inspectable: what it is trying to formalize, what is already close to known mathematics, what remains speculative, and what kind of criticism is needed.
+Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer. The purpose of this overview is to make the project inspectable: what is standard, what is reinterpretation, and what remains open.
 
 ## 1. Basic Idea
 
@@ -20,7 +20,7 @@ The current formalization chain is:
 ```text
 phase
 -> closed node
--> scalar modulus / VEV-profile
+-> radial scalar modulus / order-parameter profile
 -> Field 01 interpretation as normal retention
 -> gauge-like compensation
 -> current-like flow
@@ -36,7 +36,7 @@ The central question is whether the book-level language of Field 01 can be expre
 The current toy-level variables are:
 
 - `phi` — a phase variable;
-- `N` — in the standard vortex layer, a scalar modulus / VEV or order-parameter profile; in Field 01 language, an interpretive proxy for normal retention or local depth;
+- `N` — in the standard vortex layer, a radial scalar modulus / order-parameter profile; in Field 01 language, an interpretive proxy for normal retention or local depth;
 - `A_mu` — a connection-like compensating field;
 - `M` — memory, treated as preserved phase-structural data;
 - `Q_wind` — a winding number or topological record of closed circulation.
@@ -70,9 +70,9 @@ This is not yet a derivation of physical mass. It is a proposed interpretational
 
 ## 4. Normal Retention
 
-Field 01 uses the phrase “normal retention” for the local-depth reading assigned to the scalar/VEV-profile layer of a closed configuration.
+Field 01 uses the phrase “normal retention” for the local-depth reading assigned to the radial scalar profile layer of a closed configuration.
 
-In the standard Abelian-Higgs / vortex comparison layer, the relevant object is simply the scalar modulus, VEV-profile, or order-parameter magnitude:
+In the standard Abelian-Higgs / vortex comparison layer, the relevant object is simply the radial scalar modulus or order-parameter magnitude:
 
 ```text
 N = N(r).
@@ -108,7 +108,7 @@ This reduces the long-range mismatch of a bare winding in the toy model. The str
 Psi = N exp(i phi).
 ```
 
-This similarity is important. Field 01 should not claim that phase winding, gauge-like compensation, scalar radial profiles, VEV-profile layers, or order-parameter profiles are new. The responsible next step is comparison with existing vortex, soliton, topological-defect, and Abelian-Higgs literature.
+This similarity is important. Field 01 should not claim that phase winding, gauge-like compensation, scalar radial profiles or order-parameter profiles are new. The responsible next step is comparison with existing vortex, soliton, topological-defect, and Abelian-Higgs literature.
 
 ## 6. Memory as Preserved Structure
 
@@ -150,7 +150,7 @@ Pi_boundary: M_bulk -> M_boundary.
 
 In this interpretation, a horizon is not treated as a place where the project has already solved black-hole information. Instead, the horizon is used as a possible limiting regime where local normal depth is suppressed and accessible external description is reduced to boundary data.
 
-This does not derive Hawking radiation, black-hole entropy, or a full holographic theory. It is only an interpretational proposal that must be compared with quantum field theory in curved spacetime, black-hole thermodynamics, holography, and the information problem.
+This is an interpretational proposal that must be compared with quantum field theory in curved spacetime, black-hole thermodynamics, holography, and the information problem before any stronger statement is possible.
 
 ## 8. Relation to Known Physics
 
@@ -174,40 +174,29 @@ The immediate scientific task is not to defend novelty, but to answer:
 What exactly is standard, what exactly is reinterpretation, and what exactly remains an open hypothesis?
 ```
 
-## 9. What Field 01 Currently Claims
+## 9. Working Scope
 
-At the current stage, the project claims only that Field 01 can be organized into a coherent toy-level formalization program:
+At the current stage, the project tries to organize the following toy-level vocabulary:
 
 - closed phase nodes can be represented by winding;
-- the Field 01 phrase “normal retention” can be represented, at toy level, by the standard scalar modulus / VEV or order-parameter profile;
+- the Field 01 phrase “normal retention” can be represented, at toy level, by a standard radial scalar modulus or order-parameter profile;
 - gauge-like compensation can reduce long-range phase mismatch;
 - retained covariant phase flow has a current-like expression in the toy model;
 - memory can be represented as an equivalence class of preserved data;
 - boundary recording can be represented by a bulk-to-boundary map;
 - a reduced external state can be interpreted as limited access to a fuller boundary record.
 
-These are formalization claims, not claims of a completed fundamental theory.
+These are formalization targets, not completed results.
 
-## 10. What Field 01 Does Not Claim
+## 10. Current Limit
 
-Field 01 does not currently claim that:
+Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
 
-- the Standard Model is wrong;
-- quantum field theory is replaced;
-- general relativity is replaced;
-- Hawking radiation is refuted;
-- black-hole thermodynamics is derived;
-- spin, charge, and the particle spectrum have been derived;
-- a final action or Lagrangian has been found;
-- experimental predictions are already available.
-
-Any public presentation of the project should preserve these limits.
-
-## 11. Feedback Needed
+## 11. Review Needed
 
 The project needs critical help more than agreement.
 
-Useful feedback includes:
+Useful review checks include:
 
 - identifying where the model is simply standard Abelian-Higgs or vortex mathematics;
 - pointing out incorrect or misleading terminology;
@@ -235,4 +224,4 @@ For conceptual background:
 
 ## 13. Short Public Description
 
-Field 01 is an independent formalization project exploring whether particles, mass-like retention, memory, and horizon-like boundary recording can be described through phase circulation, closed nodes, scalar normal profiles, gauge-like compensation, and equivalence classes of preserved data. It is not a completed theory; it is a cautious toy-level framework seeking criticism and comparison with established physics.
+Field 01 is an independent formalization project exploring whether selected particle-like and boundary-like ideas can be organized through phase circulation, radial scalar profiles, gauge-like compensation, and equivalence classes of preserved data. It is a toy-level working archive seeking criticism and comparison with established physics.

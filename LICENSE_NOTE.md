@@ -6,7 +6,7 @@ A precise long-term license has not yet been chosen. Until a formal license is a
 
 ## Texts and Papers
 
-The written materials, including papers, overview documents, roadmap files, glossary entries, and outreach texts, are shared for reading, criticism, quotation, and discussion.
+The written materials, including papers, overview documents, roadmap files, glossary entries, and overview and roadmap files, are shared for reading, criticism, quotation, and discussion.
 
 If you quote or discuss substantial parts of the text, please credit the author and refer to the project as Field 01.
 

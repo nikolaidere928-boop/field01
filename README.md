@@ -1,35 +1,39 @@
 # Field 01
 
-**Current reviewer entrypoint:** start with `FIELD01_GITHUB_START_HERE.md` before reading the broader archive. It gives the safest current framing, read order, non-claims, and feedback targets for this work-in-progress.
+**Current reviewer entrypoint:** start with `FIELD01_GITHUB_START_HERE.md` before reading the broader archive.
 
-Field 01 is an independent research and writing project exploring a cautious phase-based language for particles, memory, and boundary recording.
+Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer, so that the terminology can be criticized before any stronger claims are made.
 
-At the present stage, Field 01 is **not** presented as a completed physical theory. It does not claim to replace the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics. The current goal is narrower: to translate a book-level conceptual model into clear working papers, toy mathematical structures, numerical checks, and open questions that can be criticized by readers with stronger backgrounds in physics and mathematics.
+The current goal is to translate a book-level conceptual model into clearer working notes: standard definitions first, Field 01 labels second, open problems last.
 
 ## One-Sentence Summary
 
-Field 01 studies whether particle-like and horizon-like phenomena can be described, at toy-model level, using phase circulation, closed nodes, a standard scalar-modulus / VEV-profile layer, labelled normal-retention interpretation, memory classes, and boundary recording.
+Field 01 studies whether selected particle-like and boundary-like ideas can be organized around phase circulation, radial scalar profiles, gauge-convention choices, equivalence classes, and boundary maps at toy-model level.
 
 ## Current Status
 
-This repository is a working archive. It contains drafts, notes, toy-model calculations, and reference material. The project is intentionally cautious and distinguishes between:
+This repository is a working archive. It contains drafts, notes, toy-model calculations, and reference material. The public structure distinguishes between:
 
 1. established mathematics and physics;
 2. Field 01 interpretation;
 3. speculative hypotheses;
 4. open problems requiring criticism and formalization.
 
-The most developed mathematical direction currently resembles known Abelian-Higgs or vortex-like structures. Field 01 should therefore not claim novelty merely from phase winding, gauge-like notation, scalar radial profiles, VEV-profile layers, or order-parameter profiles. The possible value, if any, lies only in separately defined interpretations such as normal retention, memory, and boundary recording.
+The most developed mathematical direction currently resembles known Abelian-Higgs or vortex-like structures. In that layer, `N(r)` is treated first as a radial scalar modulus or order-parameter profile approaching a vacuum value. Field 01 labels such as `normal retention`, `memory`, and `boundary recording` are interpretation-layer vocabulary, not standard physics terminology.
+
+## Current Limit
+
+Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
 
 ## Main Working Papers
 
 - `articles/particle_as_closed_wave_en.tex` — elementary particle as a closed phase configuration.
-- `articles/horizon_as_phase_recording_surface_en.tex` — black-hole horizon as a phase recording surface.
-- `articles/field01_formalization_program_en.tex` — formalization program using phase, winding, scalar modulus / VEV-profile vocabulary, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory classes, and boundary maps.
+- `articles/horizon_as_phase_recording_surface_en.tex` — horizon-like boundary recording interpretation.
+- `articles/field01_formalization_program_en.tex` — formalization program using phase, winding, radial scalar profiles, gauge-like compensation, current-like flow, memory classes, and boundary maps.
 
 ## Supporting Material
 
-- `FIELD01_GITHUB_START_HERE.md` — safest current first-entry guide for reviewers, with read order, non-claims, and feedback targets.
+- `FIELD01_GITHUB_START_HERE.md` — first-entry guide for reviewers, with read order and review questions.
 - `FIELD01_OVERVIEW_EN.md` — short first-entry overview for new readers.
 - `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard references and vocabulary.
 - `PROJECT_ROADMAP_EN.md` — compact English roadmap.
@@ -40,12 +44,12 @@ The most developed mathematical direction currently resembles known Abelian-Higg
 - `LITERATURE_BRIDGE.md` — working map from book recommended literature to academic references.
 - `analysis/` — notes, comparisons, and numerical toy-model results.
 
-## What This Project Claims
+## Working Scope
 
-The project currently claims only that Field 01 can be organized into a coherent research program with a toy-level formal vocabulary:
+The project currently tries to organize the following toy-level vocabulary:
 
 - closed phase nodes can be represented by winding;
-- the Field 01 term `normal retention` can be attached, at toy level, to a standard scalar modulus / VEV or order-parameter profile;
+- the Field 01 term `normal retention` can be attached, at toy level, to a standard radial scalar modulus or order-parameter profile;
 - gauge-like compensation can reduce long-range phase mismatch;
 - a current-like object follows from phase-shift symmetry in the toy model;
 - memory can be formalized as an equivalence class of selected/recorded data;
@@ -61,12 +65,12 @@ Important unresolved problems include:
 - clarifying any relation to the Standard Model;
 - deriving or rejecting links to spin, charge, and particle spectra;
 - constructing a boundary Hilbert-space description;
-- comparing the horizon interpretation with standard black-hole thermodynamics and Hawking radiation;
+- comparing the boundary-recording interpretation with standard black-hole thermodynamics, Hawking radiation, and holographic language;
 - identifying whether any testable or theoretically distinguishable prediction exists.
 
-## Feedback Requested
+## Review Questions
 
-The most useful feedback is critical and specific. In particular:
+The most useful review is critical and specific. In particular:
 
 - Where does this reduce to known physics?
 - Which terms are misleading or nonstandard?
@@ -75,7 +79,7 @@ The most useful feedback is critical and specific. In particular:
 - What literature must be compared first?
 - What minimal toy model should be formalized before any broader claims are made?
 
-I am seeking criticism, orientation, and help with formalization — not endorsement.
+The most useful response is precise correction: standard terminology, missing references, wrong equations, or places where Field 01 language should be weakened.
 
 ## Suggested Reading Order
 

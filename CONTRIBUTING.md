@@ -153,9 +153,9 @@ Good first contributions:
 5. Reproduce one numerical result from `analysis/numerics/`.
 6. Rewrite one paragraph to distinguish established physics from Field 01 interpretation.
 
-## How to Phrase Feedback
+## How to Phrase Review Notes
 
-The most useful feedback is specific and actionable.
+The most useful review notes are specific and actionable.
 
 Less useful:
 
