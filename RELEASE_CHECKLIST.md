@@ -1,0 +1,334 @@
+# Field 01 Public Release Checklist
+
+This checklist prepares either the first public release of Field 01 (`v0.1-public`) or the current feedback-sync release (`v0.2-feedback`).
+
+The goal of the first release is not to prove the project. The goal is to create a clean, inspectable, cautious archive that can receive criticism.
+
+## 1. Release Goal
+
+The first public release should answer one question:
+
+```text
+Can a stranger understand what Field 01 is trying to formalize, what it does not claim, and how to criticize it constructively?
+```
+
+If the answer is no, delay public posting and improve the entry documents.
+
+## 2. Required Files
+
+Before release, the repository should contain:
+
+- `README.md`
+- `FIELD01_GITHUB_START_HERE.md`
+- `FIELD01_OVERVIEW_EN.md`
+- `CONTRIBUTING.md`
+- `PROJECT_ROADMAP_EN.md`
+- `PUBLIC_READY_STATUS.md`
+- `OUTREACH_PACKAGE_EN.md`
+- `FIRST_PUBLIC_POSTS.md`
+- `FOUR_WEEK_LAUNCH_PLAN.md`
+- `FIELD01_GLOSSARY.md`
+- `ABSTRACTS_EN.md`
+- `articles/field01_formalization_program_en.tex`
+- `articles/particle_as_closed_wave_en.tex`
+- `articles/horizon_as_phase_recording_surface_en.tex`
+
+Optional but useful:
+
+- compiled PDFs for the three English papers;
+- numerical scripts under `analysis/numerics/`;
+- numerical results already generated under `analysis/numerics/`.
+
+## 3. Entry Document Check
+
+Check `README.md`:
+
+- [ ] It says Field 01 is not a completed theory.
+- [ ] It says Field 01 does not replace QFT, GR, the Standard Model, or black-hole thermodynamics.
+- [ ] It points new reviewers to `FIELD01_GITHUB_START_HERE.md` first.
+- [ ] It links to `FIELD01_OVERVIEW_EN.md`.
+- [ ] It links to `CONTRIBUTING.md`.
+- [ ] It lists the main papers.
+- [ ] It asks for criticism, not endorsement.
+- [ ] It does not sound promotional.
+
+Check `FIELD01_GITHUB_START_HERE.md`:
+
+- [ ] It gives the safest first reading path.
+- [ ] It separates standard vortex mathematics from Field 01 interpretation.
+- [ ] It states explicit non-claims before any speculative terminology.
+- [ ] It points to the GitHub and Reddit gates.
+- [ ] It does not read like a release announcement or proof claim.
+
+Check `FIELD01_OVERVIEW_EN.md`:
+
+- [ ] It can be read in 10 minutes.
+- [ ] It separates established structures from Field 01 interpretation.
+- [ ] It admits overlap with Abelian-Higgs and vortex-like models.
+- [ ] It clearly says what Field 01 does not claim.
+- [ ] It asks concrete questions for critics.
+- [ ] It can be shared without sending the whole book.
+
+Check `CONTRIBUTING.md`:
+
+- [ ] It invites technical criticism.
+- [ ] It lists useful first tasks.
+- [ ] It discourages promotional or overstrong claims.
+- [ ] It gives examples of good feedback.
+- [ ] It explains that endorsement is not requested.
+
+## 4. Paper Check
+
+For each English paper in `articles/`, check:
+
+- [ ] The title is cautious and descriptive.
+- [ ] The abstract avoids claiming a completed theory.
+- [ ] The introduction explains the status of the work.
+- [ ] Speculative claims are marked as hypotheses or interpretations.
+- [ ] Known physics is not presented as new.
+- [ ] The conclusion states open problems.
+- [ ] The paper compiles without fatal LaTeX errors.
+
+Priority papers:
+
+1. `articles/field01_formalization_program_en.tex`
+2. `articles/particle_as_closed_wave_en.tex`
+3. `articles/horizon_as_phase_recording_surface_en.tex`
+
+## 5. Language Safety Check
+
+Avoid these phrases in public release materials:
+
+```text
+proved a new theory
+```
+
+```text
+the Standard Model is wrong
+```
+
+```text
+Hawking was wrong
+```
+
+```text
+complete theory of everything
+```
+
+```text
+physics has misunderstood everything
+```
+
+Prefer these phrases:
+
+```text
+independent formalization project
+```
+
+```text
+toy-level framework
+```
+
+```text
+interpretational proposal
+```
+
+```text
+requires comparison with established physics
+```
+
+```text
+seeking criticism, not endorsement
+```
+
+```text
+possible overlap with known Abelian-Higgs or vortex-like structures
+```
+
+## 6. Repository Structure Check
+
+Recommended public structure:
+
+```text
+README.md
+FIELD01_GITHUB_START_HERE.md
+FIELD01_OVERVIEW_EN.md
+CONTRIBUTING.md
+PUBLIC_READY_STATUS.md
+RELEASE_CHECKLIST.md
+FOUR_WEEK_LAUNCH_PLAN.md
+FIRST_PUBLIC_POSTS.md
+PROJECT_ROADMAP_EN.md
+OUTREACH_PACKAGE_EN.md
+OUTREACH_LETTER_EN.md
+ABSTRACTS_EN.md
+FIELD01_GLOSSARY.md
+articles/
+analysis/
+chapters/
+```
+
+Before public release:
+
+- [ ] Remove accidental temporary files if not useful.
+- [ ] Keep source `.tex` files.
+- [ ] Keep PDFs only if they are intended for readers.
+- [ ] Do not include private notes or personal data.
+- [ ] Do not include credentials, tokens, or account information.
+- [ ] Make filenames clear and stable.
+
+## 7. Generated Files Decision
+
+LaTeX build files can clutter a public repository.
+
+Consider excluding or removing files such as:
+
+- `.aux`
+- `.log`
+- `.out`
+- `.fls`
+- `.fdb_latexmk`
+- `.synctex`
+
+Keep PDFs if they are useful for readers and intentionally included.
+
+Suggested policy:
+
+```text
+Track source files and selected reader PDFs. Do not track temporary LaTeX build artifacts.
+```
+
+## 8. Numerical Files Check
+
+If numerical results are included:
+
+- [ ] Scripts run without special private paths.
+- [ ] Scripts do not require new virtual environments.
+- [ ] Scripts use common Python packages only.
+- [ ] CSV and JSON outputs are clearly named.
+- [ ] Plots are either intentionally included or regenerated by scripts.
+- [ ] The README or analysis notes explain what the numbers mean.
+- [ ] The text says the numerics are toy checks, not physical proof.
+
+## 9. License / Usage Note
+
+Before a public repository, choose a simple policy.
+
+Options:
+
+1. Add a full open-source license for code and a Creative Commons license for text.
+2. Add a temporary `LICENSE_NOTE.md` saying rights are reserved until a license is chosen.
+3. Keep the repository private until license choice is clear.
+
+Recommended cautious temporary note:
+
+```text
+The project is shared publicly for criticism and discussion. Reuse, quotation, or redistribution of substantial text should credit the author. A precise license will be added in a later release.
+```
+
+A real license should be chosen before wider distribution.
+
+## 10. Release Tag
+
+Recommended version tag: choose exactly one.
+
+```text
+v0.1-public
+```
+
+for the first public archive, or:
+
+```text
+v0.2-feedback
+```
+
+for the terminology-cleanup feedback checkpoint.
+
+Release title:
+
+```text
+Field 01 v0.2-feedback: cautious working archive after terminology cleanup
+```
+
+Release description:
+
+```text
+This feedback checkpoint makes the Field 01 working archive inspectable after terminology cleanup. Field 01 is not presented as a completed physical theory. The release contains overview documents, contribution guidelines, working papers, roadmap material, and toy-model notes. The main purpose is to invite technical criticism, identify overlap with known physics, and clarify what must be formalized next.
+```
+
+## 11. First Public Link Strategy
+
+Do not post the repository everywhere at once.
+
+Recommended sequence:
+
+1. Share with one or two trusted readers if available.
+2. Post one narrow terminology or comparison question.
+3. Wait for criticism.
+4. Revise the overview.
+5. Publish a small repository announcement.
+6. Avoid reposting too often.
+
+## 12. Pre-Posting Checklist
+
+Before making the first public post:
+
+- [ ] `README.md` is clear.
+- [ ] `FIELD01_GITHUB_START_HERE.md` is the first linked entrypoint.
+- [ ] `FIELD01_OVERVIEW_EN.md` is clear.
+- [ ] `CONTRIBUTING.md` tells people how to help.
+- [ ] `FIRST_PUBLIC_POSTS.md` has the selected post text.
+- [ ] The selected post asks one narrow question.
+- [ ] The post does not ask for endorsement.
+- [ ] The post does not claim a new theory.
+- [ ] The post does not attack established physics.
+- [ ] You are ready to receive criticism without arguing defensively.
+
+## 13. After First Feedback
+
+Create a feedback log with columns:
+
+```text
+Date | Source | Comment | Type | Response | Action | Status
+```
+
+Types can include:
+
+- terminology;
+- equation;
+- reference;
+- overclaim;
+- numerical issue;
+- literature overlap;
+- writing clarity;
+- conceptual problem.
+
+After the first useful feedback, create a revision release:
+
+```text
+v0.2-feedback
+```
+
+## 14. Success Criteria for the current public checkpoint
+
+The release succeeds if:
+
+- one reader understands the project status;
+- one critic identifies a concrete weakness;
+- one missing reference is found;
+- one claim is weakened or corrected;
+- the project becomes clearer and more honest.
+
+Praise is not the main success metric. Useful criticism is.
+
+## 15. v0.2 Feedback Readiness Checks
+
+Before publishing or updating the online repository after the feedback pass:
+
+- [ ] The online repository matches `GITHUB_UPLOAD_READY/`.
+- [ ] `FIELD01_GITHUB_START_HERE.md` remains the first recommended entrypoint.
+- [ ] `FIELD01_GLOSSARY.md` uses scalar/VEV-profile language before normal-retention interpretation.
+- [ ] The main technical paper is `articles/field01_formalization_program_en.tex`.
+- [ ] The Russian book body in `chapters/book_body.tex` is treated as internal/background unless intentionally selected for release.
+- [ ] No private files are uploaded: `uploads/`, `prism-uploads/`, `local_working/`, `AGENTS.md`, local logs, or temporary LaTeX outputs.
+- [ ] A final terminology scan has no stale primary-language hits from the prior cleanup list.
