@@ -1,6 +1,6 @@
 # License and Usage Note
 
-This project is currently shared as an independent working archive for criticism, discussion, and formalization.
+This project is currently shared as an independent reader-facing research package for discussion and formalization.
 
 A precise long-term license has not yet been chosen. Until a formal license is added, please treat the material as follows.
 

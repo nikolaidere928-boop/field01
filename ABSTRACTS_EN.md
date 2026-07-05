@@ -1,6 +1,6 @@
-# English Abstracts for Field 01 Working Papers
+# English Abstracts for Field 01 Research Texts
 
-This file contains English abstracts and keywords for the current Field 01 working papers. These are not literal translations from Russian; they are cautious academic adaptations intended for an English-speaking audience.
+This file contains English abstracts and keywords for the current Field 01 research texts. These are not literal translations from Russian; they are cautious academic adaptations intended for an English-speaking audience.
 
 ## 1. Elementary Particle as a Closed Wave of Field 01
 
@@ -18,7 +18,7 @@ particle_as_closed_wave_en.pdf
 
 ### Standard Abstract
 
-This working paper formulates an initial core of the Field 01 model: the elementary particle is interpreted not as a material point, but as a stable closed wave-like configuration of a field. The model introduces two inseparable field modes, denoted as 0 and 1: fixation or recording, and direction or circulation. Their interplay is used to discuss phase circulation, a scalar-profile / local-normal interpretation, mass, and memory. Within this interpretation, a photon is described as open phase transport without a retained local scalar/normal profile, whereas a massive elementary particle is associated with closed circulation and stabilization of such a profile. The proposal is not presented as a replacement for the Standard Model or quantum field theory. Rather, it is a speculative interpretational and topological framework that must be compared with established field-theoretic structures, including vacuum correlations, observer-dependent particle content, spin, mass generation, and horizon information. A preliminary program for further formalization is outlined.
+This text formulates an initial core of the Field 01 model: the elementary particle is interpreted not as a material point, but as a stable closed wave-like configuration of a field. The model introduces two inseparable field modes, denoted as 0 and 1: fixation or recording, and direction or circulation. Their interplay is used to discuss phase circulation, a scalar-profile / local-normal interpretation, mass, and memory. Within this interpretation, a photon is described as open phase transport without a retained local scalar/normal profile, whereas a massive elementary particle is associated with closed circulation and stabilization of such a profile. The proposal is not presented as a replacement for the Standard Model or quantum field theory. Rather, it is a speculative interpretational and topological framework that must be compared with established field-theoretic structures, including vacuum correlations, observer-dependent particle content, spin, mass generation, and horizon information. A preliminary program for further formalization is outlined.
 
 ### Short Abstract
 
@@ -50,7 +50,7 @@ horizon_as_phase_recording_surface_en.pdf
 
 ### Standard Abstract
 
-This working paper develops the horizon-related part of the Field 01 model. A black hole is interpreted not as an object containing a physical point singularity, but as a limiting field regime in which volumetric phase structure is represented as boundary recording. In this language, the horizon is not a passage to infinite density, but a surface where the local scalar/normal profile is suppressed, volumetric dynamical unfolding ceases, and phase memory is encoded in a boundary form. The Bekenstein--Hawking area law is interpreted as a possible indication of the surface character of such recording. The model differs from a literal evaporation picture of black holes: it does not treat the horizon as losing its record through ordinary thermal emission, but instead proposes that horizon thermality may reflect reduced access to boundary phase information. This remains a speculative hypothesis and requires careful comparison with Hawking's semiclassical calculation, quantum field theory in curved spacetime, black-hole thermodynamics, and holographic approaches.
+This text develops the horizon-related part of the Field 01 model. A black hole is interpreted not as an object containing a physical point singularity, but as a limiting field regime in which volumetric phase structure is represented as boundary recording. In this language, the horizon is not a passage to infinite density, but a surface where the local scalar/normal profile is suppressed, volumetric dynamical unfolding ceases, and phase memory is encoded in a boundary form. The Bekenstein--Hawking area law is interpreted as a possible indication of the surface character of such recording. The model differs from a literal evaporation picture of black holes: it does not treat the horizon as losing its record through ordinary thermal emission, but instead proposes that horizon thermality may reflect reduced access to boundary phase information. This remains a speculative hypothesis and requires careful comparison with Hawking's semiclassical calculation, quantum field theory in curved spacetime, black-hole thermodynamics, and holographic approaches.
 
 ### Short Abstract
 
@@ -82,7 +82,7 @@ field01_formalization_program_en.pdf
 
 ### Standard Abstract
 
-This working paper outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. It provides a structured toy-level vocabulary in which Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The paper emphasizes that much of the formal structure resembles Abelian-Higgs or vortex-like mathematics; the possible contribution of Field 01 lies in the labelled interpretation of the scalar profile as normal retention, together with the memory and boundary-recording interpretation layers. The next step is comparison with quantum field theory, gauge theory, black-hole thermodynamics, and holography.
+This text outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. It provides a structured toy-level vocabulary in which Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The paper emphasizes that much of the formal structure resembles Abelian-Higgs or vortex-like mathematics; the possible contribution of Field 01 lies in the labelled interpretation of the scalar profile as normal retention, together with the memory and boundary-recording interpretation layers. The next step is comparison with quantum field theory, gauge theory, black-hole thermodynamics, and holography.
 
 ### Short Abstract
 
@@ -102,18 +102,8 @@ Field 01 can be organized as a mathematical program linking phase nodes, radial 
 
 ### Standard Version
 
-Field 01 is an independent research program exploring a phase-based interpretation of particles, mass, memory, and horizon-like boundary recording. The current working papers organize selected ideas as closed phase configurations, radial scalar profiles, memory classes, and boundary maps. The framework distinguishes between established physics, interpretation, new hypotheses, and open formalization problems. Its immediate goal is to develop a standard-first conceptual and mathematical language that can be compared with quantum field theory, observer-dependent particle content, horizon thermodynamics, the black-hole information problem, and holographic ideas.
+Field 01 is an independent research program exploring a phase-based interpretation of particles, mass, memory, and horizon-like boundary recording. The current research texts organize selected ideas as closed phase configurations, radial scalar profiles, memory classes, and boundary maps. The framework distinguishes between established physics, interpretation, new hypotheses, and open formalization problems. Its immediate goal is to develop a standard-first conceptual and mathematical language that can be compared with quantum field theory, observer-dependent particle content, horizon thermodynamics, the black-hole information problem, and holographic ideas.
 
 ### Short Version
 
 Field 01 is an independent research program exploring whether selected particle-like and boundary-like ideas can be organized as phase-structural regimes of a field: open transport, closed waves, radial scalar profiles with a normal-retention interpretation, and boundary recording.
-
-## 5. Notes For Future Preprint Versions
-
-Before using these abstracts in formal preprint versions, add:
-
-- references to QFT in curved spacetime;
-- references to Hawking radiation and Bekenstein-Hawking entropy;
-- references to holography and black-hole information;
-- clearer mathematical notation for phase, normal, memory, and boundary map;
-- clearer separation between standard mathematical structures, interpretation, and open hypotheses.

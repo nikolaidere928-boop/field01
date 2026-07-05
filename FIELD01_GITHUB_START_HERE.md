@@ -1,94 +1,69 @@
-# Field 01 GitHub Start Here
+# Field 01 — Start Here
 
-Status: public working archive entrypoint.
+Date: 2026-07-05.
 
-Date: 2026-07-01.
+This file is the recommended first entry point for readers encountering Field 01 for the first time.
 
-## 1. Short Framing
+## 1. What Field 01 Tries To Express
 
-Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer, so that the terminology can be criticized before any stronger claims are made.
+Field 01 is a speculative conceptual framework built around two primitive modes:
 
-The repository contains:
+- `0` — fixation, retention, boundary, recording, local depth;
+- `1` — direction, motion, circulation, transport, unfolding.
 
-- conceptual writing drafts;
-- standard Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex comparison notes;
-- exploratory Field 01 interpretation notes;
-- toy numerical diagnostics;
-- reference and roadmap documents.
+The central idea is that particle-like and boundary-like structures may be described as different regimes of phase organization: open transport, closed circulation, retained scalar profile, memory class, and boundary record.
 
-The safest current reading is:
+## 2. How To Read The Project
+
+The safest reading is layered:
 
 ```text
-standard radial vortex mathematics
--> scalar modulus / order-parameter profile and gauge-convention layer
--> convention map and numerical diagnostics
--> labelled equivalence-class / memory-map definitions
--> clearly separated Field 01 interpretation and open problems
+standard mathematical vocabulary
+-> phase and circulation language
+-> radial scalar profile / order-parameter profile
+-> Field 01 interpretation as normal retention or memory
+-> open questions and possible formalization paths
 ```
 
-## 2. What This Is
-
-This is an attempt to organize a speculative conceptual project into a form that can be checked against standard definitions.
-
-The strongest current technical substrate is standard radial vortex mathematics related to Abelian-Higgs / Nielsen-Olesen / Abrikosov / Ginzburg-Landau conventions. In that standard layer, `N(r)` should be read first as a radial scalar modulus or order-parameter profile approaching a vacuum value.
-
-The Field 01 terms `memory`, `normal retention`, `boundary recording`, `horizon-like`, and `charge-like` are interpretive labels unless explicitly defined in a formal note. In particular, `normal retention` is a Field 01 reading of the scalar profile, not a new standard degree of freedom.
+Whenever a standard mathematical term is available, it should be read first. Field 01 terms are interpretive labels unless the text explicitly defines a formal object.
 
 ## 3. Current Limit
 
-Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
+Field 01 is not presented as a completed physical theory. It is a conceptual and mathematical formalization attempt.
 
-## 4. Recommended First Reading Path
+The project does not replace quantum field theory, the Standard Model, black-hole thermodynamics, or general relativity. It tries to build a careful interpretive bridge that can later be compared with those frameworks.
 
-For the current formalization checkpoint, start with:
+## 4. Recommended Reading Path
 
-1. [analysis/field01_standard_core_v1.md](analysis/field01_standard_core_v1.md)
-2. [analysis/field01_vortex_convention_dictionary.md](analysis/field01_vortex_convention_dictionary.md)
-3. [analysis/field01_schaposnik_vortices_convention_map.md](analysis/field01_schaposnik_vortices_convention_map.md)
-4. [analysis/field01_bps_coupling_convention_note.md](analysis/field01_bps_coupling_convention_note.md)
-5. [analysis/field01_memory_map_definitions_v1.md](analysis/field01_memory_map_definitions_v1.md)
-6. [analysis/field01_memory_map_radial_examples_v1.md](analysis/field01_memory_map_radial_examples_v1.md)
-7. [analysis/field01_profile_class_invariants_note.md](analysis/field01_profile_class_invariants_note.md)
-8. [analysis/field01_interpretation_layer_v1.md](analysis/field01_interpretation_layer_v1.md)
-9. [analysis/field01_two_layer_formalization_plan.md](analysis/field01_two_layer_formalization_plan.md)
+For a short first pass:
 
-For a broader but less formal overview, read:
+1. `FIELD01_OVERVIEW_EN.md`
+2. `ABSTRACTS_EN.md`
+3. `FIELD01_REFERENCE_MAP.md`
+4. `PROJECT_ROADMAP_EN.md`
 
-1. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
-2. [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md)
-3. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
+For the current technical direction:
 
-## 5. Current Numerical Diagnostics
+1. `articles/field01_formalization_program_en.tex`
+2. `articles/particle_as_closed_wave_en.tex`
+3. `articles/horizon_as_phase_recording_surface_en.tex`
 
-The compact tracked numerical records are:
+## 5. Main Caution
 
-```text
-analysis/numerics/radial_vortex_results.json
-analysis/numerics/radial_vortex_coupling_sweep.json
-analysis/numerics/radial_vortex_profile_distances.json
-```
+The project uses words such as `memory`, `normal retention`, and `boundary recording` in a special interpretive sense.
 
-The tracked helper scripts are:
+For an external reader, the standard layer should always come first:
 
-```text
-analysis/numerics/solve_radial_vortex_profile.py
-analysis/numerics/sweep_radial_vortex_coupling.py
-```
+- scalar modulus / order-parameter profile before `normal retention`;
+- phase relation or equivalence class before `memory`;
+- boundary data or reduced description before `boundary recording`.
 
-Generated CSV/PNG artifacts are local/generated files under the current ignore policy unless intentionally added later.
+## 6. What Remains Open
 
-## 6. Questions For Reviewers
+Important open tasks include:
 
-Useful review checks at this stage:
-
-- Are the Abelian-Higgs / Nielsen-Olesen / Abrikosov convention mappings stated correctly?
-- Are the BPS normalization statements clear and convention-safe?
-- Are the memory-map equivalence relations mathematically well-defined enough to criticize?
-- Is the standard-first wording around `N(r)` as a radial scalar modulus / order-parameter profile clear enough?
-- Which Field 01 terms are misleading or too strong?
-
-## 7. Current Status
-
-Current status: public working archive checkpoint.
-
-The next useful step is technical review of the standard-vortex convention map, the `N(r)` terminology, the memory-equivalence definitions, and the separation between standard mathematics and Field 01 interpretation.
+- defining a precise action or energy functional;
+- comparing the construction with known vortex, soliton, and gauge-theory models;
+- clarifying any relation to spin, charge, mass generation, and particle spectra;
+- formalizing the proposed memory and boundary-map language;
+- comparing horizon-related claims with black-hole thermodynamics, Hawking radiation, and holographic approaches.
