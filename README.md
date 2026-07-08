@@ -27,19 +27,19 @@ The most developed comparison layer currently resembles known vortex-like mathem
 
 ## Main Texts
 
-- `FIELD01_GITHUB_START_HERE.md` — short orientation for first readers.
-- `FIELD01_OVERVIEW_EN.md` — compact conceptual overview.
-- `FIELD01_REFERENCE_MAP.md` — map from Field 01 terms to standard vocabulary and reference anchors.
-- `FIELD01_GLOSSARY.md` — glossary of recurring terms.
-- `LITERATURE_BRIDGE.md` — bridge from the project’s themes to relevant literature areas.
-- `ABSTRACTS_EN.md` — abstracts for the current English research texts.
-- `PROJECT_ROADMAP_EN.md` — compact roadmap of open conceptual and mathematical tasks.
+- [FIELD01_GITHUB_START_HERE.md](FIELD01_GITHUB_START_HERE.md) — short orientation for first readers.
+- [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md) — compact conceptual overview.
+- [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md) — map from Field 01 terms to standard vocabulary and reference anchors.
+- [FIELD01_GLOSSARY.md](FIELD01_GLOSSARY.md) — glossary of recurring terms.
+- [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md) — bridge from the project’s themes to relevant literature areas.
+- [ABSTRACTS_EN.md](ABSTRACTS_EN.md) — abstracts for the current English research texts.
+- [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md) — compact roadmap of open conceptual and mathematical tasks.
 
 ## Articles
 
-- `articles/field01_formalization_program_en.tex` — cautious formalization program.
-- `articles/particle_as_closed_wave_en.tex` — particle as a closed phase configuration.
-- `articles/horizon_as_phase_recording_surface_en.tex` — horizon as a boundary recording surface.
+- [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf) — cautious formalization program.
+- [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf) — particle as a closed phase configuration.
+- [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf) — horizon as a boundary recording surface.
 
 Russian source/background versions are also included in `articles/` where available.
 
@@ -47,17 +47,17 @@ Russian source/background versions are also included in `articles/` where availa
 
 For a first reading:
 
-1. `FIELD01_GITHUB_START_HERE.md`
-2. `FIELD01_OVERVIEW_EN.md`
-3. `ABSTRACTS_EN.md`
-4. `FIELD01_REFERENCE_MAP.md`
-5. `articles/field01_formalization_program_en.tex`
+1. [FIELD01_GITHUB_START_HERE.md](FIELD01_GITHUB_START_HERE.md)
+2. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
+3. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
+4. [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md)
+5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
 
 For conceptual background:
 
-1. `articles/particle_as_closed_wave_en.tex`
-2. `articles/horizon_as_phase_recording_surface_en.tex`
+1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ## License Note
 
-See `LICENSE_NOTE.md` for the current temporary usage note.
+See [LICENSE_NOTE.md](LICENSE_NOTE.md) for the current temporary usage note.
