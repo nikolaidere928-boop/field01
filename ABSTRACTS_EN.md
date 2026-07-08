@@ -58,21 +58,21 @@ PDF after compilation: [field01_formalization_program_en.pdf](articles/field01_f
 
 ### Standard Abstract
 
-This text outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. It provides a structured toy-level vocabulary in which Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The paper emphasizes that much of the formal structure resembles Abelian-Higgs or vortex-like mathematics; the possible contribution of Field 01 lies in the labelled interpretation of the scalar profile as normal retention, together with the memory and boundary-recording interpretation layers. The next step is comparison with quantum field theory, gauge theory, black-hole thermodynamics, and holography.
+This text outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. It provides a structured toy-level vocabulary in which Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The v0.3 diagnostic layer translates selected Field 01 phrases into standard Abelian-Higgs benchmarks, scalar boundary-layer tension, gauge-compensation stiffness, overlap-motivated relation bins, and Wilson-line dressed phase bookkeeping. The paper emphasizes that much of the formal structure resembles Abelian-Higgs or vortex-like mathematics; the possible contribution of Field 01 lies in the labelled interpretation of scalar-profile retention, memory, relation classes, and boundary recording. The next step is comparison with quantum field theory, gauge theory, black-hole thermodynamics, holography, and controlled two-vortex interaction diagnostics.
 
 ### Short Abstract
 
-This paper organizes Field 01 into a formalization chain from phase circulation and closed nodes to radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, memory classes, boundary maps, and reduced external states.
+This paper organizes Field 01 into a formalization chain from phase circulation and closed nodes to radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, memory classes, boundary maps, reduced external states, and standard-first diagnostics for boundary loss, compensation stiffness, relation bins, and Wilson-line phase classes.
 
 ### Keywords
 
 ```text
-Field 01; formalization program; phase circulation; closed node; scalar modulus; order-parameter profile; normal-retention interpretation; memory; gauge-like compensation; vortex models; boundary recording; reduced density matrix
+Field 01; formalization program; phase circulation; closed node; scalar modulus; order-parameter profile; normal-retention interpretation; memory; gauge-like compensation; Abelian-Higgs diagnostics; boundary-layer tension; Wilson-line phase; vortex models; boundary recording; reduced density matrix
 ```
 
 ### One-Sentence Summary
 
-Field 01 can be organized as a mathematical program linking phase nodes, radial scalar profiles with a normal-retention interpretation, memory, and boundary recording through toy models that resemble known vortex/gauge structures.
+Field 01 can be organized as a mathematical program linking phase nodes, radial scalar profiles with a normal-retention interpretation, memory, relation classes, and boundary recording through toy models and diagnostics that mostly reduce to known vortex/gauge structures.
 
 ## 4. Combined Project Abstract
 

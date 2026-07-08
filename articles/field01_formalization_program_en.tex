@@ -27,14 +27,14 @@
 \maketitle
 
 \begin{center}
-\textit{Research version v0.2 --- English formalization text with standard-reference alignment}
+\textit{Research version v0.3 --- English formalization text with standard-first diagnostic appendix}
 \end{center}
 
 \begin{abstract}
-This paper outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, scalar modulus / VEV-profile layer, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. The proposal is not presented as a completed physical theory, nor as a replacement for the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics. Instead, it gives a structured toy-level framework in which the book-level language of Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The central result is not a new fundamental equation, but a controlled formal vocabulary: closed phase nodes can be represented by winding, the scalar modulus / VEV-profile layer by a scalar profile, the normal-retention reading by an interpretation placed on that layer, screening by a connection-like field, and memory by equivalence classes of preserved phase-scalar-gauge data. The horizon interpretation is expressed as a bulk-to-boundary memory map and as reduced external access to boundary data. All claims remain provisional and require further comparison with established physics.
+This paper outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, scalar modulus / VEV-profile layer, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. The proposal is not presented as a completed physical theory, nor as a replacement for the Standard Model, quantum field theory, general relativity, or black-hole thermodynamics. Instead, it gives a structured toy-level framework in which the book-level language of Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The central result is not a new fundamental equation, but a controlled formal vocabulary: closed phase nodes can be represented by winding, the scalar modulus / VEV-profile layer by a scalar profile, the normal-retention reading by an interpretation placed on that layer, screening by a connection-like field, and memory by equivalence classes of preserved phase-scalar-gauge data. The v0.3 diagnostic layer added here translates selected Field 01 phrases into standard Abelian-Higgs benchmarks, scalar boundary-layer tension, gauge-compensation stiffness, overlap-motivated distance bins, and Wilson-line dressed phase bookkeeping. The horizon interpretation is expressed as a bulk-to-boundary memory map and as reduced external access to boundary data. All claims remain provisional and require further comparison with established physics.
 \end{abstract}
 
-\textbf{Keywords:} Field 01; formalization program; phase circulation; closed node; scalar modulus; VEV-profile; normal-retention interpretation; memory; gauge-like compensation; vortex models; boundary recording; reduced density matrix.
+\textbf{Keywords:} Field 01; formalization program; phase circulation; closed node; scalar modulus; VEV-profile; normal-retention interpretation; memory; gauge-like compensation; Abelian-Higgs diagnostics; boundary-layer tension; Wilson-line phase; vortex models; boundary recording; reduced density matrix.
 
 \section{How to Read This Paper}
 
@@ -331,6 +331,197 @@ A reduced state may appear thermal,
 
 The Field 01 interpretation is that thermality may reflect reduced access to the full boundary record, not necessarily destruction of the record. This does not derive Hawking radiation or solve the black-hole information problem. It is only a formal expression of the model's interpretive stance.
 
+\section{Technical Appendix: Standard Diagnostics For Current Terminology}
+
+This appendix records the current standard-first diagnostic layer. It does not claim a new particle model, a new force, a new topological invariant, or a solution of the black-hole information problem. Its narrower purpose is to state which Field 01 terms have been translated into standard Abelian-Higgs-type calculations or into explicit relation-class bookkeeping. All Field 01 language in this section remains interpretive unless it is tied to a standard calculated quantity.
+
+\subsection{Standard Vortex Substrate}
+
+Use a complex scalar field and Abelian gauge profile in polar variables,
+\begin{equation}
+\Psi=N(r)e^{in\theta},
+\qquad
+A=a(r)\,d\theta.
+\end{equation}
+
+The radial energy convention used for the diagnostic benchmark is
+\begin{equation}
+E
+=2\pi\int_0^R dr\left[
+\frac{r}{2}(N')^2
++\frac{(n-a)^2N^2}{2r}
++\frac{(a')^2}{2g^2r}
++\frac{\lambda r}{4}(N^2-N_0^2)^2
+\right].
+\end{equation}
+
+The finite-energy boundary behavior is represented by
+\begin{equation}
+N(0)=0,
+\qquad
+a(0)=0,
+\qquad
+N(R)\approx N_0,
+\qquad
+a(R)\approx n.
+\end{equation}
+
+At the critical point in this normalization,
+\begin{equation}
+\lambda_{\mathrm{BPS}}=\frac{g^2}{2}.
+\end{equation}
+
+For $g=1$, $N_0=1$, $n=1$, and $\lambda=0.5$, the numerical benchmark gives
+\begin{equation}
+E_{\mathrm{total}}=3.141567,
+\qquad
+\frac{E_{\mathrm{total}}}{\pi}=0.999992.
+\end{equation}
+
+This is standard Abelian-Higgs vortex machinery. Field 01 does not claim this calculation as new. Its role here is to fix the standard substrate before adding any interpretation.
+
+\subsection{Scalar Boundary Diagnostic}
+
+To test the phrase ``loss of retained profile,'' compare the standard outer behavior $N(R)=N_0$ with a forced outer-zero condition $N(R)=0$, while keeping the gauge endpoint $a(R)=n$. Define
+\begin{equation}
+\Delta E_{\mathrm{outer\ zero}}
+=E[N(R)=0,a(R)=n]-E[N(R)=N_0,a(R)=n].
+\end{equation}
+
+The raw penalty grows approximately with circumference. The normalized penalty
+\begin{equation}
+\sigma_R=\frac{\Delta E_{\mathrm{outer\ zero}}}{2\pi R}
+\end{equation}
+approaches the standard scalar half-kink boundary tension. For $\lambda=1$ and $N_0=1$,
+\begin{equation}
+\sigma_R\to \frac{2}{3\sqrt{2}}\approx0.471404521.
+\end{equation}
+
+More generally, the flat-boundary scaling is
+\begin{equation}
+\sigma_\infty(\lambda,N_0)
+=\frac{2}{3\sqrt{2}}\sqrt{\lambda}\,N_0^3.
+\end{equation}
+
+Thus, in this diagnostic, the Field 01 phrase ``loss of retained profile'' reduces to standard scalar boundary-layer physics. This does not prove a new invariant, a particle mass, or a new boundary law.
+
+\subsection{Gauge-Compensation Diagnostics}
+
+The first gauge-compensation diagnostic keeps $N(R)=N_0$ and varies the endpoint gauge profile $a(R)=\alpha$. Define
+\begin{equation}
+\Delta E_a(R,\alpha)
+=E[N(R)=N_0,a(R)=\alpha]-E[N(R)=N_0,a(R)=n].
+\end{equation}
+
+For the finite-disk diagnostic, the leading behavior is
+\begin{equation}
+\Delta E_a(R,\alpha)
+\approx \frac{\pi}{gR}(n-\alpha)^2.
+\end{equation}
+
+Endpoint failure of gauge compensation is therefore read here as a standard finite-boundary mismatch cost.
+
+The second diagnostic keeps the endpoint flux fixed and perturbs only the interior profile,
+\begin{equation}
+a_\varepsilon(r)=a_0(r)+\varepsilon f(r),
+\qquad
+f(0)=f(R)=0.
+\end{equation}
+
+The leading cost is the standard second variation,
+\begin{equation}
+\Delta E[\varepsilon f]
+=\varepsilon^2 K[f]+O(\varepsilon^3),
+\end{equation}
+with
+\begin{equation}
+K[f]
+=2\pi\int_0^R dr\left[
+\frac{N^2f^2}{2r}
++\frac{(f')^2}{2g^2r}
+\right].
+\end{equation}
+
+This identifies compensation stiffness with the positive Hessian / second variation around the standard vortex solution. It does not define a new compensation invariant or a new interaction law.
+
+\subsection{Two-Node Relation As Resolution-Class Bookkeeping}
+
+A two-node retained relation is currently represented as a resolution-dependent equivalence class, not as a force. A gauge-aware relation class may be written schematically as
+\begin{equation}
+I_{\mathrm{rel}}^{R}(A,B)=
+\left(
+W_{\mathrm{pair}},
+D_{\mathrm{overlap}}(A,B),
+\beta_{\mathrm{regime}},
+P_q^\gamma(A,B),
+B_{\mathrm{pair}}(A,B),
+\gamma_{\mathrm{class}}(A,B)
+\right).
+\end{equation}
+
+Here $W_{\mathrm{pair}}$ is a winding-pair label, $D_{\mathrm{overlap}}$ is a distance/range bin motivated by profile overlap, $\beta_{\mathrm{regime}}$ is a standard type-I/BPS/type-II regime label, $P_q^\gamma$ is a Wilson-line dressed phase bin, $B_{\mathrm{pair}}$ is a boundary-pair label, and $\gamma_{\mathrm{class}}$ records the connector or access-path class. In this reading, two configurations have the same retained relation only when the selected class data match under the declared resolution package $R$.
+
+To reduce arbitrariness in the distance bins, define scalar and gauge tails
+\begin{equation}
+u_N(r)=1-N(r),
+\qquad
+u_a(r)=1-a(r),
+\end{equation}
+and the combined normalized overlap proxy
+\begin{equation}
+O_{Na}(d)=
+\frac{\int d^2x\,[u_N^A u_N^B+u_a^A u_a^B]}
+{\int d^2x\,[u_N^2+u_a^2]}.
+\end{equation}
+
+For the current standard profile, the combined-overlap thresholds are
+\begin{equation}
+O_{Na}=0.10 \quad\Rightarrow\quad d=5.400085,
+\qquad
+O_{Na}=0.01 \quad\Rightarrow\quad d=8.642013.
+\end{equation}
+
+A simple mass-weighted tail proxy gives close thresholds,
+\begin{equation}
+J_{\mathrm{mw}}=0.10 \quad\Rightarrow\quad d=5.183276,
+\qquad
+J_{\mathrm{mw}}=0.01 \quad\Rightarrow\quad d=8.440450.
+\end{equation}
+
+This makes the distance bins less arbitrary, but it is still not a true two-vortex interaction energy. The bins remain diagnostic conventions unless a physical observable and cutoff rule are justified.
+
+\subsection{Gauge-Aware Phase Relation}
+
+A raw phase bin based on $\theta_B-\theta_A$ is gauge-sensitive. The safer standard object is the Wilson-line dressed phase along a connector $\gamma$:
+\begin{equation}
+h_\gamma(A,B)
+=\left[(\theta_B-\theta_A)-\int_\gamma A\right]\bmod 2\pi.
+\end{equation}
+
+The corresponding phase bin is
+\begin{equation}
+P_q^\gamma(A,B)
+=\left\lfloor \frac{q h_\gamma(A,B)}{2\pi}\right\rfloor.
+\end{equation}
+
+Because an open Wilson-line phase depends on the chosen connector unless a path/access rule is specified, the relation class must include $\gamma_{\mathrm{class}}$ or an explicit boundary-selected connector. The Field 01 reading is therefore not a raw relative phase, but a gauge-aware holonomy-dressed phase class under a declared access rule. This is not entanglement, not a force law, and not a new invariant beyond standard gauge-theory bookkeeping.
+
+\subsection{Current Diagnostic Status}
+
+The current technical status is deliberately modest. Several Field 01 phrases now have standard mathematical diagnostics attached to them:
+\begin{itemize}
+\item closed field object $\rightarrow$ Abelian-Higgs radial vortex ansatz;
+\item retained local profile $\rightarrow$ scalar modulus $N(r)$;
+\item loss of retention $\rightarrow$ scalar boundary layer / half-kink tension;
+\item phase compensation $\rightarrow$ gauge profile $a(r)$ and covariant derivative;
+\item compensation stiffness $\rightarrow$ second variation around a vortex profile;
+\item retained relation $\rightarrow$ resolution-dependent equivalence class;
+\item distance relation $\rightarrow$ overlap-motivated class bin;
+\item phase relation $\rightarrow$ Wilson-line dressed holonomy bin.
+\end{itemize}
+
+This is progress in vocabulary control, not a claim of new physics. The next burden is to test whether any of these diagnostics leads to a genuinely new, physically distinguishable structure rather than to a restatement of known Abelian-Higgs, vortex, gauge, or boundary-layer objects.
+
 \section{Immediate Reference Anchors}
 
 The following standard literature should be used as comparison anchors. These references do not support the Field 01 interpretation by themselves; they identify nearby established structures that the text must not claim as new.
@@ -355,6 +546,7 @@ This paper claims only the following:
 \item memory can be formalized as an equivalence class;
 \item boundary recording can be represented by a bulk-to-boundary map;
 \item reduced external descriptions can be interpreted as limited access to boundary memory.
+\item selected Field 01 terms can be tested against standard Abelian-Higgs, scalar-boundary, gauge-stiffness, overlap-bin, and Wilson-line diagnostics.
 \end{itemize}
 
 The following remain open:
@@ -367,12 +559,14 @@ The following remain open:
 \item construction of a boundary Hilbert space;
 \item derivation of Hawking radiation or black-hole entropy;
 \item testable physical predictions.
+\item a controlled two-vortex interaction-energy comparison;
+\item a canonical boundary/access rule for the connector class $\gamma_{\mathrm{class}}$.
 \end{itemize}
 
 \section{Conclusion}
 
-The current mathematical development of Field 01 does not yet produce a completed physical theory. It does, however, produce a structured formalization path. Starting from phase circulation, one can define closed nodes, introduce a scalar modulus / VEV-profile layer, add the Field 01 normal-retention interpretation, add gauge-like compensation, obtain a current-like object, define memory as an equivalence class, map bulk memory to boundary memory, and interpret reduced external states as limited access to that boundary record.
+The current mathematical development of Field 01 does not yet produce a completed physical theory. It does, however, produce a structured formalization path. Starting from phase circulation, one can define closed nodes, introduce a scalar modulus / VEV-profile layer, add the Field 01 normal-retention interpretation, add gauge-like compensation, obtain a current-like object, define memory as an equivalence class, map bulk memory to boundary memory, and interpret reduced external states as limited access to that boundary record. The diagnostic appendix adds a further discipline: key Field 01 phrases are tested against standard Abelian-Higgs benchmarks, scalar boundary-layer tension, gauge-compensation stiffness, overlap-motivated relation bins, and Wilson-line dressed phase bookkeeping.
 
-The most important lesson is caution. Much of the mathematics resembles known vortex or Abelian-Higgs-like structures. Field 01 must therefore be judged not by the mere presence of winding or gauge-like notation, but by whether its interpretation of scalar-profile retention, memory, and boundary recording leads to a useful and eventually testable framework.
+The most important lesson is caution. Much of the mathematics resembles known vortex or Abelian-Higgs-like structures, and several first diagnostics reduce directly to standard objects. Field 01 must therefore be judged not by the mere presence of winding or gauge-like notation, but by whether its interpretation of scalar-profile retention, memory, relation classes, and boundary recording leads to a useful and eventually testable framework.
 
 \end{document}
