@@ -1,14 +1,14 @@
 # Field 01 Literature Bridge
 
-This file connects Field 01 themes with relevant standard literature areas.
+This file is a working bridge between the book-level recommended literature and the public Field 01 formalization project.
 
-Its purpose is to help readers see which established fields and references are closest to the current Field 01 vocabulary.
+Its purpose is to transform the book's recommended reading lists and chapter-level “scientific basis / list for independent analysis” sections into an academic reference map.
 
 ## Why This File Exists
 
 The project needs to study the closest relevant papers and write in a similar style and vocabulary, while citing them even where the Field 01 interpretation differs.
 
-Field 01 should not rely only on original terminology. It should identify the nearest standard literature, adopt standard vocabulary where possible, and clearly mark what is interpretation or hypothesis.
+This is the right next step. Field 01 should not rely only on original terminology. It should first identify the nearest standard literature, adopt standard vocabulary where possible, and then clearly mark what is interpretation or hypothesis.
 
 ## Source Material Already Checked / Still To Refine
 
@@ -189,15 +189,19 @@ Priority extraction order:
 5. holography and boundary information.
 ## Extracted Book and Preprint References — 2026-06-05
 
+The book/source materials and preprint PDFs have been checked directly in a working extraction pass.
+
+The raw extraction notes are working files and are not included in the public repository package.
+
 ### What Was Found
 
-The source materials contain:
+The book contains:
 
 - a general recommended literature section near the beginning;
 - repeated chapter-level “Научная опора” sections;
 - many journal-level pointers rather than fully specified article references.
 
-More precise source references should be used for formal citation formatting.
+The preprint PDFs contain more precise references and should be used first for formal citation formatting.
 
 ### High-Priority Exact References Already Present
 
@@ -221,7 +225,7 @@ These are the strongest immediately usable references already present in the sou
 
 ### High-Priority Missing References To Add
 
-The current Field 01 formalization is closest to vortex and Abelian-Higgs structures, but the source materials list these only indirectly through journal-level support. These should be added explicitly in future technical versions:
+The current Field 01 formalization is closest to vortex and Abelian-Higgs structures, but the source materials list these only indirectly through journal-level support. These should be added explicitly before the next technical public post:
 
 | Topic | Needed Reference | Why Needed |
 |---|---|---|
@@ -231,7 +235,7 @@ The current Field 01 formalization is closest to vortex and Abelian-Higgs struct
 | Solitons | Manton and Sutcliffe, *Topological Solitons* | Standard mathematical vocabulary for solitons and topological charges. |
 | Solitons | Rajaraman, *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory* | Classic textbook anchor for finite-energy soliton and instanton methods. |
 | Soliton lecture notes | Tong, *TASI Lectures on Solitons*, arXiv:hep-th/0509216 | Accessible modern lecture-note anchor with vortices in the standard soliton taxonomy. |
-| Abelian-Higgs model | textbook or review section on Abelian-Higgs vortices | Needed to align notation and distinguish standard equations from Field 01 interpretation. |
+| Abelian-Higgs model | textbook or review section on Abelian-Higgs vortices | Needed to align notation and avoid claiming novelty for standard equations. |
 | Ginzburg-Landau vortices | standard superconductivity / Ginzburg-Landau reference | Useful bridge between scalar profile, phase, and screening. |
 
 ### How This Changes the Writing Strategy

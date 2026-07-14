@@ -1,12 +1,12 @@
 # Field 01 Project Roadmap
 
-This document summarizes the current development path for Field 01 in English. It is intended for external readers who need a compact orientation before reading the main texts.
+This document summarizes the current development plan for Field 01 in English. It is intended for external readers who need a compact orientation before reading the working papers.
 
 ## 1. Project Status
 
-Field 01 is an independent research program. The current aim is to define a standard mathematical baseline, separate it from Field 01 interpretation, and list the open problems clearly.
+Field 01 is an independent research program and public working archive. The current aim is to define a standard mathematical baseline, separate it from Field 01 interpretation, and list the open problems clearly.
 
-The current formulation is:
+The current working formulation is:
 
 ```text
 Field 01 proposes an interpretational and phase-topological language in which selected particle-like and boundary-like ideas are described using phase circulation, radial scalar profiles, equivalence classes, and boundary maps.
@@ -21,19 +21,20 @@ The project distinguishes four levels:
 
 ## 2. Main Goal
 
-The immediate goal is to translate the intuitive model into short, cautious research texts and then into a minimal mathematical formalization.
+The immediate goal is to translate the book-level intuitive model into short, cautious working papers and then into a minimal mathematical formalization.
 
 Development path:
 
 ```text
-conceptual idea
+book-level idea
+-> working drafts
 -> standard-first terminology map
--> research texts
+-> English working papers
 -> mathematical formalization
 -> comparison with established physics
 ```
 
-## 3. Current Research Texts
+## 3. Current Working Papers
 
 ### Paper 1: Elementary Particle as a Closed Wave
 
@@ -96,7 +97,7 @@ Open tasks:
 
 ## 4. Mathematical Vocabulary To Develop
 
-Current notation:
+Already used as working notation:
 
 ```text
 F_01        field 01
@@ -121,7 +122,7 @@ Core formalization targets:
 
 ## 5. Current Limit
 
-The repository should be read as a reader-facing research package, not as a finished theory. Its useful content is the separation between standard mathematical structures, Field 01 interpretation, and open proof obligations.
+The repository should be read as a working archive, not as a finished theory. Its useful content is the separation between standard mathematical structures, Field 01 interpretation, and open proof obligations.
 
 ## 6. Next Research Steps
 

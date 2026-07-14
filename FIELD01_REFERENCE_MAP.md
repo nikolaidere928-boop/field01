@@ -1,6 +1,6 @@
 # Field 01 Reference Map
 
-This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a reader guide for keeping the public texts standard-first.
+This file maps the current Field 01 vocabulary to standard physics and mathematics vocabulary. It is intended as a working guide for keeping the public papers standard-first.
 
 The rule is:
 
@@ -78,9 +78,9 @@ These references were extracted from the book/preprint source materials and can 
 - R. Larson et al., “A JWST search for early black holes at z > 5,” *Astrophysical Journal* 953, L29 (2023).
 - ALICE Collaboration, “Elliptic flow of charged particles in Pb-Pb collisions,” *Physical Review Letters* 105, 252302 (2010).
 
-## 4. Important Reference Areas To Add
+## 4. Missing References To Add Before a Technical Post
 
-These are important references because the current mathematical comparison layer resembles vortex/Abelian-Higgs mathematics.
+These are the most important missing references for the formalization paper because the toy model currently resembles vortex/Abelian-Higgs mathematics.
 
 | Priority | Reference | Why It Matters |
 |---|---|---|
@@ -93,8 +93,23 @@ These are important references because the current mathematical comparison layer
 | 7 | Standard Abelian-Higgs model review or textbook section. | Needed to align notation for `Psi = N exp(i phi)`, covariant derivative, and current. |
 | 8 | Standard Ginzburg-Landau superconductivity reference. | Needed for screening, scalar order parameter, and vortex analogy. |
 
+## 5. How To Rewrite the Formalization Paper
 
-## 5. What Is Same / Different
+The current paper should be revised with a “standard-first” style.
+
+### Current Style
+
+```text
+Field 01 interprets a massive local node as more than a phase winding. In the standard comparison layer this uses a radial scalar modulus / order-parameter profile N(r); Field 01 then reads that profile as normal retention.
+```
+
+### Better Academic Style
+
+```text
+In vortex and Abelian-Higgs-type models, a complex scalar field can be written in polar form, with a phase variable and a radial scalar modulus / order-parameter profile. A configuration with nonzero winding requires this profile to regularize the core and, in the gauged case, a connection field to screen the long-range phase gradient. Field 01 uses this standard mathematical structure as a toy representation of a closed phase node. The model-specific interpretation is to read the scalar profile as a proxy for normal retention or local depth.
+```
+
+## 6. What Is Same / Different
 
 ### Same as Standard Models
 
@@ -129,7 +144,22 @@ These are important references because the current mathematical comparison layer
 - Hawking radiation derivation or replacement;
 - testable prediction.
 
+## 7. Revision Status After v0.2
 
-## 6. Current Terminology Check
+Completed in `articles/field01_formalization_program_en.tex` v0.2:
+
+1. Added a `Standard-First Vocabulary Rule` section.
+2. Added immediate reference anchors for Abelian-Higgs/vortex, soliton, topological-defect, and horizon-information comparisons.
+3. Rewrote the normal-retention section to introduce the standard radial scalar modulus / order-parameter profile first.
+4. Rewrote the gauge-like section as connection-like compensation before the Field 01 interpretation.
+5. Added explicit caution that the Abelian-Higgs/vortex structure is not a new invention.
+
+Still open before a technical post:
+
+1. Replace inline reference anchors with a formal bibliography or BibTeX file.
+2. Ask a domain expert or a focused physics forum for the best textbook review on Abelian-Higgs vortices before posting the technical paper.
+3. Add exact page/section pointers for the standard references after checking the sources directly.
+
+## 8. Current Terminology Check
 
 The main terminology rule is simple: introduce the standard object first, then the Field 01 interpretation. For the present checkpoint this means starting from phase winding, radial scalar modulus / order-parameter profile, Abelian-Higgs/Nielsen-Olesen vortices, topological defects, Noether currents, reduced density matrices, and holographic boundary language before introducing Field 01 labels.

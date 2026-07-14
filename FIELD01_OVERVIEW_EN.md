@@ -2,7 +2,7 @@
 
 This is a short entry document for readers encountering Field 01 for the first time.
 
-Field 01 separates a standard mathematical comparison layer from a speculative interpretation layer. The purpose of this overview is to state the central idea clearly: what is standard background, what is Field 01 interpretation, and what remains open.
+Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer. The purpose of this overview is to make the project inspectable: what is standard, what is reinterpretation, and what remains open.
 
 ## 1. Basic Idea
 
@@ -13,7 +13,7 @@ At the conceptual level, the project uses two primitive modes:
 - `0` — fixation, retention, boundary, recording, local depth;
 - `1` — direction, motion, circulation, transport, unfolding.
 
-The phrase “Field 01” refers to the proposed unity of these two modes. At the current stage, this is not yet a rigorously defined fundamental physical field. It is an interpretive language that is being compared with mathematical objects such as phase variables, winding numbers, scalar profiles, connection-like fields, currents, equivalence classes, and boundary maps.
+The phrase “Field 01” refers to the proposed unity of these two modes. At the current stage, this is not yet a rigorously defined fundamental physical field. It is a working language that is being translated into mathematical objects such as phase variables, winding numbers, scalar profiles, connection-like fields, currents, equivalence classes, and boundary maps.
 
 The current formalization chain is:
 
@@ -31,7 +31,7 @@ phase
 
 ## 2. What Is Being Formalized
 
-The central question is whether the conceptual language of Field 01 can be expressed in a controlled mathematical form.
+The central question is whether the book-level language of Field 01 can be expressed in a controlled mathematical form.
 
 The current toy-level variables are:
 
@@ -80,7 +80,7 @@ N = N(r).
 
 The phrase “normal retention” is a Field 01 interpretation of this scalar profile, not a new independent degree of freedom in the standard vortex layer. A closed winding without compensation has long-range energy cost. Introducing `N(r)` gives a way to discuss localization and retention, but by itself it is not enough to define a complete physical particle.
 
-The current interpretation is:
+The current working interpretation is:
 
 ```text
 normal retention = local scalar depth needed to maintain a closed phase node
@@ -174,7 +174,7 @@ The immediate scientific task is not to defend novelty, but to answer:
 What exactly is standard, what exactly is reinterpretation, and what exactly remains an open hypothesis?
 ```
 
-## 9. Formalization Scope
+## 9. Working Scope
 
 At the current stage, the project tries to organize the following toy-level vocabulary:
 
@@ -192,8 +192,24 @@ These are formalization targets, not completed results.
 
 Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
 
+## 11. Review Needed
 
-## 11. Suggested First Reading Path
+The project needs critical help more than agreement.
+
+Useful review checks include:
+
+- identifying where the model is simply standard Abelian-Higgs or vortex mathematics;
+- pointing out incorrect or misleading terminology;
+- suggesting required references;
+- checking the toy equations and radial energy functionals;
+- criticizing the memory-as-equivalence-class proposal;
+- clarifying whether the boundary-recording language overlaps with known holographic frameworks;
+- identifying which claims should be weakened or removed;
+- proposing a minimal next toy model that can be analyzed rigorously.
+
+The best contribution at this stage is not endorsement, but precise criticism.
+
+## 12. Suggested First Reading Path
 
 For a first technical look:
 
@@ -206,6 +222,6 @@ For conceptual background:
 1. `articles/particle_as_closed_wave_en.tex`
 2. `articles/horizon_as_phase_recording_surface_en.tex`
 
-## 12. Short Description
+## 13. Short Public Description
 
-Field 01 is an independent formalization project exploring whether selected particle-like and boundary-like ideas can be organized through phase circulation, radial scalar profiles, gauge-like compensation, and equivalence classes of preserved data. It is a speculative framework under development and should be compared carefully with established physics.
+Field 01 is an independent formalization project exploring whether selected particle-like and boundary-like ideas can be organized through phase circulation, radial scalar profiles, gauge-like compensation, and equivalence classes of preserved data. It is a toy-level working archive seeking criticism and comparison with established physics.
