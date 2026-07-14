@@ -10,21 +10,21 @@ PDF: [particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
 
 ### Standard Abstract
 
-This working paper formulates an initial core of the Field 01 model: the elementary particle is interpreted not as a material point, but as a stable closed wave-like configuration of a field. The model introduces two inseparable field modes, denoted as 0 and 1: fixation or recording, and direction or circulation. Their interplay is used to discuss phase circulation, a scalar-profile / local-normal interpretation, mass, and memory. Within this interpretation, a photon is described as open phase transport without a retained local scalar/normal profile, whereas a massive elementary particle is associated with closed circulation and stabilization of such a profile. The proposal is not presented as a replacement for the Standard Model or quantum field theory. Rather, it is a speculative interpretational and topological framework that must be compared with established field-theoretic structures, including vacuum correlations, observer-dependent particle content, spin, mass generation, and horizon information. A preliminary program for further formalization is outlined.
+This working paper is the current central entry point of the Field 01 public archive. It formulates an initial core of the model: the elementary particle is interpreted not as a material point, but as a stable closed wave-like configuration of a field. The model introduces two inseparable field modes, denoted as 0 and 1: fixation or recording, and direction or circulation. Their interplay is used to discuss phase circulation, a local scalar / VEV-like profile, its Field 01 normal-retention interpretation, mass, and memory. Within this interpretation, a photon is described as open phase transport without a retained local scalar / VEV-like profile, whereas a massive elementary particle is associated with closed circulation and stabilization of such a profile. The proposal is not presented as a replacement for the Standard Model or quantum field theory. Rather, it is a speculative interpretational and topological framework that must be compared with established field-theoretic structures, including vacuum correlations, observer-dependent particle content, spin, mass generation, soliton or vortex models, and horizon information. A preliminary program for further formalization is outlined.
 
 ### Short Abstract
 
-This paper introduces the Field 01 interpretation of an elementary particle as a stable closed phase configuration rather than a point-like object. Photons are treated as open phase transport, while massive particles are associated with closed circulation, a radial scalar modulus / order-parameter profile layer with a normal-retention interpretation, and phase memory. The proposal is presented as a research program requiring further comparison with quantum field theory and the Standard Model.
+This paper introduces the Field 01 interpretation of an elementary particle as a stable finite-energy closed phase configuration rather than a point-like object. Photons are treated as open phase transport, while massive particles are associated with closed circulation, a local scalar / VEV-like profile layer with a normal-retention interpretation, and phase memory. The proposal is presented as a research program requiring further comparison with quantum field theory, soliton/vortex models, and the Standard Model.
 
 ### Keywords
 
 ```text
-Field 01; closed wave; elementary particle; phase circulation; scalar profile; normal-retention interpretation; mass; phase memory; quantum field theory; observer-dependent particle content; horizon; holography
+Field 01; closed wave; elementary particle; phase circulation; scalar profile; VEV-like profile; normal-retention interpretation; mass; phase memory; finite energy; quantum field theory; observer-dependent particle content; horizon; holography
 ```
 
 ### One-Sentence Summary
 
-Field 01 explores whether elementary particles can be interpreted as stable closed phase configurations, with mass associated with the energy of maintaining a local scalar profile, interpreted in Field 01 as normal retention.
+Field 01 explores whether elementary particles can be interpreted as finite-energy stable closed phase configurations, with mass associated with the energy of maintaining a local scalar / VEV-like profile interpreted in Field 01 as normal retention.
 
 ## 2. Horizon as a Phase Recording Surface in Field 01
 
@@ -34,7 +34,7 @@ PDF: [horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recor
 
 ### Standard Abstract
 
-This working paper develops the horizon-related part of the Field 01 model. A black hole is interpreted not as an object containing a physical point singularity, but as a limiting field regime in which volumetric phase structure is represented as boundary recording. In this language, the horizon is not a passage to infinite density, but a surface where the local scalar/normal profile is suppressed, volumetric dynamical unfolding ceases, and phase memory is encoded in a boundary form. The Bekenstein--Hawking area law is interpreted as a possible indication of the surface character of such recording. The model differs from a literal evaporation picture of black holes: it does not treat the horizon as losing its record through ordinary thermal emission, but instead proposes that horizon thermality may reflect reduced access to boundary phase information. This remains a speculative hypothesis and requires careful comparison with Hawking's semiclassical calculation, quantum field theory in curved spacetime, black-hole thermodynamics, and holographic approaches.
+This working paper develops the horizon-related part of the Field 01 model. A black hole is interpreted not as an object containing a physical point singularity, but as a limiting field regime in which volumetric phase structure is represented as boundary recording. In this language, the horizon is not a passage to infinite density, but a surface where the local scalar / VEV-like profile is suppressed, volumetric dynamical unfolding ceases, and phase memory is encoded in a boundary form. The Bekenstein--Hawking area law is interpreted as a possible indication of the surface character of such recording. The model differs from a literal evaporation picture of black holes: it does not treat the horizon as losing its record through ordinary thermal emission, but instead proposes that horizon thermality may reflect reduced access to boundary phase information. This remains a speculative hypothesis and requires careful comparison with Hawking's semiclassical calculation, quantum field theory in curved spacetime, black-hole thermodynamics, and holographic approaches.
 
 ### Short Abstract
 

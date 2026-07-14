@@ -4,7 +4,7 @@
 
 Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer, so that the terminology can be criticized before any stronger claims are made.
 
-The current goal is to translate a book-level conceptual model into clearer working notes: standard definitions first, Field 01 labels second, open problems last.
+The current goal is to translate a book-level conceptual model into clearer working notes: standard definitions first, Field 01 labels second, open problems last. The particle paper is currently the most developed conceptual and mathematical entry point; the other papers provide context and open directions.
 
 ## One-Sentence Summary
 
@@ -19,7 +19,7 @@ This repository is a working archive. It contains drafts, notes, toy-model calcu
 3. speculative hypotheses;
 4. open problems requiring criticism and formalization.
 
-The most developed mathematical direction currently resembles known Abelian-Higgs or vortex-like structures. In that layer, `N(r)` is treated first as a radial scalar modulus or order-parameter profile approaching a vacuum value. Field 01 labels such as `normal retention`, `memory`, and `boundary recording` are interpretation-layer vocabulary, not standard physics terminology.
+The most developed single paper is currently `Elementary Particle as a Closed Wave of Field 01`. Its central question is whether an elementary particle can be treated as a stable closed phase configuration with finite energy, a local scalar / VEV-like profile, and no point core. The most developed mathematical direction still resembles known Abelian-Higgs or vortex-like structures. In that layer, `N(r)` is treated first as a radial scalar modulus or order-parameter profile approaching a vacuum value. Field 01 labels such as `normal retention`, `memory`, and `boundary recording` are interpretation-layer vocabulary, not standard physics terminology.
 
 ## Current Limit
 
@@ -89,26 +89,25 @@ For a first look:
 2. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
 3. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
 4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
-
-For conceptual background:
-
-1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
-2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
+5. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+6. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
+7. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ## Build Notes
 
 The LaTeX papers can be compiled with `latexmk`, for example:
 
 ```sh
+latexmk -pdf articles/particle_as_closed_wave_en.tex
 latexmk -pdf articles/field01_formalization_program_en.tex
+latexmk -pdf articles/horizon_as_phase_recording_surface_en.tex
 ```
 
 If using a temporary output directory:
 
 ```sh
 mkdir -p build
-latexmk -pdf -outdir=build articles/field01_formalization_program_en.tex
+latexmk -pdf -outdir=build articles/particle_as_closed_wave_en.tex
 ```
 
 ## Collaboration Note

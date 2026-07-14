@@ -31,7 +31,7 @@ phase
 
 ## 2. What Is Being Formalized
 
-The central question is whether the book-level language of Field 01 can be expressed in a controlled mathematical form.
+The central question is whether the book-level language of Field 01 can be expressed in a controlled mathematical form. At the present checkpoint, the particle paper is the most developed entry point: it asks whether an elementary particle can be modeled as a finite-energy closed phase configuration rather than as a point object.
 
 The current toy-level variables are:
 
@@ -211,17 +211,14 @@ The best contribution at this stage is not endorsement, but precise criticism.
 
 ## 12. Suggested First Reading Path
 
-For a first technical look:
+For a first look:
 
 1. `README.md`
 2. `PROJECT_ROADMAP_EN.md`
-3. `articles/field01_formalization_program_en.tex`
-
-For conceptual background:
-
-1. `articles/particle_as_closed_wave_en.tex`
-2. `articles/horizon_as_phase_recording_surface_en.tex`
+3. `articles/particle_as_closed_wave_en.tex`
+4. `articles/field01_formalization_program_en.tex`
+5. `articles/horizon_as_phase_recording_surface_en.tex`
 
 ## 13. Short Public Description
 
-Field 01 is an independent formalization project exploring whether selected particle-like and boundary-like ideas can be organized through phase circulation, radial scalar profiles, gauge-like compensation, and equivalence classes of preserved data. It is a toy-level working archive seeking criticism and comparison with established physics.
+Field 01 is an independent formalization project exploring whether selected particle-like and boundary-like ideas can be organized through phase circulation, radial scalar profiles, gauge-like compensation, and equivalence classes of preserved data. The current central paper develops the particle-as-closed-wave proposal; the rest of the archive provides context, comparison notes, and open formalization tasks. It is a toy-level working archive seeking criticism and comparison with established physics.

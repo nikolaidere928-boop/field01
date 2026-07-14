@@ -4,7 +4,7 @@ This document summarizes the current development plan for Field 01 in English. I
 
 ## 1. Project Status
 
-Field 01 is an independent research program and public working archive. The current aim is to define a standard mathematical baseline, separate it from Field 01 interpretation, and list the open problems clearly.
+Field 01 is an independent research program and public working archive. The current aim is to define a standard mathematical baseline, separate it from Field 01 interpretation, and list the open problems clearly. The particle paper is currently the most developed paper and should be read as the central working node of the archive.
 
 The current working formulation is:
 
@@ -57,12 +57,12 @@ Key ideas:
 - radial scalar modulus / order-parameter profile language interpreted through the Field 01 local-depth / normal-retention label;
 - mass as energy cost of maintaining a closed configuration;
 - memory as retained phase structure;
-- horizon as a limiting case where the local scalar/normal profile is suppressed.
+- horizon as a limiting case where the local scalar / VEV-like profile is suppressed.
 
 Open tasks:
 
 - define the phase variable precisely;
-- define whether the scalar/normal profile is only a scalar modulus proxy or requires additional geometric structure;
+- define whether the scalar / VEV-like profile is only a scalar modulus proxy or requires additional geometric structure;
 - construct an energy functional or action;
 - compare with QFT particles, solitons, topological defects, spin, and the Higgs mechanism.
 
@@ -82,7 +82,7 @@ A black-hole horizon can be interpreted as a boundary recording surface where vo
 
 Key ideas:
 
-- suppression of the radial scalar/normal profile;
+- suppression of the radial scalar / VEV-like profile;
 - transition from volumetric memory to boundary record;
 - relation to the Bekenstein--Hawking area law;
 - thermality as a reduced-access description;
@@ -127,7 +127,7 @@ The repository should be read as a working archive, not as a finished theory. It
 ## 6. Next Research Steps
 
 1. Build a minimal mathematical model for phase circulation and closed waves.
-2. Define the scalar/normal profile and its suppression near a boundary.
+2. Define the scalar / VEV-like profile and its suppression near a boundary.
 3. Propose a candidate energy functional for stable closed configurations.
 4. Formalize memory as phase relation or equivalence class.
 5. Define a candidate bulk-to-boundary map.
