@@ -6,7 +6,7 @@ This file contains English abstracts and keywords for the current Field 01 worki
 
 Source file: [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex)
 
-PDF note: compile the source locally if a PDF is needed; PDF files are not included in this reader-only upload package.
+PDF: [particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
 
 ### Standard Abstract
 
@@ -30,7 +30,7 @@ Field 01 explores whether elementary particles can be interpreted as stable clos
 
 Source file: [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex)
 
-PDF note: compile the source locally if a PDF is needed; PDF files are not included in this reader-only upload package.
+PDF: [horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ### Standard Abstract
 
@@ -54,7 +54,7 @@ Field 01 explores whether a black-hole horizon can be interpreted as a boundary 
 
 Source file: [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex)
 
-PDF note: compile the source locally if a PDF is needed; PDF files are not included in this reader-only upload package.
+PDF: [field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
 
 ### Standard Abstract
 

@@ -46,12 +46,12 @@ For this reader-only package, start with:
 2. [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md)
 3. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
 4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex)
+5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
 
 For conceptual background after that, read:
 
-1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex)
-2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex)
+1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ## 5. Current Numerical Diagnostics
 

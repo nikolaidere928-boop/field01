@@ -27,11 +27,11 @@ Field 01 is not presented here as a completed physical theory. The current aim i
 
 ## Main Working Papers
 
-- [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) — elementary particle as a closed phase configuration.
-- [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) — horizon-like boundary recording interpretation.
-- [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) — formalization program using phase, winding, radial scalar profiles, gauge-like compensation, current-like flow, memory classes, and boundary maps.
+- [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf) — elementary particle as a closed phase configuration.
+- [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf) — horizon-like boundary recording interpretation.
+- [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf) — formalization program using phase, winding, radial scalar profiles, gauge-like compensation, current-like flow, memory classes, and boundary maps.
 
-PDF files are not included in this reader-only upload package. Compile the `.tex` sources locally if a PDF is needed.
+PDF files are included for easier reading. The `.tex` sources remain the canonical editable versions.
 
 ## Supporting Material
 
@@ -89,12 +89,12 @@ For a first look:
 2. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
 3. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
 4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex)
+5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
 
 For conceptual background:
 
-1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex)
-2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex)
+1. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+2. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ## Build Notes
 
