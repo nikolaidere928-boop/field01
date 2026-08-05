@@ -1,5 +1,7 @@
 # License and Usage Note
 
+Release note: this remains a temporary usage notice. A formal license choice is still required before final publication.
+
 This project is currently shared as an independent working archive for criticism, discussion, and formalization.
 
 A precise long-term license has not yet been chosen. Until a formal license is added, please treat the material as follows.

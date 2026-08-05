@@ -2,7 +2,7 @@
 
 Status: public working archive entrypoint.
 
-Date: 2026-07-14.
+Date: 2026-08-05.
 
 ## 1. Short Framing
 
@@ -14,6 +14,7 @@ The repository contains:
 - standard Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex comparison notes;
 - exploratory Field 01 interpretation notes;
 - toy numerical diagnostics;
+- a compact reproducible fixed-background checkpoint;
 - reference and roadmap documents.
 
 The safest current reading is:
@@ -44,10 +45,11 @@ For this reader-only package, start with:
 
 1. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
 2. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
-3. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-4. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
-5. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
-6. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
+3. [numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md)
+4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
+5. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+6. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
+7. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 For terminology and literature context after that, read:
 
@@ -56,9 +58,15 @@ For terminology and literature context after that, read:
 
 ## 5. Current Numerical Diagnostics
 
-This reader-only package does not include separate numerical scripts, JSON records, CSV files, PNG plots, or internal guardrail artifacts.
+This release includes one deliberately narrow numerical package:
 
-The formalization paper contains cautious toy-level diagnostic language, but those diagnostics should not be read as physical evidence or as a claim of a new force, interaction, particle spectrum, or accepted numerical result.
+```text
+numerics/fixed_background_checkpoint_v0_3/
+```
+
+It contains six closure summaries, one unified summary, and a standalone standard-library audit script. It does not contain the complete exploratory workspace or claim full primary-solver reproducibility.
+
+The checkpoint should not be read as physical evidence or as a claim of a new force, interaction, particle spectrum, nonlinear solution, or accepted numerical result.
 
 ## 6. Questions For Reviewers
 
@@ -73,6 +81,6 @@ Useful review checks at this stage:
 
 ## 7. Current Status
 
-Current status: public working archive checkpoint.
+Current status: `v0.3-fixed-background` public working archive checkpoint.
 
-The next useful step is technical review of the particle paper as the central closed-node proposal, followed by review of the standard-vortex convention map, the `N(r)` terminology, the memory-equivalence definitions, and the separation between standard mathematics and Field 01 interpretation.
+The most useful next step is independent review of the checkpoint logic and claim boundaries, followed by technical review of the particle paper, standard-vortex convention map, `N(r)` terminology, memory-equivalence definitions, and separation between standard mathematics and Field 01 interpretation.

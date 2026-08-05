@@ -95,7 +95,19 @@ Open tasks:
 - compare with QFT in curved spacetime;
 - clarify relation to holography and the black-hole information problem.
 
-## 4. Mathematical Vocabulary To Develop
+## 4. Fixed-Background Numerical Checkpoint
+
+Release `v0.3-fixed-background` adds a compact audit of six one-coordinate profile families. All six families retain one discrete shape and one fold measure. The largest conservative unresolved one-coordinate headroom is `0.332421%`, below the internal `1%` direct-fold threshold.
+
+This closes the tested separable polynomial profile family as a fixed-background benchmark. It does not establish global functional optimality, full static backreaction, dynamic stability, or a physical prediction.
+
+The public audit package is located at:
+
+```text
+numerics/fixed_background_checkpoint_v0_3/
+```
+
+## 5. Mathematical Vocabulary To Develop
 
 Already used as working notation:
 
@@ -120,20 +132,23 @@ Core formalization targets:
 7. relation to known quantum numbers;
 8. possible observable or theoretical differences.
 
-## 5. Current Limit
+## 6. Current Limit
 
 The repository should be read as a working archive, not as a finished theory. Its useful content is the separation between standard mathematical structures, Field 01 interpretation, and open proof obligations.
 
-## 6. Next Research Steps
+## 7. Next Research Steps
 
-1. Build a minimal mathematical model for phase circulation and closed waves.
-2. Define the scalar / VEV-like profile and its suppression near a boundary.
-3. Propose a candidate energy functional for stable closed configurations.
-4. Formalize memory as phase relation or equivalence class.
-5. Define a candidate bulk-to-boundary map.
-6. Compare with solitons, topological charges, gauge theory, QFT in curved spacetime, and holography.
-7. Identify whether any testable or theoretically distinguishable consequences exist.
+1. Preserve the v0.3 retained shape as a frozen fixed-background benchmark.
+2. Test a genuinely new profile basis rather than reopen closed coordinates.
+3. Build a minimal mathematical model for phase circulation and closed waves.
+4. Define the scalar / VEV-like profile and its suppression near a boundary.
+5. Propose a candidate energy functional for stable closed configurations.
+6. Formalize memory as phase relation or equivalence class.
+7. Define a candidate bulk-to-boundary map.
+8. Compare with solitons, topological charges, gauge theory, QFT in curved spacetime, and holography.
+9. Identify whether any testable or theoretically distinguishable consequences exist.
+10. Treat full static backreaction and dynamic-root analysis as separate gated stages.
 
-## 7. Recommended Use
+## 8. Recommended Use
 
 Use this roadmap as broad project context after reading `FIELD01_GITHUB_START_HERE.md` and `README.md`.

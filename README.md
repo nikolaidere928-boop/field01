@@ -2,6 +2,10 @@
 
 **Current reviewer entrypoint:** start with [FIELD01_GITHUB_START_HERE.md](FIELD01_GITHUB_START_HERE.md) before reading the broader archive.
 
+**Author:** Nikolai Dereviankin.
+
+**Release checkpoint:** `v0.3-fixed-background`, dated 2026-08-05.
+
 Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer, so that the terminology can be criticized before any stronger claims are made.
 
 The current goal is to translate a book-level conceptual model into clearer working notes: standard definitions first, Field 01 labels second, open problems last. The particle paper is currently the most developed conceptual and mathematical entry point; the other papers provide context and open directions.
@@ -21,9 +25,13 @@ This repository is a working archive. It contains drafts, notes, toy-model calcu
 
 The most developed single paper is currently `Elementary Particle as a Closed Wave of Field 01`. Its central question is whether an elementary particle can be treated as a stable closed phase configuration with finite energy, a local scalar / VEV-like profile, and no point core. The most developed mathematical direction still resembles known Abelian-Higgs or vortex-like structures. In that layer, `N(r)` is treated first as a radial scalar modulus or order-parameter profile approaching a vacuum value. Field 01 labels such as `normal retention`, `memory`, and `boundary recording` are interpretation-layer vocabulary, not standard physics terminology.
 
+This release also contains a compact fixed-background numerical checkpoint. Six gated one-coordinate profile families are closed around one retained discrete shape. The largest conservative unresolved one-coordinate headroom is `0.332421%`, below the internal `1%` direct-fold threshold. See [the checkpoint report](numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md).
+
 ## Current Limit
 
 Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
+
+The numerical checkpoint is not a full nonlinear solution, experimental result, stability proof, or validation of the Field 01 interpretation. Full static backreaction and dynamic-root analysis are outside this release.
 
 ## Main Working Papers
 
@@ -43,6 +51,8 @@ PDF files are included for easier reading. The `.tex` sources remain the canonic
 - [FIELD01_GLOSSARY.md](FIELD01_GLOSSARY.md) — Russian glossary with recommended English equivalents; a stricter English glossary is planned after the terminology stabilizes.
 - [LICENSE_NOTE.md](LICENSE_NOTE.md) — temporary usage note before choosing a formal license.
 - [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md) — working map from book recommended literature to academic references.
+- [numerics/fixed_background_checkpoint_v0_3/README.md](numerics/fixed_background_checkpoint_v0_3/README.md) — numerical scope, reproduction command, and file map.
+- [RELEASE_NOTES_V0_3.md](RELEASE_NOTES_V0_3.md) — exact release boundary and non-claims.
 
 ## Working Scope
 
@@ -67,6 +77,9 @@ Important unresolved problems include:
 - constructing a boundary Hilbert-space description;
 - comparing the boundary-recording interpretation with standard black-hole thermodynamics, Hawking radiation, and holographic language;
 - identifying whether any testable or theoretically distinguishable prediction exists.
+- testing genuinely new profile bases beyond the closed separable polynomial family;
+- solving the full static backreaction system;
+- auditing dynamic roots and stability.
 
 ## Review Questions
 
@@ -88,10 +101,11 @@ For a first look:
 1. [FIELD01_GITHUB_START_HERE.md](FIELD01_GITHUB_START_HERE.md)
 2. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
 3. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
-4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-5. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
-6. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
-7. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
+4. [numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md)
+5. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
+6. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
+7. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
+8. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
 ## Build Notes
 
