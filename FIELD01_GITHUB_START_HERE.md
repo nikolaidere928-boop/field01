@@ -1,86 +1,84 @@
 # Field 01 GitHub Start Here
 
-Status: public working archive entrypoint.
-
-Date: 2026-08-05.
+Status: public working archive entrypoint.  
+Date: 2026-08-06.  
+Checkpoint: `v0.4-fixed-background-handoff`.
 
 ## 1. Short Framing
 
-Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer, so that the terminology can be criticized before any stronger claims are made.
+Field 01 is an independent research and writing project. The repository separates:
 
-The repository contains:
+1. established mathematics and physics;
+2. Field 01 interpretation;
+3. new hypotheses;
+4. open mathematical and physical problems.
 
-- conceptual writing drafts;
-- standard Abelian-Higgs / Nielsen-Olesen / Abrikosov vortex comparison notes;
-- exploratory Field 01 interpretation notes;
-- toy numerical diagnostics;
-- a compact reproducible fixed-background checkpoint;
-- reference and roadmap documents.
-
-The safest current reading is:
+The safest reading path is:
 
 ```text
-standard radial vortex mathematics
--> scalar modulus / order-parameter profile and gauge-convention layer
--> convention map and numerical diagnostics
--> labelled equivalence-class / memory-map definitions
--> clearly separated Field 01 interpretation and open problems
+standard phase / gauge / vortex language
+-> radial scalar profile and convention layer
+-> fixed-background numerical benchmark
+-> Field 01 interpretation labels
+-> explicit open proof obligations
 ```
 
-## 2. What This Is
-
-This is an attempt to organize a speculative conceptual project into a form that can be checked against standard definitions.
-
-The most developed current paper is the particle paper: `Elementary Particle as a Closed Wave of Field 01`. Its core test question is whether an elementary particle can be described as a stable closed phase configuration with finite energy, a local scalar / VEV-like profile, and no point core. The strongest current technical substrate remains standard radial vortex mathematics related to Abelian-Higgs / Nielsen-Olesen / Abrikosov / Ginzburg-Landau conventions. In that standard layer, `N(r)` should be read first as a radial scalar modulus or order-parameter profile approaching a vacuum value.
-
-The Field 01 terms `memory`, `normal retention`, `boundary recording`, `horizon-like`, and `charge-like` are interpretive labels unless explicitly defined in a formal note. In particular, `normal retention` is a Field 01 reading of the scalar profile, not a new standard degree of freedom.
-
-## 3. Current Limit
-
-Field 01 is not presented here as a completed physical theory. The current aim is narrower: define the standard baseline, identify which parts are reinterpretation, and make the open problems explicit.
-
-## 4. Recommended First Reading Path
-
-For this reader-only package, start with:
+## 2. Recommended Reading Path
 
 1. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
 2. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
-3. [numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_3/CHECKPOINT_REPORT.md)
-4. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-5. [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex) / [PDF](articles/particle_as_closed_wave_en.pdf)
-6. [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex) / [PDF](articles/field01_formalization_program_en.pdf)
-7. [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex) / [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
+3. [numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md)
+4. [numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md](numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md)
+5. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
+6. [articles/particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
+7. [articles/field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
+8. [articles/horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
 
-For terminology and literature context after that, read:
+For terminology and literature context:
 
 1. [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md)
-2. [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md)
+2. [FIELD01_GLOSSARY.md](FIELD01_GLOSSARY.md)
+3. [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md)
 
-## 5. Current Numerical Diagnostics
+## 3. Numerical Handoff
 
-This release includes one deliberately narrow numerical package:
+The current compact checkpoint is located at:
 
 ```text
-numerics/fixed_background_checkpoint_v0_3/
+numerics/fixed_background_checkpoint_v0_4/
 ```
 
-It contains six closure summaries, one unified summary, and a standalone standard-library audit script. It does not contain the complete exploratory workspace or claim full primary-solver reproducibility.
+It records a confirmed retained fold diagnostic:
 
-The checkpoint should not be read as physical evidence or as a claim of a new force, interaction, particle spectrum, nonlinear solution, or accepted numerical result.
+```text
+xi_br,max = 2.0934591793773114e-3
+```
 
-## 6. Questions For Reviewers
+Nine selected profile coordinates are closed under structural, fixed-background, predictor-gain, matching-radius, and direct-fold authorization rules. The largest unresolved connected-coordinate predictor gain is `0.917518%`, below the internal `1%` direct-fold threshold.
 
-Useful review checks at this stage:
+This is a closure statement for the audited fixed-background ansatz, not a proof of global functional optimality.
 
-- Is the particle paper clear enough as the current central entry point?
-- Can a finite-energy closed phase node be defined without a point core?
-- Is the standard-first wording around `N(r)` as a radial scalar modulus / order-parameter profile clear enough?
-- Are the Abelian-Higgs / Nielsen-Olesen / Abrikosov convention mappings stated correctly?
-- Are the memory-map equivalence relations mathematically well-defined enough to criticize?
-- Which Field 01 terms are misleading or too strong?
+## 4. What The Checkpoint Reproduces
 
-## 7. Current Status
+The public audit verifies:
 
-Current status: `v0.3-fixed-background` public working archive checkpoint.
+- one consistent confirmed fold value;
+- nine coordinate-closure flags;
+- direct-fold validation and matching-radius flags;
+- the maximum unresolved predictor gain;
+- absence of full-static or dynamic-root authorization.
 
-The most useful next step is independent review of the checkpoint logic and claim boundaries, followed by technical review of the particle paper, standard-vortex convention map, `N(r)` terminology, memory-equivalence definitions, and separation between standard mathematics and Field 01 interpretation.
+The release does not include the complete exploratory workspace or rerun every primary boundary-value solve.
+
+## 5. Questions For Reviewers
+
+- Is the numerical claim boundary stated clearly enough?
+- Are the profile coordinates and retained shape documented unambiguously?
+- Are the standard vortex and scalar-profile comparisons appropriate?
+- Which Field 01 terms remain misleading or underdefined?
+- What independent physical sector should be tested before full backreaction?
+- Which assumptions would prevent the retained fixed-background shape from extending to a consistent action?
+
+## 6. Current Limit
+
+Field 01 is not presented as a completed physical theory. Full static backreaction, dynamic roots, physical particle spectra, and experimental interpretation remain open.

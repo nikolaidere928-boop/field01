@@ -1,0 +1,10 @@
+coordinate_family,channel,retained_value,confirmed_record,maximum_unresolved_gain,gain_basis,direct_gain_threshold,coordinate_closed,further_direct_fold_authorized,full_static_backreaction_authorized,dynamic_root_audit_authorized
+difference_cubic_exponential_tilt,difference,-0.35,0.0020934591793773114,0.0006139211220412832,conservative_vertex_headroom,0.01,True,False,False,False
+difference_core_power,difference,16,0.0020934591793773114,0.00022068284710163866,control_calibrated_vertex_headroom,0.01,True,False,False,False
+difference_shoulder_coefficient,difference,4.0,0.0020934591793773114,0.000644569948480278,conservative_vertex_headroom,0.01,True,False,False,False
+difference_linear_width,difference,1.2,0.0020934591793773114,0.0003279650697933789,control_calibrated_vertex_headroom,0.01,True,False,False,False
+difference_quadratic_width,difference,0.0,0.0020934591793773114,0.000020226253736543853,control_calibrated_vertex_headroom,0.01,True,False,False,False
+aligned_shell_power,aligned,1.0,0.0020934591793773114,0.0,best_admissible_positive_headroom,0.01,True,False,False,False
+aligned_linear_width,aligned,-3.26,0.0020934591793773114,0.000002740947224300072,control_calibrated_vertex_headroom,0.01,True,False,False,False
+aligned_quadratic_width,aligned,3.041,0.0020934591793773114,0.0001214050548441481,control_calibrated_vertex_headroom,0.01,True,False,False,False
+aligned_cubic_exponential_tilt,aligned,0.0,0.0020934591793773114,0.00917517942087942,raw_predictor_vertex_gain,0.01,True,False,False,False

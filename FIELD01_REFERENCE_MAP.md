@@ -144,9 +144,9 @@ In vortex and Abelian-Higgs-type models, a complex scalar field can be written i
 - Hawking radiation derivation or replacement;
 - testable prediction.
 
-## 7. Revision Status After v0.3
+## 7. Revision Status After v0.4
 
-Completed by the current v0.3 public checkpoint:
+Completed by the current public checkpoints:
 
 1. Added a `Standard-First Vocabulary Rule` section.
 2. Added immediate reference anchors for Abelian-Higgs/vortex, soliton, topological-defect, and horizon-information comparisons.
@@ -155,6 +155,8 @@ Completed by the current v0.3 public checkpoint:
 5. Added explicit caution that the Abelian-Higgs/vortex structure is not a new invention.
 6. Marked the particle paper as the current central entry point for closed-node review.
 7. Aligned scalar-profile wording with the safer `scalar / VEV-like profile` terminology.
+8. Added a compact fixed-background handoff with a confirmed retained fold and nine closed profile coordinates.
+9. Kept full static backreaction, dynamic roots, particle spectra, and experimental claims outside the release boundary.
 
 Still open before a technical post:
 
