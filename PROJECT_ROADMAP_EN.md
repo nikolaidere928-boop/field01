@@ -1,12 +1,12 @@
 # Field 01 Project Roadmap
 
-Date: 2026-08-06.
+Date: 2026-08-07.
 
 ## 1. Project Status
 
 Field 01 is an independent research program and public working archive. The current objective is to define a standard mathematical baseline, separate it from Field 01 interpretation, and expose the remaining proof obligations.
 
-The particle paper is the central conceptual entry point. The `v0.4` numerical handoff freezes the current restricted fixed-background profile optimization as a benchmark.
+The particle paper is the central conceptual entry point. The `v0.4` numerical handoff freezes the current restricted fixed-background profile optimization as a benchmark. A complete bilingual numerical report now documents the retained ansatz, gates, validation diagnostics, coordinate closure, figure data, literature context, and claim boundaries.
 
 ## 2. Current Mathematical Layer
 
@@ -42,6 +42,14 @@ xi_br,max=2.0934591793773114e-3.
 Nine profile coordinates are closed under the current internal gates. The largest unresolved predictor gain is `0.917518%`, below the `1%` threshold for another direct fold.
 
 This completes the selected fixed-background optimization contour. It does not prove global optimality over arbitrary basis functions, actions, or additional fields.
+
+Report and reproducibility material:
+
+- [English report source](articles/fixed_background_optimization_v0_4_en.tex) / [PDF](articles/fixed_background_optimization_v0_4_en.pdf)
+- [Russian report source](articles/fixed_background_optimization_v0_4.tex) / [PDF](articles/fixed_background_optimization_v0_4.pdf)
+- [Retained-localizer figure](figures/fixed_background_v0_4_retained_localizers.png)
+- [Sampled profile data](analysis/numerics/fixed_background_v0_4_retained_localizers.csv)
+- [Figure generator](analysis/numerics/plot_fixed_background_v0_4_retained_localizers.py)
 
 ## 4. Immediate Research Direction
 
@@ -81,4 +89,4 @@ Priority sequence:
 
 ## 7. Publication Policy
 
-Public releases should contain compact derived checkpoints, claim boundaries, and reproducibility audits. The complete exploratory workspace should remain internal unless a later end-to-end solver release is prepared.
+Public releases should contain compact derived checkpoints, claim boundaries, reproducibility audits, and direct links to readable reports and their canonical sources. The complete exploratory workspace should remain internal unless a later end-to-end solver release is prepared.

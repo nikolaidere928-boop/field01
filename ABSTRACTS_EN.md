@@ -74,7 +74,33 @@ Field 01; formalization program; phase circulation; closed node; scalar modulus;
 
 Field 01 can be organized as a mathematical program linking phase nodes, radial scalar profiles with a normal-retention interpretation, memory, relation classes, and boundary recording through toy models and diagnostics that mostly reduce to known vortex/gauge structures.
 
-## 4. Combined Project Abstract
+## 4. Numerical Optimization of a Two-Component Field 01 Profile on a Fixed Background
+
+Source file: [articles/fixed_background_optimization_v0_4_en.tex](articles/fixed_background_optimization_v0_4_en.tex)
+
+PDF: [fixed_background_optimization_v0_4_en.pdf](articles/fixed_background_optimization_v0_4_en.pdf)
+
+Russian edition: [LaTeX](articles/fixed_background_optimization_v0_4.tex) / [PDF](articles/fixed_background_optimization_v0_4.pdf)
+
+### Standard Abstract
+
+This report records a completed stage of restricted numerical optimization for a two-component Field 01 localizer on a fixed background. Two independent deformation channels are considered: a sign-changing difference localizer controlling the relative profile of the two components, and an aligned localizer controlling their common deformation. Candidates are retained only after structural and spectral-physical checks, a predicted-gain gate, matching-radius comparison, and direct verification of a branch fold. The retained result is $\xi_{\mathrm{br,max}}=2.0934591793773114\times10^{-3}$, improving checkpoint v0.3 by $1.218886\%$. Nine selected coordinates are closed under the predeclared $1\%$ direct-validation threshold. The report supplies the explicit profile families, numerical evolution, validation diagnostics, reproducible figure data, primary references, and scope boundaries. It does not claim global optimality, introduce a fundamental action, or replace a full analysis of static backreaction or dynamical stability.
+
+### Short Abstract
+
+This bilingual report documents the retained Field 01 fixed-background profile, its optimization and validation gates, a confirmed direct-fold diagnostic, closure of nine profile coordinates, and a reproducible two-panel localizer figure. It is a restricted numerical benchmark rather than a completed physical model.
+
+### Keywords
+
+```text
+Field 01; two-component localizer; fixed background; numerical optimization; branch continuation; fold; predictor; matching radius; coordinate closure; reproducibility
+```
+
+### One-Sentence Summary
+
+The report freezes and documents a reproducible restricted fixed-background checkpoint while explicitly separating the confirmed numerical result from unproved physical interpretation.
+
+## 5. Combined Project Abstract
 
 ### Standard Version
 
@@ -84,7 +110,7 @@ Field 01 is an independent research program exploring a phase-based interpretati
 
 Field 01 is an independent research program exploring whether selected particle-like and boundary-like ideas can be organized as phase-structural regimes of a field: open transport, closed waves, radial scalar profiles with a normal-retention interpretation, and boundary recording.
 
-## 5. Notes For Future Preprint Versions
+## 6. Notes For Future Preprint Versions
 
 Before using these abstracts in formal preprint versions, add:
 

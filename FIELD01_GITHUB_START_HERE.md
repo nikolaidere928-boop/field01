@@ -1,7 +1,7 @@
 # Field 01 GitHub Start Here
 
 Status: public working archive entrypoint.  
-Date: 2026-08-06.  
+Date: 2026-08-07.  
 Checkpoint: `v0.4-fixed-background-handoff`.
 
 ## 1. Short Framing
@@ -29,10 +29,11 @@ standard phase / gauge / vortex language
 2. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
 3. [numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md)
 4. [numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md](numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md)
-5. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-6. [articles/particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
-7. [articles/field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
-8. [articles/horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
+5. [articles/fixed_background_optimization_v0_4_en.pdf](articles/fixed_background_optimization_v0_4_en.pdf)
+6. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
+7. [articles/particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
+8. [articles/field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
+9. [articles/horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
 
 For terminology and literature context:
 
@@ -40,7 +41,19 @@ For terminology and literature context:
 2. [FIELD01_GLOSSARY.md](FIELD01_GLOSSARY.md)
 3. [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md)
 
-## 3. Numerical Handoff
+## 3. Bilingual Numerical Report
+
+The retained checkpoint is documented in a standalone report with complete Russian and English editions:
+
+- [English LaTeX](articles/fixed_background_optimization_v0_4_en.tex) / [English PDF](articles/fixed_background_optimization_v0_4_en.pdf)
+- [Russian LaTeX](articles/fixed_background_optimization_v0_4.tex) / [Russian PDF](articles/fixed_background_optimization_v0_4.pdf)
+- [Retained-localizer figure](figures/fixed_background_v0_4_retained_localizers.png)
+- [Sampled profile data](analysis/numerics/fixed_background_v0_4_retained_localizers.csv)
+- [Figure generator](analysis/numerics/plot_fixed_background_v0_4_retained_localizers.py)
+
+The report explains the profile families, optimization gates, direct-fold validation, nine-coordinate closure, public audit, literature context, and explicit non-claims.
+
+## 4. Numerical Handoff
 
 The current compact checkpoint is located at:
 
@@ -58,7 +71,7 @@ Nine selected profile coordinates are closed under structural, fixed-background,
 
 This is a closure statement for the audited fixed-background ansatz, not a proof of global functional optimality.
 
-## 4. What The Checkpoint Reproduces
+## 5. What The Checkpoint Reproduces
 
 The public audit verifies:
 
@@ -70,7 +83,7 @@ The public audit verifies:
 
 The release does not include the complete exploratory workspace or rerun every primary boundary-value solve.
 
-## 5. Questions For Reviewers
+## 6. Questions For Reviewers
 
 - Is the numerical claim boundary stated clearly enough?
 - Are the profile coordinates and retained shape documented unambiguously?
@@ -79,6 +92,6 @@ The release does not include the complete exploratory workspace or rerun every p
 - What independent physical sector should be tested before full backreaction?
 - Which assumptions would prevent the retained fixed-background shape from extending to a consistent action?
 
-## 6. Current Limit
+## 7. Current Limit
 
 Field 01 is not presented as a completed physical theory. Full static backreaction, dynamic roots, physical particle spectra, and experimental interpretation remain open.
