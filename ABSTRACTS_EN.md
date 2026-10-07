@@ -1,121 +1,43 @@
-# English Abstracts for Field 01 Working Papers
+# Working Paper Abstracts
 
-This file contains English abstracts and keywords for the current Field 01 working papers. These are not literal translations from Russian; they are cautious academic adaptations intended for an English-speaking audience.
+English editions: 10 September–7 October 2026. Article versions are independent of the August numerical release number. Russian particle and horizon copies remain earlier editions.
 
-## 1. Elementary Particle as a Closed Wave of Field 01
+## Elementary Particle as a Closed Wave — v0.4.2
 
-Source file: [articles/particle_as_closed_wave_en.tex](articles/particle_as_closed_wave_en.tex)
+[Source](articles/particle_as_closed_wave_en.tex) · [PDF](articles/particle_as_closed_wave_en.pdf)
 
-PDF: [particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
+Field 01 explores a localized closed phase configuration as a possible description of a particle-like object. Scalar and gauge profiles supply a vortex-like mathematical comparison, not a demonstrated three-dimensional elementary particle. The paper separates winding from localization and stability, distinguishes a physical photon from a scalar phase at zero modulus, and records the limited scope of an existing fixed-background profile benchmark. Physical mass, charge, spin, and an open-to-closed transition remain to be derived.
 
-### Standard Abstract
+**Keywords:** phase circulation; scalar profiles; vortex models; finite energy; localization; stability; memory interpretation.
 
-This working paper is the current central entry point of the Field 01 public archive. It formulates an initial core of the model: the elementary particle is interpreted not as a material point, but as a stable closed wave-like configuration of a field. The model introduces two inseparable field modes, denoted as 0 and 1: fixation or recording, and direction or circulation. Their interplay is used to discuss phase circulation, a local scalar / VEV-like profile, its Field 01 normal-retention interpretation, mass, and memory. Within this interpretation, a photon is described as open phase transport without a retained local scalar / VEV-like profile, whereas a massive elementary particle is associated with closed circulation and stabilization of such a profile. The proposal is not presented as a replacement for the Standard Model or quantum field theory. Rather, it is a speculative interpretational and topological framework that must be compared with established field-theoretic structures, including vacuum correlations, observer-dependent particle content, spin, mass generation, soliton or vortex models, and horizon information. A preliminary program for further formalization is outlined.
+## A Formalization Program for Field 01 — v0.5.1
 
-### Short Abstract
+[Source](articles/field01_formalization_program_en.tex) · [PDF](articles/field01_formalization_program_en.pdf)
 
-This paper introduces the Field 01 interpretation of an elementary particle as a stable finite-energy closed phase configuration rather than a point-like object. Photons are treated as open phase transport, while massive particles are associated with closed circulation, a local scalar / VEV-like profile layer with a normal-retention interpretation, and phase memory. The proposal is presented as a research program requiring further comparison with quantum field theory, soliton/vortex models, and the Standard Model.
+This paper organizes the proposal into standard mathematical objects, interpretation-level assignments, and open physical questions. It discusses phase winding, scalar/gauge profiles, proposed memory classes, and boundary maps. The open/closed compatibility discussion distinguishes coexistence of a massless gauge mode and a vortex sector from a mechanism converting one into the other. Related toroidal-photon proposals provide historical context, not validation. A fundamental Field 01 dynamics and its particle and horizon predictions remain open.
 
-### Keywords
+**Keywords:** formalization; phase winding; gauge fields; open and closed sectors; memory classes; boundary recording.
 
-```text
-Field 01; closed wave; elementary particle; phase circulation; scalar profile; VEV-like profile; normal-retention interpretation; mass; phase memory; finite energy; quantum field theory; observer-dependent particle content; horizon; holography
-```
+## Horizon as a Phase Recording Surface — v0.2
 
-### One-Sentence Summary
+[Source](articles/horizon_as_phase_recording_surface_en.tex) · [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
-Field 01 explores whether elementary particles can be interpreted as finite-energy stable closed phase configurations, with mass associated with the energy of maintaining a local scalar / VEV-like profile interpreted in Field 01 as normal retention.
+This earlier conceptual draft proposes a horizon interpretation in which bulk phase information is represented as boundary recording. The proposal requires an independently defined dynamics, observables, and comparison with semiclassical radiation and black-hole thermodynamics. It is not a derived consequence of the particle benchmark, and no alternative evaporation law is established by this edition.
 
-## 2. Horizon as a Phase Recording Surface in Field 01
+**Keywords:** horizon interpretation; boundary information; phase memory; black-hole thermodynamics.
 
-Source file: [articles/horizon_as_phase_recording_surface_en.tex](articles/horizon_as_phase_recording_surface_en.tex)
+## Fixed-Background Profile Optimization — v0.4
 
-PDF: [horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
+[English source](articles/fixed_background_optimization_v0_4_en.tex) · [English PDF](articles/fixed_background_optimization_v0_4_en.pdf) · [Russian PDF](articles/fixed_background_optimization_v0_4.pdf)
 
-### Standard Abstract
+The numerical report of 7 August 2026 documents a restricted two-component profile calculation on a fixed background. It records a retained fold diagnostic, matching-radius checks, and nine audited profile coordinates under stated criteria. The result is not a global functional optimum, a full backreacted solution, a particle spectrum, or a dynamical stability theorem. The supplied consistency script checks the released summaries rather than rerunning all primary solves.
 
-This working paper develops the horizon-related part of the Field 01 model. A black hole is interpreted not as an object containing a physical point singularity, but as a limiting field regime in which volumetric phase structure is represented as boundary recording. In this language, the horizon is not a passage to infinite density, but a surface where the local scalar / VEV-like profile is suppressed, volumetric dynamical unfolding ceases, and phase memory is encoded in a boundary form. The Bekenstein--Hawking area law is interpreted as a possible indication of the surface character of such recording. The model differs from a literal evaporation picture of black holes: it does not treat the horizon as losing its record through ordinary thermal emission, but instead proposes that horizon thermality may reflect reduced access to boundary phase information. This remains a speculative hypothesis and requires careful comparison with Hawking's semiclassical calculation, quantum field theory in curved spacetime, black-hole thermodynamics, and holographic approaches.
+**Keywords:** fixed-background calculation; profile optimization; numerical diagnostics; reproducibility.
 
-### Short Abstract
+## Reading a Past Label versus Updating a Surface Record — v0.1
 
-This paper presents the Field 01 interpretation of a black-hole horizon as a phase recording surface. Instead of treating the black hole as ending in a physical point singularity or as literally losing its record through evaporation, the model interprets the horizon as a boundary archive of phase information. The proposal is speculative and requires comparison with Hawking radiation, black-hole thermodynamics, and holography.
+[LaTeX source](articles/reading_past_label_vs_updating_surface_record_en.tex) · [PDF](articles/reading_past_label_vs_updating_surface_record_en.pdf)
 
-### Keywords
+Motivated by a broader question in Field 01, this self-contained paper studies a massless wave field on a half-line coupled to a dynamical boundary coordinate. It gives an equal-energy pulse-order reading result, a counterexample to scalar update closure on a broader preparation family, and a sufficient two-component relative record when the future input and phase reference are supplied. The model and access assumptions are explicit; the result is a methodological example, not a test of Field 01's cosmological proposal or a claim of minimality.
 
-```text
-Field 01; black hole; horizon; phase recording; phase memory; Bekenstein-Hawking entropy; holography; singularity; Hawking radiation; reduced description; quantum field theory in curved spacetime
-```
-
-### One-Sentence Summary
-
-Field 01 explores whether a black-hole horizon can be interpreted as a boundary recording surface where volumetric phase structure is encoded as surface information.
-
-## 3. A Formalization Program for Field 01
-
-Source file: [articles/field01_formalization_program_en.tex](articles/field01_formalization_program_en.tex)
-
-PDF: [field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
-
-### Standard Abstract
-
-This working paper outlines a cautious formalization program for Field 01. It organizes the model's current mathematical development into a chain of concepts: phase, closed circulation, radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, current-like flow, memory as an equivalence class, boundary recording, and reduced external description. It provides a structured toy-level vocabulary in which Field 01 can be compared with known mathematical structures, especially phase/gauge/vortex models. The v0.4 diagnostic layer adds a frozen fixed-background optimization handoff: nine audited profile coordinates, one confirmed direct-fold benchmark, and explicit authorization boundaries for later static and dynamic work. The paper emphasizes that much of the formal structure resembles Abelian-Higgs or vortex-like mathematics; the possible contribution of Field 01 lies in the labelled interpretation of scalar-profile retention, memory, relation classes, and boundary recording. The next step is comparison with quantum field theory, gauge theory, black-hole thermodynamics, holography, and independent physical-sector diagnostics.
-
-### Short Abstract
-
-This paper organizes Field 01 into a formalization chain from phase circulation and closed nodes to radial scalar modulus / order-parameter language, labelled normal-retention interpretation, gauge-like compensation, memory classes, boundary maps, reduced external states, and standard-first diagnostics for boundary loss, compensation stiffness, relation bins, and Wilson-line phase classes.
-
-### Keywords
-
-```text
-Field 01; formalization program; phase circulation; closed node; scalar modulus; order-parameter profile; normal-retention interpretation; memory; gauge-like compensation; Abelian-Higgs diagnostics; boundary-layer tension; Wilson-line phase; vortex models; boundary recording; reduced density matrix
-```
-
-### One-Sentence Summary
-
-Field 01 can be organized as a mathematical program linking phase nodes, radial scalar profiles with a normal-retention interpretation, memory, relation classes, and boundary recording through toy models and diagnostics that mostly reduce to known vortex/gauge structures.
-
-## 4. Numerical Optimization of a Two-Component Field 01 Profile on a Fixed Background
-
-Source file: [articles/fixed_background_optimization_v0_4_en.tex](articles/fixed_background_optimization_v0_4_en.tex)
-
-PDF: [fixed_background_optimization_v0_4_en.pdf](articles/fixed_background_optimization_v0_4_en.pdf)
-
-Russian edition: [LaTeX](articles/fixed_background_optimization_v0_4.tex) / [PDF](articles/fixed_background_optimization_v0_4.pdf)
-
-### Standard Abstract
-
-This report records a completed stage of restricted numerical optimization for a two-component Field 01 localizer on a fixed background. Two independent deformation channels are considered: a sign-changing difference localizer controlling the relative profile of the two components, and an aligned localizer controlling their common deformation. Candidates are retained only after structural and spectral-physical checks, a predicted-gain gate, matching-radius comparison, and direct verification of a branch fold. The retained result is $\xi_{\mathrm{br,max}}=2.0934591793773114\times10^{-3}$, improving checkpoint v0.3 by $1.218886\%$. Nine selected coordinates are closed under the predeclared $1\%$ direct-validation threshold. The report supplies the explicit profile families, numerical evolution, validation diagnostics, reproducible figure data, primary references, and scope boundaries. It does not claim global optimality, introduce a fundamental action, or replace a full analysis of static backreaction or dynamical stability.
-
-### Short Abstract
-
-This bilingual report documents the retained Field 01 fixed-background profile, its optimization and validation gates, a confirmed direct-fold diagnostic, closure of nine profile coordinates, and a reproducible two-panel localizer figure. It is a restricted numerical benchmark rather than a completed physical model.
-
-### Keywords
-
-```text
-Field 01; two-component localizer; fixed background; numerical optimization; branch continuation; fold; predictor; matching radius; coordinate closure; reproducibility
-```
-
-### One-Sentence Summary
-
-The report freezes and documents a reproducible restricted fixed-background checkpoint while explicitly separating the confirmed numerical result from unproved physical interpretation.
-
-## 5. Combined Project Abstract
-
-### Standard Version
-
-Field 01 is an independent research program exploring a phase-based interpretation of particles, mass, memory, and horizon-like boundary recording. The current working papers organize selected ideas as closed phase configurations, radial scalar profiles, memory classes, and boundary maps. The framework distinguishes between established physics, interpretation, new hypotheses, and open formalization problems. Its immediate goal is to develop a standard-first conceptual and mathematical language that can be compared with quantum field theory, observer-dependent particle content, horizon thermodynamics, the black-hole information problem, and holographic ideas.
-
-### Short Version
-
-Field 01 is an independent research program exploring whether selected particle-like and boundary-like ideas can be organized as phase-structural regimes of a field: open transport, closed waves, radial scalar profiles with a normal-retention interpretation, and boundary recording.
-
-## 6. Notes For Future Preprint Versions
-
-Before using these abstracts in formal preprint versions, add:
-
-- references to QFT in curved spacetime;
-- references to Hawking radiation and Bekenstein-Hawking entropy;
-- references to holography and black-hole information;
-- clearer mathematical notation for phase, normal, memory, and boundary map;
-- clearer separation between standard mathematical structures, interpretation, and open hypotheses.
+**Keywords:** bulk--boundary wave equation; dynamical boundary; predictive sufficiency; input--output systems; finite-time decoding; operational record.

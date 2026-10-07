@@ -1,6 +1,8 @@
 # Field 01 Overview
 
-This is a short entry document for readers encountering Field 01 for the first time.
+This is a short entry document for readers encountering Field 01 for the first time. Updated reading guidance: 10 September 2026.
+
+The revised English particle and formalization papers distinguish a scalar/gauge vortex benchmark from a physical photon or a three-dimensional particle. The terminology below describes the conceptual program; it does not establish a photon-to-particle transition. Earlier horizon and Russian editions are identified in the [reading guide](README.md).
 
 Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer. The purpose of this overview is to make the project inspectable: what is standard, what is reinterpretation, and what remains open.
 
@@ -36,7 +38,7 @@ The central question is whether the book-level language of Field 01 can be expre
 The current toy-level variables are:
 
 - `phi` — a phase variable;
-- `N` — in the standard vortex layer, a radial scalar modulus / order-parameter profile; in Field 01 language, an interpretive proxy for normal retention or local depth;
+- `N` — a scalar modulus / order-parameter profile, not by itself an amount of retention; the revised papers discuss a gauge-invariant departure from the vacuum profile as a possible diagnostic;
 - `A_mu` — a connection-like compensating field;
 - `M` — memory, treated as preserved phase-structural data;
 - `Q_wind` — a winding number or topological record of closed circulation.
@@ -55,7 +57,7 @@ The first conceptual paper interprets an elementary particle as a stable closed 
 
 In this language:
 
-- a photon is treated as open phase transport;
+- a photon is provisionally associated with an open mode, whose physical representative is not derived by the present vortex benchmark;
 - a massive particle is treated as closed phase circulation;
 - mass is associated, at toy-model level, with the energy cost of retaining a closed phase-scalar structure with a normal-retention interpretation;
 - memory is associated with preserved phase structure.
@@ -80,13 +82,13 @@ N = N(r).
 
 The phrase “normal retention” is a Field 01 interpretation of this scalar profile, not a new independent degree of freedom in the standard vortex layer. A closed winding without compensation has long-range energy cost. Introducing `N(r)` gives a way to discuss localization and retention, but by itself it is not enough to define a complete physical particle.
 
-The current working interpretation is:
+An earlier conceptual description is:
 
 ```text
 normal retention = local scalar depth needed to maintain a closed phase node
 ```
 
-This phrase is model-specific and should be treated carefully. It is not standard Abelian-Higgs terminology and is not yet a standard physical observable.
+This phrase is model-specific, not a standard physical observable. The revised English papers instead discuss a gauge-invariant departure from the vacuum scalar profile as a possible localization diagnostic. They do not equate the scalar value itself with retention or identify a vanishing scalar modulus with a photon.
 
 ## 5. Gauge-Like Compensation
 

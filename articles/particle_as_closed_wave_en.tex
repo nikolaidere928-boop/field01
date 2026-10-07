@@ -29,11 +29,11 @@
 \maketitle
 
 \begin{center}
-\textit{Working version v0.3 --- English research draft for public discussion}
+\textit{Working version v0.4.2 --- Revised English edition, 10 September 2026}
 \end{center}
 
 \begin{abstract}
-This paper formulates a first core element of Field 01: an elementary particle is interpreted not as a material point, but as a stable closed wave configuration of a field. Two regimes of the field---fixation $0$ and direction $1$---form a rhythm from which phase circulation, a local scalar / VEV-like profile, its Field 01 normal-retention interpretation, mass, and memory can be described. A photon is interpreted as an open transport of phase $1$, whereas a massive elementary particle appears only when the circulation closes and a local scalar / VEV-like profile is retained. This approach replaces the point-like core by a dynamical core and thereby avoids an internal point singularity in the model description of an elementary particle. A black-hole horizon appears as a limiting regime of the same logic: suppression of the local scalar / VEV-like profile and transition of phase memory into a surface record.
+Field 01 explores whether a particle-like object can be represented by a localized closed phase configuration rather than by a point core. Its interpretive vocabulary links circulation, scalar-profile retention, and memory. The mathematical comparison layer uses scalar and gauge profiles with vortex-like winding; it does not establish a stable three-dimensional elementary particle. In particular, the present benchmark does not derive a physical photon or a transition from an open mode to a closed configuration. A separate fixed-background numerical report supplies a restricted profile benchmark, not a particle mass or a stability theorem. This paper states the localization, regularity, dynamical, and observational questions that must be resolved before the interpretation can become a physical model. The proposed horizon connection remains a separate hypothesis.
 \end{abstract}
 
 \textbf{Keywords:} Field 01; closed wave; elementary particle; phase circulation; scalar profile; VEV-like profile; normal-retention interpretation; mass; memory; quantum field theory; horizon; holography.
@@ -154,14 +154,21 @@ In standard physics a photon is a quantum of the electromagnetic field, with ene
 E = \hbar\omega.
 \end{equation}
 
-In the language of Field 01 this relation can be read as a link between energy and the frequency of phase rhythm. A photon is interpreted as an open transport of the regime $1$: phase is carried, but no local scalar / VEV-like profile is retained.
+At the interpretation level, Field 01 associates the photon with an open mode $1$. This means transport of direction, phase, and energy without a localized closed node. The current benchmark uses a complex scalar and an Abelian--Higgs-like vortex; it does not yet realize this identification.
 
-Schematically,
+If the field is written as
 \begin{equation}
-\text{photon}: \qquad \normal = 0, \qquad \text{open phase transport}.
+\psi=Ne^{i\phase},
 \end{equation}
+then at $N=0$ the phase $\phase$ is undefined and the phase kinetic term proportional to $N^2(\partial\phase-A)^2$ vanishes. Therefore ``photon $=N=0$'' does not describe a propagating scalar phase wave. In a locally broken $U(1)$ model, the scalar phase is not an independent massless mode either; it belongs to the massive vector sector.
 
-This is not intended to replace quantum electrodynamics. It is a model-specific interpretation of why the photon has no rest mass: in Field 01, mass is associated with the retention of a closed phase structure and a local scalar / VEV-like profile, while the photon remains an open propagating mode.
+A safer schematic statement is
+\begin{equation}
+\text{open mode }1:
+\qquad \mathcal{R}_0=0,
+\qquad \text{physical representative not yet defined},
+\end{equation}
+where $\mathcal{R}_0=0$ means absence of a localized profile deformation, not a vanishing scalar modulus. A photon comparison must separately reproduce gauge invariance, masslessness, two polarizations, and spin $1$.
 
 \section{Elementary Particle as a Closed Wave}
 
@@ -174,35 +181,29 @@ The schematic condition for such a regime is
 
 Here $\contour$ does not have to be understood as a material wire or a literal circular path. It denotes the effective phase cycle that returns the field to a self-consistent state.
 
-In this interpretation the particle is not a small ball and not a mathematical point with an infinite core. It is a localized mode of field rhythm. Its stability is produced by closure, not by a hard inner substance.
+In this interpretation the particle is not a small ball and not a mathematical point with an infinite core. It is a localized mode of field rhythm. Closure alone does not establish stability; the latter requires an explicit energy functional and a perturbation analysis.
 
 \section{Scalar Profile and the Interpretation of Local Depth}
 
-A closed phase circulation introduces an additional feature absent in the open photon mode: a local scalar / VEV-like profile. The primary object here is a scalar profile $N$ or VEV-like profile. The symbol $\normal$ is kept as an interpretive Field 01 label for local depth or normal retention:
+A standard vortex benchmark contains a scalar modulus $N$ with vacuum value $N_0$. The profile satisfies $N\to N_0$ far from the node and usually $N\to0$ at the vortex core. Therefore the bare value of $N$ cannot be identified directly with mode $0$ or with an amount of retention.
+
+A localized diagnostic may instead measure departure from the vacuum profile:
 \begin{equation}
-N=N[\Delta\phase], \qquad \normal\equiv\text{interpretation}(N).
+\mathcal{R}_0(x)
+=\frac{\bigl(N^2(x)-N_0^2\bigr)^2}{N_0^4},
+\qquad
+\normal\equiv\text{interpretation}(\mathcal{R}_0).
 \end{equation}
 
-This scalar / VEV-like profile is not a material rod inside the particle. In Field 01 language it is a way of describing local depth associated with the coupling of phase branches. The normal-retention language is interpretation-layer vocabulary, not an already established independent standard field.
+This quantity is gauge-invariant and vanishes on the vacuum background, but it is only a diagnostic, not a fundamental definition of mode $0$. The localized structure is represented by the combined phase, scalar, and gauge profile.
 
-If the phase separation disappears,
+If the closed node unfolds, the cautious limit is
 \begin{equation}
-\Delta\phase\to 0,
+\mathcal{R}_0\to0,
+\qquad
+(N,\phase,A_\mu)\to\text{vacuum or open sector},
 \end{equation}
-then the scalar profile is suppressed,
-\begin{equation}
-N\to 0, \qquad \normal\to 0\;\text{as an interpretive limit}.
-\end{equation}
-
-Thus the distinction between a photon and a massive particle can be expressed as
-\begin{equation}
-\begin{aligned}
-\text{photon}:& \qquad N = 0, \\
-\text{massive particle}:& \qquad N \neq 0.
-\end{aligned}
-\end{equation}
-
-This is a working hypothesis of the model. A strict version would require a geometric definition of $N$ and a dynamical equation for its stability.
+rather than the mandatory condition $N\to0$.
 
 \section{Localization and Absence of a Point Singularity}
 
@@ -238,14 +239,14 @@ and, in the Standard Model, elementary particle masses are connected with their 
 
 In the model, mass is interpreted as the energy cost of maintaining a closed phase configuration and its local scalar / VEV-like profile. A schematic expression is
 \begin{equation}
-m c^2 \sim E_{\mathrm{closed}}[\phase,N].
+m c^2 \sim E_{\mathrm{closed}}[\phase,N,A_\mu].
 \end{equation}
 
 A possible functional form is
 \begin{equation}
 E_{\mathrm{closed}} = \int_{\Sigma} \left( A |\nabla \phase|^2 + B |N|^2 + V(\phase,N) \right) d\Sigma,
 \end{equation}
-where $A$, $B$, and $V$ are not yet fixed from a fundamental action. The purpose of this expression is only to show the direction of formalization: mass should correspond to the energy of a stable closed solution, not to an independent substance placed inside the particle.
+where $A$, $B$, and $V$ are not yet fixed from a fundamental action. This schematic expression is not a gauge-invariant action for the local vortex benchmark. A physical energy functional must specify covariant derivatives, gauge-field energy, normalization, and boundary conditions. The intended comparison is with the rest energy of a localized solution, not with a mass already calculated here.
 
 In words:
 \begin{quote}
@@ -350,7 +351,9 @@ In general relativity the stress--energy tensor describes the distribution of en
 
 At the current stage, however, expressions such as phase tension or scalar-profile retention energy are only working terms. They should not be confused with an already defined tensorial theory.
 
-\section{Limit: Vanishing Normal and Horizon}
+\section{Horizon Interpretation}
+
+The following schematic limit belongs to the earlier horizon hypothesis. It is not derived from the vortex equations or from the profile diagnostic $\mathcal{R}_0$, and does not establish an evaporation law.
 
 The same logic that distinguishes an open photon mode from a closed massive particle also suggests a limiting regime near a horizon. If the local scalar / VEV-like profile is suppressed,
 \begin{equation}
@@ -364,6 +367,17 @@ In Field 01 the horizon is interpreted as a recording surface. The closed config
 \end{equation}
 
 This is intentionally close to the general spirit of the holographic principle and to the Bekenstein--Hawking relation between entropy and horizon area. It is not presented as a derivation of black-hole thermodynamics. It is a model-specific interpretation of why information may be associated with a boundary rather than with an internal object-like volume.
+
+\section{Current Numerical Status}
+
+A separate numerical report records the first restricted checkpoint for a two-component profile on a fixed background. It studies difference and aligned localizers within a preselected parametric family. The retained internal diagnostic is
+\begin{equation}
+\xi_{\mathrm{br,max}}=2.0934591793773114\times10^{-3}.
+\end{equation}
+
+The connected-branch fold was checked at three matching radii, $R=30$, $40$, and $50$, with a maximum relative spread of $0.074515\%$. Nine profile coordinates were then re-audited around the retained point. The largest remaining predicted gain is $0.917518\%$, below the predeclared one-percent threshold for authorizing another direct fold calculation.
+
+This checkpoint establishes only internal reproducibility within the restricted fixed-background ansatz. It does not derive an elementary particle, a fundamental action, a physical mass, a spectrum of quantum numbers, or dynamical stability. The numerical report is therefore a technical benchmark, not evidence that Field 01 is a physical theory. Its public consistency script checks the supplied summaries; it does not rerun the underlying boundary-value calculations.
 
 \section{Program for Further Formalization}
 
@@ -424,7 +438,7 @@ The paper makes the following limited claims:
 \begin{itemize}
 \item it is possible to formulate a coherent phase-topological vocabulary for Field 01;
 \item an elementary particle can be interpreted as a closed phase configuration;
-\item the photon can be interpreted as open phase transport without a retained scalar / VEV-like profile;
+\item the photon is provisionally associated with an open mode; the present vortex benchmark does not derive its physical representative;
 \item mass can be associated with the energetic cost of maintaining a closed configuration;
 \item a horizon can be interpreted as a limiting surface where the local scalar / VEV-like profile is suppressed and phase memory becomes boundary record.
 \end{itemize}
@@ -458,10 +472,10 @@ These questions are deliberately formulated so that a negative answer is possibl
 
 \section{Conclusion}
 
-The central idea of this paper is simple: an elementary particle may be described as a closed wave of Field 01 rather than as a point-like object. The closure of phase circulation produces a localized node, the retained scalar / VEV-like profile gives the node local depth in the Field 01 interpretation, and the energy of maintaining this structure can be interpreted as mass.
+Field 01 proposes a closed phase configuration as a possible description of a particle-like object. Winding and scalar-profile retention provide a language for this hypothesis, but neither establishes localization, stability, physical mass, charge, or spin.
 
-A photon is then the limiting open case: it transports phase and energy, but does not retain a scalar / VEV-like profile and therefore has no rest mass. A horizon is the opposite limiting case: the local scalar / VEV-like profile is suppressed and the phase memory of a bulk configuration is transferred into a boundary record.
+The present scalar/gauge benchmark describes a closed-sector comparison. It does not identify the photon with a vanishing scalar modulus or derive a photon-to-particle transition. The separate fixed-background numerical checkpoint remains a restricted calculation, while the horizon interpretation remains a hypothesis requiring its own dynamical analysis.
 
-This language does not replace established physics. It provides a possible bridge between intuitive descriptions of particles, field-theoretic excitations, topological stability, and horizon information. The next task is to formulate the dynamics strictly enough that the model can be compared with known equations and, eventually, with observations.
+The next substantive task is to specify the dynamics and observables needed to distinguish this proposal from the standard field-theoretic constructions on which it draws.
 
 \end{document}

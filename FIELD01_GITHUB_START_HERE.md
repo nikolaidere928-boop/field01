@@ -1,97 +1,34 @@
-# Field 01 GitHub Start Here
+# Reading and Reviewing Field 01
 
-Status: public working archive entrypoint.  
-Date: 2026-08-07.  
-Checkpoint: `v0.4-fixed-background-handoff`.
+Edition: 7 October 2026.
 
-## 1. Short Framing
+## Where to Start
 
-Field 01 is an independent research and writing project. The repository separates:
+1. [Overview](FIELD01_OVERVIEW_EN.md): the conceptual proposal and its limits.
+2. [Particle paper](articles/particle_as_closed_wave_en.pdf): the closed-configuration hypothesis and conditions it must satisfy.
+3. [Formalization paper](articles/field01_formalization_program_en.pdf): standard comparison models, open/closed sector compatibility, and definitions still needed.
+4. [Numerical report](articles/fixed_background_optimization_v0_4_en.pdf): the separate August fixed-background calculation.
+5. [Reading a Past Label versus Updating a Surface Record](articles/reading_past_label_vs_updating_surface_record_en.pdf): a standalone methodological example motivated by Field 01, not a test of its cosmological claims.
 
-1. established mathematics and physics;
-2. Field 01 interpretation;
-3. new hypotheses;
-4. open mathematical and physical problems.
+The [horizon paper](articles/horizon_as_phase_recording_surface_en.pdf) is an earlier conceptual draft. Its interpretation is not a consequence established by the other papers. Russian particle and horizon reader copies retain their earlier editions.
 
-The safest reading path is:
+## What Can Be Checked
 
-```text
-standard phase / gauge / vortex language
--> radial scalar profile and convention layer
--> fixed-background numerical benchmark
--> Field 01 interpretation labels
--> explicit open proof obligations
-```
+The August checkpoint supplies profile parameters, a retained fold diagnostic, coordinate summaries, and a consistency script. The script checks those summaries; it does not reproduce every primary boundary-value calculation. See the [checkpoint documentation](numerics/fixed_background_checkpoint_v0_4/README.md).
 
-## 2. Recommended Reading Path
+The September revisions clarify the distinction between winding in the scalar/gauge comparison model and a physical photon or three-dimensional particle. They add no new numerical benchmark and do not establish a transition between the open and closed sectors.
 
-1. [FIELD01_OVERVIEW_EN.md](FIELD01_OVERVIEW_EN.md)
-2. [ABSTRACTS_EN.md](ABSTRACTS_EN.md)
-3. [numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md](numerics/fixed_background_checkpoint_v0_4/CHECKPOINT_REPORT.md)
-4. [numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md](numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md)
-5. [articles/fixed_background_optimization_v0_4_en.pdf](articles/fixed_background_optimization_v0_4_en.pdf)
-6. [PROJECT_ROADMAP_EN.md](PROJECT_ROADMAP_EN.md)
-7. [articles/particle_as_closed_wave_en.pdf](articles/particle_as_closed_wave_en.pdf)
-8. [articles/field01_formalization_program_en.pdf](articles/field01_formalization_program_en.pdf)
-9. [articles/horizon_as_phase_recording_surface_en.pdf](articles/horizon_as_phase_recording_surface_en.pdf)
+The October paper studies reading and predictive sufficiency in one explicitly specified linear bulk--boundary model. Its three claims use distinct preparation families and access assumptions; it does not claim minimality or persistent physical storage.
 
-For terminology and literature context:
+## Questions for Review
 
-1. [FIELD01_REFERENCE_MAP.md](FIELD01_REFERENCE_MAP.md)
-2. [FIELD01_GLOSSARY.md](FIELD01_GLOSSARY.md)
-3. [LITERATURE_BRIDGE.md](LITERATURE_BRIDGE.md)
+- Are the standard comparison models and their assumptions stated precisely?
+- Which definitions remain insufficient to specify a physical theory?
+- Does the chosen winding describe a particle, or only a vortex-like comparison?
+- What dynamics could couple a massless mode to a localized configuration?
+- Which observables would distinguish the proposal from its standard comparisons?
+- Are the numerical claims reproducible from the data actually supplied?
+- Are the paper's reading and update claims kept separate with their respective preparation families and supplied resources?
+- Does the comparison to predictive sufficiency and causal-state work stay within the deterministic example's stated scope?
 
-## 3. Bilingual Numerical Report
-
-The retained checkpoint is documented in a standalone report with complete Russian and English editions:
-
-- [English LaTeX](articles/fixed_background_optimization_v0_4_en.tex) / [English PDF](articles/fixed_background_optimization_v0_4_en.pdf)
-- [Russian LaTeX](articles/fixed_background_optimization_v0_4.tex) / [Russian PDF](articles/fixed_background_optimization_v0_4.pdf)
-- [Retained-localizer figure](figures/fixed_background_v0_4_retained_localizers.png)
-- [Sampled profile data](analysis/numerics/fixed_background_v0_4_retained_localizers.csv)
-- [Figure generator](analysis/numerics/plot_fixed_background_v0_4_retained_localizers.py)
-
-The report explains the profile families, optimization gates, direct-fold validation, nine-coordinate closure, public audit, literature context, and explicit non-claims.
-
-## 4. Numerical Handoff
-
-The current compact checkpoint is located at:
-
-```text
-numerics/fixed_background_checkpoint_v0_4/
-```
-
-It records a confirmed retained fold diagnostic:
-
-```text
-xi_br,max = 2.0934591793773114e-3
-```
-
-Nine selected profile coordinates are closed under structural, fixed-background, predictor-gain, matching-radius, and direct-fold authorization rules. The largest unresolved connected-coordinate predictor gain is `0.917518%`, below the internal `1%` direct-fold threshold.
-
-This is a closure statement for the audited fixed-background ansatz, not a proof of global functional optimality.
-
-## 5. What The Checkpoint Reproduces
-
-The public audit verifies:
-
-- one consistent confirmed fold value;
-- nine coordinate-closure flags;
-- direct-fold validation and matching-radius flags;
-- the maximum unresolved predictor gain;
-- absence of full-static or dynamic-root authorization.
-
-The release does not include the complete exploratory workspace or rerun every primary boundary-value solve.
-
-## 6. Questions For Reviewers
-
-- Is the numerical claim boundary stated clearly enough?
-- Are the profile coordinates and retained shape documented unambiguously?
-- Are the standard vortex and scalar-profile comparisons appropriate?
-- Which Field 01 terms remain misleading or underdefined?
-- What independent physical sector should be tested before full backreaction?
-- Which assumptions would prevent the retained fixed-background shape from extending to a consistent action?
-
-## 7. Current Limit
-
-Field 01 is not presented as a completed physical theory. Full static backreaction, dynamic roots, physical particle spectra, and experimental interpretation remain open.
+For terminology and sources, see the [glossary](FIELD01_GLOSSARY.md), [reference map](FIELD01_REFERENCE_MAP.md), and [literature guide](LITERATURE_BRIDGE.md). These retain earlier conceptual vocabulary; the revised English papers state the narrower current claims.

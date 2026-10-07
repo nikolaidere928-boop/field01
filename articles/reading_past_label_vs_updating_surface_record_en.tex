@@ -1,0 +1,828 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{microtype}
+\usepackage{array,tabularx,booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Nikolai Dereviankin},
+ pdftitle={Reading a Past Label versus Updating a Surface Record}}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}[proposition]{Lemma}
+\theoremstyle{remark}
+\newtheorem{remark}[proposition]{Remark}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\R}{\mathbb R}
+\setlength{\emergencystretch}{2em}
+\title{Reading a Past Label versus Updating a Surface Record:\\
+An Explicit Bulk--Boundary Example}
+\author{Nikolai Dereviankin}
+\date{7 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+A surface observable may distinguish a selected past label without
+containing enough information to predict its response to another input.
+We exhibit this distinction in a massless real wave field on a half-line
+coupled to a dynamical boundary coordinate. An exact reduction to a
+forced linear oscillator gives two ideal equal-energy pulse-order
+preparations whose scalar surface readouts remain separated on a specified
+finite interval under bounded scalar observation error. On a broader reachable family,
+the same scalar fails to determine its next value under a common pulse:
+a missing field--rate orientation enters the update. A two-component
+record relative to a supplied phase reference admits a closed update
+when the next input is specified. We state the different preparation
+families and access assumptions explicitly. Motivated by a broader
+question in Field 01, this is a self-contained methodological example
+of readable content versus predictive sufficiency, not a test of the
+cosmological proposal, a new principle of state reduction, or a mechanism
+of autonomous, persistent physical memory.
+\end{abstract}
+
+\section{Model, access and the question}
+\label{sec:model}
+
+\subsection{Two tasks for a record}
+
+Consider two questions about an observable left after an incident pulse.
+Can it identify which member of a declared preparation family was used?
+Can it also determine its own value after a further specified pulse?
+The first question concerns a chosen past label; the second concerns
+closure under subsequent dynamics. They have different quantifiers.
+A successful decoder on two preparations need not provide a state
+representation for all possible histories.
+
+We study these questions in a fixed linear bulk--boundary model.
+The positive result is an equal-energy order code. The negative result
+uses a larger family to expose information lost by a scalar observation.
+A sufficient enlarged record then restores controlled closure. These
+are three statements about explicitly stated families, not contradictory
+claims about the same two states. The response formulas, reachability
+construction and decoding margin are derived analytically below.
+
+The question is motivated by Field 01's broader recursive-recording
+programme. That programme supplies the motivation, not the equations:
+the action, preparation family and observables below are specified and
+analysed on their own. A successful finite-time decoder is therefore a
+result about this boundary-oscillator model, not evidence for a
+cosmological memory law or for the validity of Model 01.
+
+The underlying ingredients have established precedents. A wave field
+coupled to a boundary oscillator is a known model class\cite{george}.
+Linear propagation with prescribed inputs is standard state-space
+dynamics\cite{frazzoli}. Exact lumpability formalizes compatible state
+reduction\cite{horstmeyer}, while causal-state constructions study
+predictive sufficiency and its input--output version\cite{shalizi,barnett}.
+The present contribution is an explicit comparison of access rules in
+one solvable preparation protocol; no general novelty claim is attached
+to those ingredients. Section~\ref{sec:discussion} makes the comparisons
+and the limits precise.
+
+\subsection{A real bulk field and a dynamical boundary}
+
+Let $u(t,x)$ be real on $x\le0$, and let $q(t)$ be an independent real
+boundary coordinate. The propagation speed is one. For fixed positive
+parameters $K,M,g$, take the action
+\begin{equation}
+ S=\int dt\left\{
+ \frac K2\int_{-\infty}^0(u_t^2-u_x^2)\,dx
+ +\frac M2\dot q^2-\frac g2(q-u(t,0))^2\right\}.
+ \label{eq:action}
+\end{equation}
+There is no bulk mass or separate surface potential. This is a specified
+model, not an approximation obtained by dropping terms during the
+calculation. One may also regard it as the tangentially constant sector
+of a flat half-cylinder with finite transverse area. In that reading,
+all displayed energies are per unit transverse area.
+
+Write $v(t)=u(t,0)$ and take the outward normal at the endpoint to point
+in the positive $x$ direction. Variations vanish at the temporal endpoints
+and are compactly supported in space, but their boundary values are free.
+Integration by parts gives the boundary coefficients
+$-K u_x-g(v-q)$ for $\delta v$ and $-M\ddot q-g(q-v)$ for $\delta q$.
+Thus the equations are
+\begin{align}
+ u_{tt}-u_{xx}&=0, &&x<0,\\
+ K u_x(t,0)+g(v-q)&=0,\\
+ M\ddot q+g(q-v)&=0.
+ \label{eq:system}
+\end{align}
+The endpoint is fixed and timelike; no moving geometry is being inferred.
+The boundary variable is not identified with the trace of the bulk field.
+
+The nonnegative energy is
+\begin{equation}
+ E(t)=\frac K2\int_{-\infty}^0(u_t^2+u_x^2)\,dx
+       +\frac M2\dot q^2+\frac g2(q-v)^2.
+ \label{eq:energy}
+\end{equation}
+For smooth fields with no flux at spatial infinity at finite time,
+\begin{align*}
+ \dot E_{\rm bulk}&=K v_t u_x(t,0),\\
+ \dot E_\Sigma&=M\dot q\ddot q+g(q-v)(\dot q-\dot v)
+              =g(v-q)\dot v.
+\end{align*}
+The Robin equation cancels these two terms. The trace $v$ enters the
+surface interaction energy; later we will use a surface-only readout
+which is not this energy.
+
+\subsection{Causal pulse preparations and their exact evolution}
+
+An admissible incident profile $F$ is a real $C^3$ function of compact
+support in $[0,T_F]$, extended by zero, with its derivatives through order
+three vanishing at support endpoints. Finite sums of separated pulses
+with this property are admitted. Prepare
+\begin{equation}
+ u(0,x)=F(-x),\qquad u_t(0,x)=F'(-x),\qquad q(0)=\dot q(0)=0.
+ \label{eq:initial}
+\end{equation}
+The compatibility conditions at the boundary hold at $t=0$. All future
+incident pulses in $F$ are already encoded in these initial bulk data;
+there is no later boundary work used to choose their order.
+
+Define
+\begin{equation}
+ \gamma=\frac gK,\qquad \omega_*^2=\frac gM,
+ \qquad \Omega^2=\omega_*^2-\frac{\gamma^2}{4}.
+ \label{eq:parameters}
+\end{equation}
+From here on assume the underdamped condition $\Omega^2>0$. The causal
+kernel of $\partial_t^2+\gamma\partial_t+\omega_*^2$ is
+\begin{equation}
+ G(t)=e^{-\gamma t/2}\frac{\sin(\Omega t)}{\Omega}\quad(t\ge0),
+ \qquad G(t)=0\quad(t<0).
+ \label{eq:kernel}
+\end{equation}
+
+\begin{proposition}[Exact pulse response]
+\label{prop:response}
+For the data \eqref{eq:initial}, the unique classical causal solution is
+\begin{align}
+ q(t)&=2\omega_*^2\int_0^tG(t-s)F(s)\,ds,\\
+ h(t)&=F(t)-\frac MK\dot q(t),\\
+ u(t,x)&=F(t-x)+h(t+x),
+ \label{eq:solution}
+\end{align}
+where $h$ is zero at negative arguments. In particular,
+\begin{equation}
+ \ddot q+\gamma\dot q+\omega_*^2q=2\omega_*^2 F.
+ \label{eq:oscillator}
+\end{equation}
+Uniqueness is within the smooth finite-energy class with the prescribed
+initial data and no additional incoming excitation.
+\end{proposition}
+\begin{proof}
+The characteristic decomposition solves the bulk wave equation. At the
+boundary $v=F+h$ and $u_x=-F'+h'$, so the Robin equation is
+$\dot v=2F'-\gamma(v-q)$. The surface equation gives
+$\ddot q=\omega_*^2(v-q)$. Differentiating and eliminating $v$ yields
+\[
+ \dddot q+\gamma\ddot q+\omega_*^2\dot q=2\omega_*^2F'.
+\]
+Initially $v=q=\ddot q=F=0$, so its integration constant is zero.
+This proves \eqref{eq:oscillator}. The kernel has $G(0)=0$, $G'(0+)=1$,
+and solves the homogeneous equation at positive times, which proves
+the convolution formula. The oscillator equation then gives
+$v=q+\ddot q/\omega_*^2=2F-(M/K)\dot q$, hence the stated $h$.
+These identities verify both boundary equations. Zero extension and
+endpoint regularity give the required initial data and classical matching.
+The incoming characteristic is fixed by \eqref{eq:initial}; the ordinary
+differential equation with zero initial data fixes $q$, and then $h$.
+This also proves uniqueness in the declared class.
+\end{proof}
+
+The reduction is exact for the admitted data. It is not an instantaneous
+kick approximation or a phenomenological insertion of damping. The
+half-line permits an outgoing wave to leave without returning.
+
+\begin{proposition}[Conserved total energy and a decaying boundary response]
+\label{prop:energy}
+For \eqref{eq:solution},
+\begin{align}
+ E_{\rm bulk}(t)&=K\int_t^\infty F'(s)^2\,ds
+                   +K\int_0^t h'(s)^2\,ds,\\
+ E_\Sigma(t)&=\frac M2\dot q^2+\frac{M^2}{2g}\ddot q^2,\\
+ \dot E_\Sigma&=K(F'^2-h'^2),\\
+ E(t)&=K\int_0^{T_F}F'(s)^2\,ds.
+ \label{eq:balance}
+\end{align}
+After the last incident pulse, $q$, $\dot q$, $\ddot q$ and $E_\Sigma$
+tend to zero as $t\to\infty$.
+\end{proposition}
+\begin{proof}
+Since $u_t=F'+h'$ and $u_x=-F'+h'$, their squared sum is
+$2(F'^2+h'^2)$. Changing variables in the half-line integrals gives
+the first identity. Substituting $q-v=-\ddot q/\omega_*^2$ gives the
+second. Differentiation, using the derivative of
+\eqref{eq:oscillator}, gives
+\begin{align*}
+ \dot E_\Sigma&=2M F'\ddot q-\frac{M^2}{K}\ddot q^2\\
+              &=K\bigl[F'^2-(F'-(M/K)\ddot q)^2\bigr].
+\end{align*}
+This is the third identity, which cancels the derivative of the bulk
+energy. Evaluation at zero proves the last identity. After $T_F$ the
+oscillator has roots $-\gamma/2\pm i\Omega$, so the coordinate and its
+first two derivatives decay. The expression for $E_\Sigma$ finishes the proof.
+\end{proof}
+
+Thus surface decay and conservation of the full energy coexist. The
+energy has entered the outgoing bulk wave rather than disappeared.
+The conclusion depends on the declared geometry and preparation; a
+reflecting far boundary would supply a returning input.
+
+\subsection{Reading and updating as factorization problems}
+
+Let $X$ be a declared set of states, $m:X\to\mathcal Z$ a selected past
+label, and $\mathsf b:X\to\mathcal Y$ an accessible record. A decoder
+exists exactly when
+\begin{equation}
+ \mathsf b(x_1)=\mathsf b(x_2)\ \Longrightarrow\ m(x_1)=m(x_2).
+ \label{eq:reading-fibre}
+\end{equation}
+Indeed, a decoder $d$ with $m=d\circ\mathsf b$ implies the condition;
+conversely define $d(\mathsf b(x))=m(x)$. The condition makes this
+independent of the representative. Only the chosen label, not the entire
+history or state, must be recovered.
+
+For a fixed input $\iota$, let $T_\iota:X\to X$ be a state update. A
+closed record update $U_\iota$ exists precisely when
+\begin{equation}
+ \mathsf b(x_1)=\mathsf b(x_2)\ \Longrightarrow\\
+ \mathsf b(T_\iota x_1)=\mathsf b(T_\iota x_2).
+ \label{eq:closure-fibre}
+\end{equation}
+The proof is the same: set $U_\iota(\mathsf b(x))=\mathsf b(T_\iota x)$.
+For an autonomous semigroup $T_t$, if this holds for every $t$, the induced
+updates form a semigroup because
+$U_s U_t\mathsf b=\mathsf b T_s T_t=U_{s+t}\mathsf b$ and $\mathsf b$
+is onto its image. No continuity or numerical stability follows merely
+from this set-theoretic argument. It is the elementary factorization
+underlying the more structured smooth reduction studied in
+Ref.~\cite[Section 2.2]{horstmeyer}.
+
+\section{Equal-energy labels and a finite reading window}
+\label{sec:reading}
+
+\subsection{A surface observable and the transfer matrix}
+
+Assume access to $q$ and its time rate, and define
+\begin{equation}
+ z=\begin{pmatrix}\Omega q\\ \dot q+\gamma q/2\end{pmatrix},
+ \qquad Y=\norm{z}^2=(\dot q+\gamma q/2)^2+\Omega^2q^2.
+ \label{eq:readout}
+\end{equation}
+Both quantities use no instantaneous bulk trace. The scalar is invariant
+under a simultaneous sign change of the real field and its rate;
+Section~\ref{sec:reference} supplies its gauge-covariant description.
+Access to the two ingredients of $Y$ is explicitly broader than access
+to $q^2$ alone. A nonzero underdamped free solution has recurring zeros
+of $q$, whereas $Y$ below has no such blind times.
+
+Equation~\eqref{eq:oscillator} becomes
+\begin{equation}
+ \dot z=Lz+kF(t),\qquad
+ L=\begin{pmatrix}-\gamma/2&\Omega\\-\Omega&-\gamma/2\end{pmatrix},
+ \qquad k=\begin{pmatrix}0\\2\omega_*^2\end{pmatrix}.
+ \label{eq:state}
+\end{equation}
+Direct differentiation verifies
+\begin{align}
+ \Phi(s)&=e^{-\gamma s/2}
+ \begin{pmatrix}\cos(\Omega s)&\sin(\Omega s)\\
+ -\sin(\Omega s)&\cos(\Omega s)\end{pmatrix},\\
+ \Phi(s+t)&=\Phi(s)\Phi(t),\qquad
+ \Phi(s)^{\mathsf T}\Phi(s)=e^{-\gamma s}I.
+ \label{eq:propagator}
+\end{align}
+Consequently $Y(t_p+s)=e^{-\gamma s}Y(t_p)$ whenever no incident
+input is present after $t_p$. More generally,
+\begin{equation}
+ z(t)=\Phi(t-t_0)z(t_0)+\int_{t_0}^t\Phi(t-s)kF(s)\,ds.
+ \label{eq:state-convolution}
+\end{equation}
+This is the usual linear state-space solution\cite{frazzoli}, here
+verified by differentiation and the initial value at $t_0$.
+
+Fix a base pulse $f$ supported in $[0,T]$ and write
+\begin{equation}
+ c=\int_0^T\Phi(T-s)k f(s)\,ds,\qquad C_* =\norm{c}^2.
+ \label{eq:unit-response}
+\end{equation}
+We require $C_*>0$. Nonzero input alone would not establish this:
+the terminal integral could cancel for some waveforms. The explicit
+pulse used below has a proved positive lower bound.
+
+\subsection{Two orders with equal initial energy}
+
+Choose $0<a<b$ and $\Delta\ge T$. The inputs are
+\begin{align}
+ F_{ab}(t)&=a f(t)+b f(t-\Delta),\\
+ F_{ba}(t)&=b f(t)+a f(t-\Delta),\qquad t_p=T+\Delta.
+ \label{eq:orders}
+\end{align}
+Their differentiated supports are disjoint except at vanishing endpoints.
+Proposition~\ref{prop:energy} therefore gives
+\begin{equation}
+ E_{ab}=E_{ba}=(a^2+b^2)E_f,\qquad
+ E_f=K\int_0^T f'(s)^2\,ds.
+ \label{eq:equal-energy}
+\end{equation}
+Equal energy does not mean equal preparation. The spatial distribution
+of the initial bulk pulses encodes their order with respect to the supplied
+clock. For this pair even the modulus profiles on the separated supports
+differ, so a phase transformation does not identify the preparations.
+
+\begin{proposition}[Equal-energy order readout]
+\label{prop:order}
+Let $f$ be an admissible pulse with $C_*>0$, let $0<a<b$ and
+$\Delta\ge T$, and assume $\Omega^2>0$. For the two ideal preparations
+\eqref{eq:orders}, with no further incoming pulse after $t_p=T+\Delta$,
+every $t\ge t_p$ satisfies
+\begin{equation}
+ Y_{ab}(t)-Y_{ba}(t)
+ =(b^2-a^2)(1-e^{-\gamma\Delta})C_*
+      e^{-\gamma(t-t_p)}>0.
+ \label{eq:gap}
+\end{equation}
+\end{proposition}
+\begin{proof}
+At $t_p$, the first pulse response has propagated freely for $\Delta$
+more units of time than the second, so
+\[
+ z_{ab}=a\Phi(\Delta)c+bc,\qquad
+ z_{ba}=b\Phi(\Delta)c+ac.
+\]
+Set $\rho=e^{-\gamma\Delta/2}$ and $\vartheta=\Omega\Delta$.
+Since $c^{\mathsf T}\Phi(\Delta)c=\rho\cos\vartheta\,C_*$,
+\begin{align*}
+ Y_{ab}(t_p)&=C_*(a^2\rho^2+b^2+2ab\rho\cos\vartheta),\\
+ Y_{ba}(t_p)&=C_*(b^2\rho^2+a^2+2ab\rho\cos\vartheta).
+\end{align*}
+The cross terms cancel, leaving $(b^2-a^2)(1-\rho^2)C_*$.
+Free propagation multiplies both squared norms by
+$e^{-\gamma(t-t_p)}$, proving \eqref{eq:gap}.
+\end{proof}
+
+The algebra identifies the mechanism: the earlier contribution has aged
+more before the common reading time. A quadratic scalar readout retains
+this difference even when the total input energies coincide. No
+nonlinearity of the evolution is needed.
+
+\subsection{A bounded-error decoder}
+
+At a known time $t$, suppose the measured value is
+$\widetilde Y=Y_j(t)+\eta$, where $j\in\{ab,ba\}$ and $|\eta|\le\delta$.
+The decoder knows the parameters, pulse shape, amplitudes and time.
+Calibration uncertainty, if present, must be included in the declared
+scalar bound; it is not silently set to zero after being incurred.
+
+\begin{lemma}[Separation of reading intervals]
+\label{lem:decoder}
+A decoder correct for both labels and every allowed scalar error exists
+if and only if $|Y_{ab}(t)-Y_{ba}(t)|>2\delta$. If the two calibrated
+signals are continuous on a compact interval, correctness at every
+specified time in that interval is equivalent to their minimum
+separation being strictly greater than $2\delta$.
+\end{lemma}
+\begin{proof}
+The allowed readings are the closed intervals
+$[Y_j(t)-\delta,Y_j(t)+\delta]$. They are disjoint exactly under the
+strict inequality; their touching endpoint at equality is already
+ambiguous. If disjoint, comparing with the midpoint of the centres
+decodes the two labels. Continuity on a compact interval makes the
+minimum attainable, proving the uniform assertion.
+\end{proof}
+
+With $D_0=(b^2-a^2)(1-e^{-\gamma\Delta})C_*$, the decreasing gap makes
+its value at the last reading time the relevant one. For $\delta>0$
+and $D_0>2\delta$, the strict deadline is
+\begin{equation}
+ t<t_p+\frac1\gamma\log\frac{D_0}{2\delta}.
+ \label{eq:deadline}
+\end{equation}
+If $D_0\le2\delta$, no post-pulse time meets this error criterion.
+When $\delta=0$, the labels remain distinct at every finite time, but
+their asymptotic gap is still zero. A noise-dependent decoding deadline
+and an asymptotically nonzero residual are different claims.
+
+\subsection{One explicit analytic margin}
+\label{sec:margin}
+
+Choose dimensionless parameters $K=M=g=1$ and $T=1$. This selects a
+coupling ratio $gM/K^2=1$; it is not merely a change of units removing
+all possible dimensionless parameters. Let
+\begin{equation}
+ f(t)=256t^4(1-t)^4\quad(0\le t\le1),\qquad f(t)=0\quad\hbox{otherwise}.
+ \label{eq:pulse}
+\end{equation}
+The zero extension is $C^3$. The derivative is
+$f'(t)=1024t^3(1-t)^3(1-2t)$. Expanding $(1-2t)^2$ and integrating
+monomials, or repeatedly integrating by parts, gives
+\begin{align}
+ E_f&=2^{20}\int_0^1t^6(1-t)^6(1-2t)^2\,dt
+       =\frac{262144}{45045},\\
+ \int_0^1(1-s)f(s)\,ds&=256\frac{4!\,5!}{10!}=\frac{64}{315}.
+ \label{eq:pulse-integrals}
+\end{align}
+Here the elementary identity
+$\int_0^1t^m(1-t)^n\,dt=m!n!/(m+n+1)!$ for nonnegative integers
+follows by integration by parts in $n$ followed by integrating $t^{m+n}$.
+
+For $0\le z\le\sqrt3/2$, integration of $\cos z\ge1-z^2/2$ gives
+$\sin z\ge z-z^3/6\ge7z/8$. Hence, for $0\le r\le1$,
+\[
+ G(r)=e^{-r/2}\frac{\sin((\sqrt3/2)r)}{\sqrt3/2}
+       \ge\frac78e^{-1/2}r.
+\]
+The pulse is nonnegative, so the convolution yields
+\begin{equation}
+ q(1)\ge2\frac78e^{-1/2}\frac{64}{315}
+       =\frac{16}{45\sqrt e},\qquad
+ C_*\ge\frac34q(1)^2\ge\frac{64}{675e}>0.
+ \label{eq:c-lower}
+\end{equation}
+This supplies the required nonzero terminal response without numerical
+quadrature.
+
+Now set $a=1$, $b=2$, $\Delta=2$, and declare the reading interval
+$[3,7]$ with $\delta=10^{-4}$. Both initial energies are
+$5E_f=262144/9009$. For every time in this interval,
+\begin{align}
+ Y_{12}(t)-Y_{21}(t)
+ &\ge\frac{64}{225e^5}(1-e^{-2})\nonumber\\
+ &>\frac{16}{75\,3^5}>\frac{2}{10^4}=2\delta.
+ \label{eq:margin}
+\end{align}
+We used $2<e<3$, which follows from the factorial series, and hence
+$1-e^{-2}>3/4$. The last comparison is rational. The midpoint decoder
+therefore selects the order from a single reading at any specified time
+in $[3,7]$.
+
+This is a guarantee for ideal prepared data under a bounded scalar
+observation error. It does not certify a detector's access to $\dot q$,
+clock accuracy, pulse-shape accuracy or preparation errors. The statement
+at any specified time can be tested on separate prepared repetitions;
+no nondisturbing sequence of physical measurements is presumed. The
+energy comparison concerns the mathematical field data, not an omitted
+measurement apparatus.
+
+\section{Why the scalar does not close, and what does}
+\label{sec:closure}
+
+\subsection{The next pulse exposes discarded orientation}
+
+Keep the same base pulse with $C_*>0$. Between successive pulse end times
+separated by $\Delta\ge T$, assume no incident input except one pulse
+$\beta f$ occupying the final $T$ units. Then
+\begin{equation}
+ z_{n+1}=\Phi(\Delta)z_n+\beta c.
+ \label{eq:affine}
+\end{equation}
+Indeed, the free contribution is the first term of
+\eqref{eq:state-convolution}; a change of variables in its integral gives
+exactly $\beta c$. Squaring gives
+\begin{equation}
+ Y_{n+1}=e^{-\gamma\Delta}Y_n+\beta^2C_*
+             +2\beta c^{\mathsf T}\Phi(\Delta)z_n.
+ \label{eq:scalar-update}
+\end{equation}
+The last term depends on the orientation of the current field--rate
+vector relative to the incoming pulse, not only its squared norm.
+
+To decide whether this dependence is genuinely an obstruction, we must
+specify a family containing different states with the same scalar.
+We now enlarge the preparation family: any finite sequence of separated
+copies of $f$ with arbitrary real amplitudes is allowed. All are prepared
+as initial incoming bulk profiles with the boundary initially at rest.
+The signed amplitudes are relative to one common preparation standard.
+The earlier two positive orders belong to this family, but do not exhaust it.
+
+\begin{lemma}[Reachable terminal vectors]
+\label{lem:reachable}
+Every real vector in $\R^2$ is a terminal state of two separated signed
+pulses of the fixed shape, at a common terminal time chosen as below.
+\end{lemma}
+\begin{proof}
+Choose $s\ge T$ with $\sin(\Omega s)\ne0$. The two pulse supports can
+be $[0,T]$ and $[s,s+T]$, and their terminal vector is
+$\alpha\Phi(s)c+\beta c$. Since
+\begin{equation}
+ \det[c,\Phi(s)c]=-e^{-\gamma s/2}\sin(\Omega s)C_*\ne0,
+ \label{eq:reachability}
+\end{equation}
+these two vectors form a basis. Solving the real two-by-two linear
+system gives finite amplitudes for every desired vector. The preparation
+has finite energy $(\alpha^2+\beta^2)E_f$ and satisfies the same initial
+and endpoint compatibility conditions as before.
+\end{proof}
+
+\begin{proposition}[No universal scalar update on the enlarged family]
+\label{prop:nonclosure}
+Fix $\Delta\ge T$ and a next amplitude $\beta>0$. There is no function
+$\mathcal U_\beta:[0,\infty)\to[0,\infty)$ such that
+$Y_{n+1}=\mathcal U_\beta(Y_n)$ for every reachable terminal state in
+Lemma~\ref{lem:reachable} followed by that same next pulse.
+\end{proposition}
+\begin{proof}
+Let $d=\Phi(\Delta)^{\mathsf T}c\ne0$ and
+$J=\left(\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right)$.
+For $R>0$ choose
+\begin{equation}
+ z^{(1)}=R\frac d{\norm d},\qquad
+ z^{(2)}=R\frac{Jd}{\norm d}.
+ \label{eq:witnesses}
+\end{equation}
+Their squared norms are both $R^2$, whereas
+$d^{\mathsf T}z^{(1)}=R\norm d$ and $d^{\mathsf T}z^{(2)}=0$.
+The next scalar values from \eqref{eq:scalar-update} differ by
+$2\beta R\norm d>0$. Both states are realizable by
+Lemma~\ref{lem:reachable}, and appending the same future pulse gives
+admissible complete incoming profiles. Thus the fibre condition
+\eqref{eq:closure-fibre} fails.
+\end{proof}
+
+The witnesses differ in orientation, not merely by a common sign.
+Their complete initial energies have not been constrained to agree.
+Equal energy was essential to the comparison in
+Proposition~\ref{prop:order}, but is not an assumption of this
+nonclosure proposition. Adding that constraint would require a separate
+argument.
+
+In particular, the counterexample does not invalidate reading the two
+positive order labels. At a fixed reading time those labels have
+\emph{different} scalars. On a family where a scalar uniquely identifies
+the allowed current state, one can predict the next scalar by identifying
+that state first. The obstruction concerns the declared larger family;
+it is not a prohibition of every finite-dimensional record.
+
+\subsection{A common phase sector and a supplied reference}
+\label{sec:reference}
+
+The real vector $z$ is already sufficient for \eqref{eq:affine} in its
+chosen real representative. To express that sufficiency without treating
+an absolute charged phase or sign as an observable, specify the following
+restricted complex description. On a trivial bundle let $\theta$ be
+smooth and write
+\begin{equation}
+ \eta=e^{i\theta},\qquad \Psi=\eta u,\qquad \Xi=\eta q,
+ \qquad A_\mu=\partial_\mu\theta,\qquad D_\mu=\partial_\mu-iA_\mu.
+ \label{eq:common-phase}
+\end{equation}
+Then $D_\mu\Psi=\eta\partial_\mu u$ and $D_t\Xi=\eta\dot q$.
+The curvature is zero, and currents proportional to
+$\operatorname{Im}(\overline\Psi D_\mu\Psi)$ vanish. This is the common
+phase orbit of the real neutral solutions, not arbitrary charged or
+independently phased input data. Substitution into the covariant versions
+of \eqref{eq:system} gives exactly their real counterparts.
+
+Under a gauge transformation with phase $\chi$,
+\[
+ (\Psi,\Xi,\eta)\mapsto e^{i\chi}(\Psi,\Xi,\eta),\qquad
+ A_\mu\mapsto A_\mu+\partial_\mu\chi.
+\]
+The surface reference $\eta$ is supplied by preparation and calibration,
+with $|\eta|=1$ and $D_t\eta=0$. It is not constructed by normalizing
+$\Xi$, and remains defined when $q=0$. All future signed amplitudes are
+prepared relative to this same reference. Its physical maintenance and
+measurement are not supplied by a reference-field action here.
+
+Define
+\begin{equation}
+ w=\begin{pmatrix}\Omega\Xi\\D_t\Xi+\gamma\Xi/2\end{pmatrix},
+ \qquad r=\overline\eta\,w\in\R^2.
+ \label{eq:relative}
+\end{equation}
+Both components of $w$ acquire the phase $e^{i\chi}$; its cancellation
+against the transformed $\overline\eta$ makes $r$ gauge invariant.
+The corresponding scalar is
+\begin{equation}
+ Y=w^\dagger w=\norm r^2
+   =|D_t\Xi+\gamma\Xi/2|^2+\Omega^2|\Xi|^2,
+ \label{eq:gauge-scalar}
+\end{equation}
+which reduces to \eqref{eq:readout}. The scalar itself does not require
+reading the external phase standard. The standard is relevant to the
+larger record and its relation to later inputs.
+
+\begin{proposition}[Orbit separation for the reduced record]
+\label{prop:orbits}
+On
+\[
+ \mathcal P=\{(w,\eta): |\eta|=1,\ \overline\eta w\in\R^2\},
+\]
+$r$ distinguishes the orbits of the simultaneous phase action on $(w,\eta)$.
+It need not distinguish full bulk states or complete input histories.
+\end{proposition}
+\begin{proof}
+Invariance has just been shown. If two pairs have the same $r$, then
+$w=\eta r$ and $w'=\eta'r$. The unit factor $\eta'/\eta$ maps both
+members of the first pair to the second. Conversely a simultaneous phase
+change leaves $r$ unchanged. The proof includes $w=0$ because $\eta$
+never vanishes.
+\end{proof}
+
+This quotient statement neither derives access to $r$ from access to $Y$
+nor proves that a phase reference is energetically free. It identifies
+the additional relation that is being made available.
+
+\subsection{Controlled closure and its limits}
+
+Along the surface between successive pulse end times, let
+\begin{equation}
+ P_{n+1,n}=\exp\left(i\int_{t_n}^{t_{n+1}}A_0(t)\,dt\right),
+ \qquad \eta_{n+1}=P_{n+1,n}\eta_n.
+ \label{eq:transport}
+\end{equation}
+The positive exponent follows by integrating $D_t\eta=0$.
+Under a gauge transformation the transport acquires
+$e^{i\chi_{n+1}}$ on the left and $e^{-i\chi_n}$ on the right.
+For the same input convention as in \eqref{eq:affine}, the covariant
+update is
+\begin{equation}
+ w_{n+1}=P_{n+1,n}\Phi(\Delta)w_n+
+                     \eta_{n+1}\beta_n c.
+ \label{eq:covariant-update}
+\end{equation}
+It follows by multiplying the real update by $\eta_{n+1}$ and using
+$w_n=\eta_n z_n$. It is established only on the stipulated common-phase
+family.
+
+\begin{proposition}[Closed update with the reference and input supplied]
+\label{prop:relative-closure}
+On the common-phase family \eqref{eq:common-phase}, supply the parallel
+reference \eqref{eq:transport}. Between pulse end times separated by
+$\Delta\ge T$, admit only the prescribed next pulse $\beta_n f$ during
+the final $T$ units, with no other incoming excitation. Then the relative
+record has the exact update
+\begin{equation}
+ r_{n+1}=\Phi(\Delta)r_n+\beta_n c.
+ \label{eq:relative-update}
+\end{equation}
+Thus equal relative records with the same next pulse protocol give equal
+next relative records, and $Y_{n+1}=\norm{r_{n+1}}^2$ is determined.
+\end{proposition}
+\begin{proof}
+Multiply \eqref{eq:covariant-update} by $\overline\eta_{n+1}$.
+Since $|P_{n+1,n}|=1$ and
+$\overline\eta_{n+1}P_{n+1,n}=\overline\eta_n$, the transport cancels
+and \eqref{eq:relative-update} follows.
+\end{proof}
+
+Even the intrinsic matrix $w w^\dagger$ would not supply every relation
+to an independently specified next input. With the reference held fixed,
+$r$ and $-r$ give the same matrix but their next squared norms differ by
+$4\beta c^{\mathsf T}\Phi(\Delta)r$, which is nonzero, for example, at
+$r=\Phi(\Delta)^{\mathsf T}c$. Such states are reachable by the signed
+preparations. Negating the past alone is not the simultaneous phase
+change of the past, reference and future input that gauge invariance
+would identify.
+
+The enlarged record is sufficient, not proved minimal among all possible
+access rules. Nor is its controlled closure autonomous from the bulk:
+$\beta_n$, timing, shape and reference relation are specified resources.
+For example, $r_n=0$ followed by no pulse gives a different next state
+from $r_n=0$ followed by $\beta_n\ne0$. Incorporating a future schedule
+in an enlarged state records that schedule; it does not generate it.
+
+A common pulse also cannot restore a lost vector separation in this
+linear model. For two histories receiving the same next input,
+\begin{equation}
+ r_{n+1}^{(1)}-r_{n+1}^{(2)}
+  =\Phi(\Delta)(r_n^{(1)}-r_n^{(2)}),\qquad
+ \norm{r_{n+1}^{(1)}-r_{n+1}^{(2)}}
+  =e^{-\gamma\Delta/2}\norm{r_n^{(1)}-r_n^{(2)}}.
+ \label{eq:contraction}
+\end{equation}
+The common affine contribution cancels. A quadratic scalar gap may
+change because of its cross term with that contribution, but this is
+not amplification of the full vector record.
+
+\section{Interpretation, related work and limits}
+\label{sec:discussion}
+
+\subsection{The scope of the three statements}
+
+Table~\ref{tab:scope} collects the domains rather than combining the
+results into one claim with unstated hypotheses. The fixed dynamics
+are shared, but the allowed preparations and available information
+are not identical in the three rows.
+
+\begin{table}[htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Statement & Family and supplied access & What is not implied \\
+\midrule
+Order reading & Two positive orders at equal total energy; known time,
+calibration and scalar $Y$ using field and rate & Decoding arbitrary
+histories or scalar closure on a larger family \\
+Scalar nonclosure & Reachable signed-pulse histories; a common next
+input; the same current scalar & Nonclosure on the two-label family,
+equal energies of the witnesses, or failure of every finite record \\
+Relative closure & Common-phase family; supplied reference and next
+pulse protocol; two real components & Minimality, autonomous input
+generation or persistent preservation of old labels \\
+\bottomrule
+\end{tabularx}
+\caption{Preparation and access assumptions are part of each statement.}
+\label{tab:scope}
+\end{table}
+
+The role of the field theory is concrete but limited. It supplies
+compatible finite-energy histories and a conservative account of the
+outgoing radiation. The observable distinction and the obstruction to
+scalar updating are then read from a two-dimensional linear system.
+One should not replace that explanation by the assertion that an
+independent physical memory mechanism has been discovered.
+
+\subsection{Comparison with established constructions}
+
+A direct model comparison is available with George's boundary oscillator
+system\cite[Section 2.1, Eqs.~(14), (19)--(21)]{george}. In canonically
+normalized coordinates $\varphi=\sqrt K\,u$ and $Q=\sqrt M\,q$, our
+Hamiltonian has the same form under the parameter specialization
+\begin{equation}
+ m=0,\qquad \lambda=\frac gK,\qquad
+ \mu^2=\frac gM,\qquad \beta_{\rm G}=-\frac g{\sqrt{KM}}.
+ \label{eq:george-map}
+\end{equation}
+Here $\beta_{\rm G}$ denotes that paper's coupling, not a pulse amplitude.
+Expanding our interaction energy verifies the comparison directly.
+The referenced treatment assumes positive bulk mass; this is a massless
+specialization of its displayed equations, not an import of its full
+spectral or quantum conclusions. Our pulse solution and energy balance
+were proved independently. This comparison locates the model in an
+existing class rather than claiming a new coupling mechanism.
+
+Related field--mechanical systems have also been studied in interval
+models with endpoint point masses; Barbero et al. analyze their modes
+and quantization\cite{barbero}. Dynamical Wentzell conditions for a
+Klein--Gordon field in anti-de Sitter spacetime provide another established
+bulk--boundary setting\cite{dappiaggi}. These works differ in geometry
+and boundary variables from the present massless half-line model. They
+confirm that boundary coupling and mode analysis are not the new result
+claimed here. The narrower question in this paper is the explicit
+pulse-order readout and scalar-update counterexample under the stated
+preparation and access rules; no priority claim is made for those
+constructions.
+
+The state-space convolution and affine update are standard linear
+operations\cite{frazzoli}. In the present example the order effect is
+obtained by cancelling the common cross terms in two squared norms.
+The explicit energy comparison and analytic error margin clarify the
+protocol, but should not be presented as a new law of linear response.
+
+Horstmeyer and Atay characterize exact lumpability of smooth vector
+fields\cite{horstmeyer}. Their Proposition~2 relates the original and
+reduced flows by a commuting projection, with attention to the domains
+of definition. Equation~\eqref{eq:closure-fibre} gives the elementary
+representative-independence condition needed here. It does not include
+their smoothness structure and is not a replacement theorem for that
+setting. The contribution of Proposition~\ref{prop:nonclosure} is the
+explicit reachable pair that violates the condition for this observable.
+
+Shalizi and Crutchfield construct causal states for prediction of
+stochastic processes and establish optimality and uniqueness
+properties\cite{shalizi}. Barnett and Crutchfield extend that approach
+to input--output processes and channel models\cite[Sections VI and IX]{barnett}.
+These provide the relevant distinction between a summary of the past
+and information sufficient for future prediction under specified inputs.
+Our deterministic finite pulse families have neither a probability law
+for input histories nor an information-theoretic minimization criterion.
+Consequently the relative vector is not identified with a proved minimal
+causal-state representation. The analogy motivates a careful access
+statement; it does not transfer those optimality results.
+
+\subsection{Resources, limitations and conclusion}
+
+The model, boundary location, clock, parameters and allowed input family
+are supplied rather than derived from Field 01. The decoder additionally
+uses calibrated signals at known times and assumes access to a
+rate-dependent scalar. The enlarged record requires a phase reference
+related to the incident preparation. The analysis does not test the
+cosmological claims of Field 01. The word \emph{record} is used
+operationally for retained data supporting a declared reading or update
+task, not as evidence of such a principle.
+
+The explicit guarantee is finite-time and has a declared deterministic
+error model. It does not establish robustness to arbitrary charged
+perturbations, finite-bandwidth detection, unknown timing or unknown
+waveforms. Even the ideal signal gap decays. The fully conservative
+bulk--boundary system can therefore support the stated temporary order
+code without providing permanent surface storage.
+
+The construction isolates one useful distinction. A scalar surface
+observation reads a chosen equal-energy order label, but loses orientation
+needed for a common future input when the preparation family is enlarged.
+A relative two-component record retains that orientation and closes the
+specified controlled update. The difference between these statements is
+not a numerical precision issue: it is the difference between a label
+map on a restricted family and a state description adequate for an
+announced class of future operations.
+
+\input{reading_past_label_vs_updating_surface_record_en_refs.tex}
+\end{document}
