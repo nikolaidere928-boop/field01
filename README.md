@@ -61,8 +61,13 @@ From the repository root, with a LaTeX installation including `latexmk`:
 cd articles
 latexmk -pdf -interaction=nonstopmode -halt-on-error particle_as_closed_wave_en.tex
 latexmk -pdf -interaction=nonstopmode -halt-on-error field01_formalization_program_en.tex
-latexmk -pdf -interaction=nonstopmode -halt-on-error reading_past_label_vs_updating_surface_record_en.tex
 ```
+
+For a byte-stable v0.2 release with the same LaTeX toolchain, run
+`./build_methodological_paper.sh` from `github_public`. It pins
+`SOURCE_DATE_EPOCH` to 16 October 2026 UTC, cleans and builds the PDF, then
+regenerates and checks the checksum manifest. Use this script instead of an
+unpinned standalone build when preserving the release checksum.
 
 ## Editions and Use
 
