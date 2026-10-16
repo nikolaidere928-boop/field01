@@ -16,7 +16,7 @@ Field 01 explores a phase-based interpretation of localized field configurations
 |---|---|---|---|
 | Elementary Particle as a Closed Wave | v0.4.2 · 10 September 2026 | [LaTeX](articles/particle_as_closed_wave_en.tex) | [PDF](articles/particle_as_closed_wave_en.pdf) |
 | A Formalization Program for Field 01 | v0.5.1 · 10 September 2026 | [LaTeX](articles/field01_formalization_program_en.tex) | [PDF](articles/field01_formalization_program_en.pdf) |
-| Reading a Past Label versus Updating a Surface Record | v0.1 · 7 October 2026 | [LaTeX](articles/reading_past_label_vs_updating_surface_record_en.tex) | [PDF](articles/reading_past_label_vs_updating_surface_record_en.pdf) |
+| Reading a Past Label versus Updating a Surface Record | v0.2 · 16 October 2026 | [LaTeX](articles/reading_past_label_vs_updating_surface_record_en.tex) | [PDF](articles/reading_past_label_vs_updating_surface_record_en.pdf) |
 | Horizon as a Phase Recording Surface | v0.2 · earlier conceptual draft | [LaTeX](articles/horizon_as_phase_recording_surface_en.tex) | [PDF](articles/horizon_as_phase_recording_surface_en.pdf) |
 | Fixed-Background Profile Optimization | v0.4 · 7 August 2026 | [LaTeX](articles/fixed_background_optimization_v0_4_en.tex) | [PDF](articles/fixed_background_optimization_v0_4_en.pdf) |
 
@@ -66,6 +66,6 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error reading_past_label_vs_updat
 
 ## Editions and Use
 
-The [October editorial note](EDITION_2026_10_07.md) covers the new methodological paper; the [September editorial note](EDITION_2026_09_10.md) distinguishes the revised papers from the unchanged August numerical release. The [October package checksums](SHA256SUMS_2026_10_07.txt) cover the standalone paper, its reader copy and references, the repository index snapshot, and the synchronized Russian numerical-report source and reader copy. Older manifests and checksums remain historical records, not checksums for the current tree.
+The [16 October editorial note](EDITION_2026_10_16.md) documents version 0.2 of the methodological paper; the [7 October note](EDITION_2026_10_07.md) documents its initial version 0.1. The [16 October checksums](SHA256SUMS_2026_10_16.txt) verify the current paper source, references, reader PDF, and index files. `SHA256SUMS_2026_10_07.txt` is retained as the historical v0.1 manifest and does not verify the superseding files at their current paths. The [September editorial note](EDITION_2026_09_10.md) distinguishes the revised papers from the unchanged August numerical release.
 
 Precise criticism of equations, assumptions, terminology, references, and reproducibility is welcome. See the [usage note](LICENSE_NOTE.md) for the current terms.

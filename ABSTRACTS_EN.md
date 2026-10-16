@@ -1,6 +1,6 @@
 # Working Paper Abstracts
 
-English editions: 10 September–7 October 2026. Article versions are independent of the August numerical release number. Russian particle and horizon copies remain earlier editions.
+English editions: 10 September–16 October 2026. Article versions are independent of the August numerical release number. Russian particle and horizon copies remain earlier editions.
 
 ## Elementary Particle as a Closed Wave — v0.4.2
 
@@ -34,7 +34,7 @@ The numerical report of 7 August 2026 documents a restricted two-component profi
 
 **Keywords:** fixed-background calculation; profile optimization; numerical diagnostics; reproducibility.
 
-## Reading a Past Label versus Updating a Surface Record — v0.1
+## Reading a Past Label versus Updating a Surface Record — v0.2 · 16 October 2026
 
 [LaTeX source](articles/reading_past_label_vs_updating_surface_record_en.tex) · [PDF](articles/reading_past_label_vs_updating_surface_record_en.pdf)
 
