@@ -14,17 +14,15 @@ Field 01 explores a phase-based interpretation of localized field configurations
 
 | Paper | English edition | Source | Reader copy |
 |---|---|---|---|
-| Elementary Particle as a Closed Wave | v0.4.2 · 10 September 2026 | [LaTeX](articles/particle_as_closed_wave_en.tex) | [PDF](articles/particle_as_closed_wave_en.pdf) |
-| A Formalization Program for Field 01 | v0.5.1 · 10 September 2026 | [LaTeX](articles/field01_formalization_program_en.tex) | [PDF](articles/field01_formalization_program_en.pdf) |
+| Elementary Particle as a Closed Wave | v0.4.3 · 16 October 2026 | [LaTeX](articles/particle_as_closed_wave_en.tex) | [PDF](articles/particle_as_closed_wave_en.pdf) |
+| A Formalization Program for Field 01 | v0.5.2 · 16 October 2026 | [LaTeX](articles/field01_formalization_program_en.tex) | [PDF](articles/field01_formalization_program_en.pdf) |
 | Reading a Past Label versus Updating a Surface Record | v0.2 · 16 October 2026 | [LaTeX](articles/reading_past_label_vs_updating_surface_record_en.tex) | [PDF](articles/reading_past_label_vs_updating_surface_record_en.pdf) |
-| Horizon as a Phase Recording Surface | v0.2 · earlier conceptual draft | [LaTeX](articles/horizon_as_phase_recording_surface_en.tex) | [PDF](articles/horizon_as_phase_recording_surface_en.pdf) |
+| Horizon as a Phase Recording Surface | v0.2 · editorial revision, 16 October 2026 | [LaTeX](articles/horizon_as_phase_recording_surface_en.tex) | [PDF](articles/horizon_as_phase_recording_surface_en.pdf) |
 | Fixed-Background Profile Optimization | v0.4 · 7 August 2026 | [LaTeX](articles/fixed_background_optimization_v0_4_en.tex) | [PDF](articles/fixed_background_optimization_v0_4_en.pdf) |
 
-The September English editions clarify the distinction between the scalar/gauge vortex benchmark and a physical photon. They do not report a new numerical result. The horizon paper remains an earlier, separate hypothesis, not a derived consequence of the revised particle or formalization papers.
+The current English particle and formalization papers distinguish the scalar/gauge vortex benchmark from a physical photon. They make no new numerical claim. The horizon paper presents a separate hypothesis, not a consequence established by the other papers.
 
-The October methodological paper is motivated by Field 01's question about recursive recording, but is self-contained in a specified linear bulk--boundary model. Its operational reading and update results do not test the cosmological proposal or establish a general physical memory mechanism.
-
-Russian reader copies remain available for the [particle paper](articles/particle_as_closed_wave.pdf), [horizon paper](articles/horizon_as_phase_recording_surface.pdf), and [numerical report](articles/fixed_background_optimization_v0_4.pdf). The particle and horizon copies are earlier editions, not synchronized translations of the revised English texts.
+The October methodological paper studies reading and updating in a specified linear bulk--boundary model. Its operational results do not test the cosmological proposal or establish a general physical memory mechanism.
 
 ## Numerical Benchmark
 
@@ -47,11 +45,20 @@ The supplied consistency check validates the published summaries, not the comple
 python numerics/fixed_background_checkpoint_v0_4/audit_checkpoint.py
 ```
 
+### Separate exact audit: NUM67
+
+NUM67 is a later exact-arithmetic comparison of two saved states at the
+midpoint of their common first mesh cell. It decomposes one local forced-RHS
+difference and reproduces the corresponding NUM66 balance contribution; it
+does not add a solver run or establish causal attribution. The complete
+inputs, verifier, exact result, and limitations are in the
+[NUM67 reproduction package](numerics/num67_midpoint_decomposition/README.md).
+
 ## Scope
 
 The current work does not establish a fundamental Field 01 action, a stable three-dimensional elementary particle, a physical mass or charge spectrum, a photon-to-particle transition, or a horizon radiation law. The new boundary-oscillator paper uses “record” operationally and does not test Field 01's cosmological claims. Memory and boundary recording remain interpretation-level proposals unless a specific mathematical definition is stated.
 
-For further context, see the [research questions](PROJECT_ROADMAP_EN.md), [glossary](FIELD01_GLOSSARY.md), [reference map](FIELD01_REFERENCE_MAP.md), and [literature guide](LITERATURE_BRIDGE.md).
+For further context, see the [research questions](PROJECT_ROADMAP_EN.md), [glossary](FIELD01_GLOSSARY.md), and [reference map](FIELD01_REFERENCE_MAP.md).
 
 ## Building the Revised Papers
 
@@ -64,13 +71,13 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error field01_formalization_progr
 ```
 
 For a byte-stable v0.2 release with the same LaTeX toolchain, run
-`./build_methodological_paper.sh` from `github_public`. It pins
+`sh build_methodological_paper.sh` from `github_public`. It pins
 `SOURCE_DATE_EPOCH` to 16 October 2026 UTC, cleans and builds the PDF, then
 regenerates and checks the checksum manifest. Use this script instead of an
 unpinned standalone build when preserving the release checksum.
 
-## Editions and Use
+## Current Edition
 
-The [16 October editorial note](EDITION_2026_10_16.md) documents version 0.2 of the methodological paper; the [7 October note](EDITION_2026_10_07.md) documents its initial version 0.1. The [16 October checksums](SHA256SUMS_2026_10_16.txt) verify the current paper source, references, reader PDF, and index files. `SHA256SUMS_2026_10_07.txt` is retained as the historical v0.1 manifest and does not verify the superseding files at their current paths. The [September editorial note](EDITION_2026_09_10.md) distinguishes the revised papers from the unchanged August numerical release.
+The [16 October editorial note](EDITION_2026_10_16.md) documents version 0.2 of the methodological paper. The [16 October checksums](SHA256SUMS_2026_10_16.txt) verify its source, references, reader PDF, and index files. The [September editorial note](EDITION_2026_09_10.md) distinguishes the revised papers from the unchanged August numerical release.
 
-Precise criticism of equations, assumptions, terminology, references, and reproducibility is welcome. See the [usage note](LICENSE_NOTE.md) for the current terms.
+Precise criticism of equations, assumptions, terminology, references, and reproducibility is welcome.

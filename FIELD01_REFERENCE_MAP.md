@@ -42,7 +42,7 @@ In standard Abelian-Higgs/Nielsen-Olesen vortex models, a complex scalar field h
 
 ## 3. Exact References Already Present in Source Materials
 
-These references were extracted from the book/preprint source materials and can be used immediately as anchors.
+These references are candidate anchors for the mathematical structures discussed in the papers. Each citation should be checked against the specific claim it is used to support.
 
 ### General Physics and Quantum Information
 

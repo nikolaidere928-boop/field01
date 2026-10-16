@@ -1,6 +1,6 @@
 # Reading and Reviewing Field 01
 
-Edition: 7 October 2026.
+Edition: 16 October 2026.
 
 ## Where to Start
 
@@ -10,7 +10,7 @@ Edition: 7 October 2026.
 4. [Numerical report](articles/fixed_background_optimization_v0_4_en.pdf): the separate August fixed-background calculation.
 5. [Reading a Past Label versus Updating a Surface Record](articles/reading_past_label_vs_updating_surface_record_en.pdf): a standalone methodological example motivated by Field 01, not a test of its cosmological claims.
 
-The [horizon paper](articles/horizon_as_phase_recording_surface_en.pdf) is an earlier conceptual draft. Its interpretation is not a consequence established by the other papers. Russian particle and horizon reader copies retain their earlier editions.
+The [horizon paper](articles/horizon_as_phase_recording_surface_en.pdf) presents a separate, explicitly speculative hypothesis. Its interpretation is not a consequence established by the other papers.
 
 ## What Can Be Checked
 
@@ -31,4 +31,4 @@ The October paper studies reading and predictive sufficiency in one explicitly s
 - Are the paper's reading and update claims kept separate with their respective preparation families and supplied resources?
 - Does the comparison to predictive sufficiency and causal-state work stay within the deterministic example's stated scope?
 
-For terminology and sources, see the [glossary](FIELD01_GLOSSARY.md), [reference map](FIELD01_REFERENCE_MAP.md), and [literature guide](LITERATURE_BRIDGE.md). These retain earlier conceptual vocabulary; the revised English papers state the narrower current claims.
+For terminology and sources, see the [glossary](FIELD01_GLOSSARY.md) and [reference map](FIELD01_REFERENCE_MAP.md). These retain conceptual vocabulary; the revised English papers state the narrower current claims.

@@ -1,8 +1,8 @@
 # Field 01 Overview
 
-This is a short entry document for readers encountering Field 01 for the first time. Updated reading guidance: 10 September 2026.
+This is a short entry document for readers encountering Field 01 for the first time. Updated reading guidance: 16 October 2026.
 
-The revised English particle and formalization papers distinguish a scalar/gauge vortex benchmark from a physical photon or a three-dimensional particle. The terminology below describes the conceptual program; it does not establish a photon-to-particle transition. Earlier horizon and Russian editions are identified in the [reading guide](README.md).
+The revised English particle and formalization papers distinguish a scalar/gauge vortex benchmark from a physical photon or a three-dimensional particle. The terminology below describes the conceptual program; it does not establish a photon-to-particle transition. The repository index lists the available paper editions.
 
 Field 01 is a public working archive for separating a standard vortex-math/convention layer from a speculative interpretation layer. The purpose of this overview is to make the project inspectable: what is standard, what is reinterpretation, and what remains open.
 
@@ -33,7 +33,7 @@ phase
 
 ## 2. What Is Being Formalized
 
-The central question is whether the book-level language of Field 01 can be expressed in a controlled mathematical form. At the present checkpoint, the particle paper is the most developed entry point: it asks whether an elementary particle can be modeled as a finite-energy closed phase configuration rather than as a point object.
+The central question is whether the conceptual language of Field 01 can be expressed in a controlled mathematical form. At the present checkpoint, the particle paper is the most developed entry point: it asks whether an elementary particle can be modeled as a finite-energy closed phase configuration rather than as a point object.
 
 The current toy-level variables are:
 

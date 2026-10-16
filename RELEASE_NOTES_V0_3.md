@@ -44,7 +44,3 @@ Full static backreaction and dynamic-root analysis remain outside the release bo
 ## Next Research Branch
 
 The closed separable polynomial profile family is retained as a benchmark. Further fixed-background work must use an explicitly new basis family rather than reopen a closed coordinate.
-
-## Remaining Publication Gate
-
-`LICENSE_NOTE.md` remains a temporary usage notice. A formal text and code license must be selected before treating this staging directory as a finalized long-term public release.

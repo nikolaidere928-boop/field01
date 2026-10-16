@@ -1,8 +1,8 @@
 # Working Paper Abstracts
 
-English editions: 10 September–16 October 2026. Article versions are independent of the August numerical release number. Russian particle and horizon copies remain earlier editions.
+English editions updated through 16 October 2026. Article versions are independent of the August numerical release number.
 
-## Elementary Particle as a Closed Wave — v0.4.2
+## Elementary Particle as a Closed Wave — v0.4.3
 
 [Source](articles/particle_as_closed_wave_en.tex) · [PDF](articles/particle_as_closed_wave_en.pdf)
 
@@ -10,7 +10,7 @@ Field 01 explores a localized closed phase configuration as a possible descripti
 
 **Keywords:** phase circulation; scalar profiles; vortex models; finite energy; localization; stability; memory interpretation.
 
-## A Formalization Program for Field 01 — v0.5.1
+## A Formalization Program for Field 01 — v0.5.2
 
 [Source](articles/field01_formalization_program_en.tex) · [PDF](articles/field01_formalization_program_en.pdf)
 
@@ -18,17 +18,17 @@ This paper organizes the proposal into standard mathematical objects, interpreta
 
 **Keywords:** formalization; phase winding; gauge fields; open and closed sectors; memory classes; boundary recording.
 
-## Horizon as a Phase Recording Surface — v0.2
+## Horizon as a Phase Recording Surface — v0.2 · 16 October 2026
 
 [Source](articles/horizon_as_phase_recording_surface_en.tex) · [PDF](articles/horizon_as_phase_recording_surface_en.pdf)
 
-This earlier conceptual draft proposes a horizon interpretation in which bulk phase information is represented as boundary recording. The proposal requires an independently defined dynamics, observables, and comparison with semiclassical radiation and black-hole thermodynamics. It is not a derived consequence of the particle benchmark, and no alternative evaporation law is established by this edition.
+This research draft proposes a horizon interpretation in which bulk phase information is represented as boundary recording. The proposal requires an independently defined dynamics, observables, and comparison with semiclassical radiation and black-hole thermodynamics. It is not a derived consequence of the particle benchmark, and no alternative evaporation law is established by this edition.
 
 **Keywords:** horizon interpretation; boundary information; phase memory; black-hole thermodynamics.
 
 ## Fixed-Background Profile Optimization — v0.4
 
-[English source](articles/fixed_background_optimization_v0_4_en.tex) · [English PDF](articles/fixed_background_optimization_v0_4_en.pdf) · [Russian PDF](articles/fixed_background_optimization_v0_4.pdf)
+[English source](articles/fixed_background_optimization_v0_4_en.tex) · [English PDF](articles/fixed_background_optimization_v0_4_en.pdf)
 
 The numerical report of 7 August 2026 documents a restricted two-component profile calculation on a fixed background. It records a retained fold diagnostic, matching-radius checks, and nine audited profile coordinates under stated criteria. The result is not a global functional optimum, a full backreacted solution, a particle spectrum, or a dynamical stability theorem. The supplied consistency script checks the released summaries rather than rerunning all primary solves.
 

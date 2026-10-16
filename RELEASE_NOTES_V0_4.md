@@ -69,7 +69,3 @@ This release does not establish a completed theory, experimental evidence, a fun
 ## Next Stage
 
 The selected profile optimization contour is frozen. The next numerical branch should address an independent physical sector rather than another adjacent profile-shape coordinate.
-
-## License Status
-
-`LICENSE_NOTE.md` remains a temporary usage notice. A formal long-term text and code license has not yet been selected.
