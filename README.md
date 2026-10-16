@@ -22,8 +22,6 @@ Field 01 explores a phase-based interpretation of localized field configurations
 
 The current English particle and formalization papers distinguish the scalar/gauge vortex benchmark from a physical photon. They make no new numerical claim. The horizon paper presents a separate hypothesis, not a consequence established by the other papers.
 
-The October methodological paper studies reading and updating in a specified linear bulk--boundary model. Its operational results do not test the cosmological proposal or establish a general physical memory mechanism.
-
 ## Numerical Benchmark
 
 The August fixed-background checkpoint retains the diagnostic
@@ -39,11 +37,7 @@ It concerns a selected two-component profile family with nine audited coordinate
 - [Calculation history](numerics/fixed_background_checkpoint_v0_4/NUMERICAL_EVOLUTION.md)
 - [Figure data](analysis/numerics/fixed_background_v0_4_retained_localizers.csv)
 
-The supplied consistency check validates the published summaries, not the complete underlying solver chain:
-
-```sh
-python numerics/fixed_background_checkpoint_v0_4/audit_checkpoint.py
-```
+The checkpoint audit checks the published summaries only; it does not reproduce the full solver chain.
 
 ### Separate exact audit: NUM67
 
@@ -56,28 +50,10 @@ inputs, verifier, exact result, and limitations are in the
 
 ## Scope
 
-The current work does not establish a fundamental Field 01 action, a stable three-dimensional elementary particle, a physical mass or charge spectrum, a photon-to-particle transition, or a horizon radiation law. The new boundary-oscillator paper uses “record” operationally and does not test Field 01's cosmological claims. Memory and boundary recording remain interpretation-level proposals unless a specific mathematical definition is stated.
+These papers present proposed interpretations and limited mathematical examples, not a completed physical theory. The boundary-oscillator model is a separate linear example; it does not test the cosmological proposal.
 
-For further context, see the [research questions](PROJECT_ROADMAP_EN.md), [glossary](FIELD01_GLOSSARY.md), and [reference map](FIELD01_REFERENCE_MAP.md).
+## Edition Note
 
-## Building the Revised Papers
-
-From the repository root, with a LaTeX installation including `latexmk`:
-
-```sh
-cd articles
-latexmk -pdf -interaction=nonstopmode -halt-on-error particle_as_closed_wave_en.tex
-latexmk -pdf -interaction=nonstopmode -halt-on-error field01_formalization_program_en.tex
-```
-
-For a byte-stable v0.2 release with the same LaTeX toolchain, run
-`sh build_methodological_paper.sh` from `github_public`. It pins
-`SOURCE_DATE_EPOCH` to 16 October 2026 UTC, cleans and builds the PDF, then
-regenerates and checks the checksum manifest. Use this script instead of an
-unpinned standalone build when preserving the release checksum.
-
-## Current Edition
-
-The [16 October editorial note](EDITION_2026_10_16.md) documents version 0.2 of the methodological paper. The [16 October checksums](SHA256SUMS_2026_10_16.txt) verify its source, references, reader PDF, and index files. The [September editorial note](EDITION_2026_09_10.md) distinguishes the revised papers from the unchanged August numerical release.
+See the [October edition note](EDITION_2026_10_16.md) for a summary of changes to the methodological paper.
 
 Precise criticism of equations, assumptions, terminology, references, and reproducibility is welcome.
